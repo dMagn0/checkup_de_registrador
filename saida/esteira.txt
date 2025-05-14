@@ -1,0 +1,1614 @@
+Bomba Verde:
+Partida Direta:
+   Motor Desligado:
+       [0]:
+          es.encoder:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.torque:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.temp_r:
+              maximo: 34.6,  minimo: 33.3,  media: 33.96,   variacao media por tempo: 0.14444444444444493
+          es.temp_s:
+              maximo: 42.9,  minimo: 41.4,  media: 42.43,   variacao media por tempo: 0.16666666666666666
+          es.temp_t:
+              maximo: 25.4,  minimo: 25.3,  media: 25.34,   variacao media por tempo: 0.0
+          es.temp_carc:
+              maximo: 25.0,  minimo: 24.9,  media: 24.95,   variacao media por tempo: 0.0
+          es.demanda_anterior:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.demanda_atual:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.demanda_media:
+              maximo: 2.0,  minimo: 0.0,  media: 0.6,   variacao media por tempo: -0.2222222222222222
+          es.demanda_pico:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.97,  minimo: 59.94,  media: 59.961,   variacao media por tempo: 0.0
+          es.thd_tensao_rn:
+              maximo: 2.4,  minimo: 2.3,  media: 2.34,   variacao media por tempo: 0.0
+          es.thd_tensao_sn:
+              maximo: 2.8,  minimo: 2.7,  media: 2.78,   variacao media por tempo: 0.011111111111111072
+          es.thd_tensao_tn:
+              maximo: 2.2,  minimo: 2.1,  media: 2.1900000000000004,   variacao media por tempo: 0.0
+          es.thd_tensao_rs:
+              maximo: 1.5,  minimo: 1.4,  media: 1.47,   variacao media por tempo: 0.01111111111111112
+          es.thd_tensao_st:
+              maximo: 1.6,  minimo: 1.5,  media: 1.54,   variacao media por tempo: 0.0
+          es.thd_tensao_tr:
+              maximo: 1.4,  minimo: 1.3,  media: 1.3599999999999999,   variacao media por tempo: 0.0
+          es.thd_corrente_r:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.thd_corrente_s:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.thd_corrente_t:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_s:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_t:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.tensao_rs:
+              maximo: 219.4,  minimo: 218.6,  media: 219.0,   variacao media por tempo: 0.05555555555555555
+          es.tensao_st:
+              maximo: 217.5,  minimo: 216.9,  media: 217.16,   variacao media por tempo: 0.0
+          es.tensao_tr:
+              maximo: 216.9,  minimo: 215.8,  media: 216.39000000000001,   variacao media por tempo: 0.06666666666666604
+          es.ativa_r:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_s:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_t:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_total:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.reativa_r:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.reativa_s:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.reativa_t:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.reativa_total:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.aparente_r:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.aparente_s:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.aparente_t:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.aparente_total:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.fp_r:
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0
+          es.fp_s:
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0
+          es.fp_t:
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0
+          es.fp_total:
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0
+          es.energia_ativa:
+              maximo: 11.0,  minimo: 11.0,  media: 11.0,   variacao media por tempo: 0.0
+          es.energia_reativa:
+              maximo: 9250.0,  minimo: 9250.0,  media: 9250.0,   variacao media por tempo: 0.0
+          es.energia_aparente:
+              maximo: 949.0,  minimo: 949.0,  media: 949.0,   variacao media por tempo: 0.0
+   Motor Ligado:
+       [0]:
+          es.encoder:
+              maximo: 1693.0,  minimo: 1656.0,  media: 1672.2,   variacao media por tempo: 2.7777777777777777
+          es.torque:
+              maximo: 0.11,  minimo: 0.04,  media: 0.095,   variacao media por tempo: 0.007777777777777778
+          es.temp_r:
+              maximo: 37.8,  minimo: 35.1,  media: 36.35,   variacao media por tempo: 0.29999999999999954
+          es.temp_s:
+              maximo: 45.9,  minimo: 43.4,  media: 44.510000000000005,   variacao media por tempo: 0.2777777777777778
+          es.temp_t:
+              maximo: 27.5,  minimo: 25.2,  media: 26.21,   variacao media por tempo: 0.25555555555555565
+          es.temp_carc:
+              maximo: 25.2,  minimo: 25.0,  media: 25.080000000000002,   variacao media por tempo: 0.022222222222222143
+          es.demanda_anterior:
+              maximo: 11.0,  minimo: 0.0,  media: 6.0,   variacao media por tempo: 1.2222222222222223
+          es.demanda_atual:
+              maximo: 11.0,  minimo: 0.0,  media: 6.0,   variacao media por tempo: 1.2222222222222223
+          es.demanda_media:
+              maximo: 349.0,  minimo: 94.0,  media: 267.3,   variacao media por tempo: 28.333333333333332
+          es.demanda_pico:
+              maximo: 406.0,  minimo: 374.0,  media: 388.0,   variacao media por tempo: -1.7777777777777777
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 60.0,  minimo: 59.96,  media: 59.979,   variacao media por tempo: 0.0033333333333334597
+          es.thd_tensao_rn:
+              maximo: 2.5,  minimo: 2.3,  media: 2.3899999999999997,   variacao media por tempo: -0.01111111111111112
+          es.thd_tensao_sn:
+              maximo: 2.9,  minimo: 2.7,  media: 2.82,   variacao media por tempo: -0.022222222222222192
+          es.thd_tensao_tn:
+              maximo: 2.2,  minimo: 2.1,  media: 2.1900000000000004,   variacao media por tempo: 0.0
+          es.thd_tensao_rs:
+              maximo: 1.6,  minimo: 1.4,  media: 1.51,   variacao media por tempo: -0.01111111111111112
+          es.thd_tensao_st:
+              maximo: 1.7,  minimo: 1.5,  media: 1.56,   variacao media por tempo: -0.01111111111111112
+          es.thd_tensao_tr:
+              maximo: 1.4,  minimo: 1.3,  media: 1.3699999999999999,   variacao media por tempo: 0.0
+          es.thd_corrente_r:
+              maximo: 3.5,  minimo: 2.5,  media: 2.96,   variacao media por tempo: 0.0
+          es.thd_corrente_s:
+              maximo: 3.8,  minimo: 2.6,  media: 3.1399999999999997,   variacao media por tempo: -0.02222222222222224
+          es.thd_corrente_t:
+              maximo: 3.5,  minimo: 2.5,  media: 2.8899999999999997,   variacao media por tempo: -0.06666666666666668
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 98.0,  media: 2327.3900000000003,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 2.01,  minimo: 1.92,  media: 1.9609999999999999,   variacao media por tempo: -0.009999999999999985
+          es.corrente_s:
+              maximo: 2.03,  minimo: 1.95,  media: 1.988,   variacao media por tempo: -0.004444444444444449
+          es.corrente_t:
+              maximo: 1.9,  minimo: 1.79,  media: 1.843,   variacao media por tempo: -0.009999999999999985
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 1.98,  minimo: 1.9,  media: 1.9309999999999998,   variacao media por tempo: -0.008888888888888898
+          es.tensao_rs:
+              maximo: 219.5,  minimo: 218.4,  media: 218.74,   variacao media por tempo: 0.07777777777777652
+          es.tensao_st:
+              maximo: 218.1,  minimo: 215.7,  media: 216.82,   variacao media por tempo: 0.07777777777777967
+          es.tensao_tr:
+              maximo: 217.1,  minimo: 215.5,  media: 216.03000000000003,   variacao media por tempo: 0.0
+          es.ativa_r:
+              maximo: 137.0,  minimo: 118.0,  media: 126.3,   variacao media por tempo: -2.0
+          es.ativa_s:
+              maximo: 147.0,  minimo: 131.0,  media: 137.2,   variacao media por tempo: -1.6666666666666667
+          es.ativa_t:
+              maximo: 136.0,  minimo: 118.0,  media: 126.9,   variacao media por tempo: -1.7777777777777777
+          es.ativa_total:
+              maximo: 419.0,  minimo: 371.0,  media: 390.6,   variacao media por tempo: -5.333333333333333
+          es.reativa_r:
+              maximo: 213.0,  minimo: 209.0,  media: 211.1,   variacao media por tempo: 0.0
+          es.reativa_s:
+              maximo: 211.0,  minimo: 204.0,  media: 208.2,   variacao media por tempo: 0.1111111111111111
+          es.reativa_t:
+              maximo: 196.0,  minimo: 190.0,  media: 193.2,   variacao media por tempo: -0.2222222222222222
+          es.reativa_total:
+              maximo: 618.0,  minimo: 607.0,  media: 612.4,   variacao media por tempo: 0.0
+          es.aparente_r:
+              maximo: 252.0,  minimo: 240.0,  media: 246.1,   variacao media por tempo: -1.0
+          es.aparente_s:
+              maximo: 255.0,  minimo: 244.0,  media: 249.5,   variacao media por tempo: -0.7777777777777778
+          es.aparente_t:
+              maximo: 238.0,  minimo: 224.0,  media: 231.0,   variacao media por tempo: -1.2222222222222223
+          es.aparente_total:
+              maximo: 744.0,  minimo: 714.0,  media: 726.0,   variacao media por tempo: -3.0
+          es.fp_r:
+              maximo: 0.545,  minimo: 0.49,  media: 0.5126000000000001,   variacao media por tempo: -0.006111111111111117
+          es.fp_s:
+              maximo: 0.575,  minimo: 0.527,  media: 0.5491,   variacao media por tempo: -0.00477777777777777
+          es.fp_t:
+              maximo: 0.575,  minimo: 0.527,  media: 0.5476,   variacao media por tempo: -0.00477777777777777
+          es.fp_total:
+              maximo: 0.564,  minimo: 0.517,  media: 0.5364,   variacao media por tempo: -0.005222222222222215
+          es.energia_ativa:
+              maximo: 15.0,  minimo: 11.0,  media: 12.9,   variacao media por tempo: 0.4444444444444444
+          es.energia_reativa:
+              maximo: 9256.0,  minimo: 9250.0,  media: 9253.2,   variacao media por tempo: 0.6666666666666666
+          es.energia_aparente:
+              maximo: 949.0,  minimo: 949.0,  media: 949.0,   variacao media por tempo: 0.0
+
+Partida Soft:
+   Motor Desligado:
+       [0]:
+          es.encoder:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.torque:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.temp_r:
+              maximo: 39.3,  minimo: 38.6,  media: 39.04,   variacao media por tempo: 0.07777777777777731
+          es.temp_s:
+              maximo: 50.5,  minimo: 45.0,  media: 47.57,   variacao media por tempo: 0.6111111111111112
+          es.temp_t:
+              maximo: 28.8,  minimo: 28.4,  media: 28.65,   variacao media por tempo: 0.03333333333333341
+          es.temp_carc:
+              maximo: 25.6,  minimo: 25.4,  media: 25.47,   variacao media por tempo: 0.02222222222222254
+          es.demanda_anterior:
+              maximo: 18.0,  minimo: 17.0,  media: 17.9,   variacao media por tempo: 0.1111111111111111
+          es.demanda_atual:
+              maximo: 18.0,  minimo: 17.0,  media: 17.9,   variacao media por tempo: 0.1111111111111111
+          es.demanda_media:
+              maximo: 175.0,  minimo: 18.0,  media: 71.3,   variacao media por tempo: -17.444444444444443
+          es.demanda_pico:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.98,  minimo: 59.96,  media: 59.964999999999996,   variacao media por tempo: -0.0022222222222217803
+          es.thd_tensao_rn:
+              maximo: 2.5,  minimo: 2.2,  media: 2.36,   variacao media por tempo: 0.01111111111111112
+          es.thd_tensao_sn:
+              maximo: 2.9,  minimo: 2.7,  media: 2.77,   variacao media por tempo: 0.0
+          es.thd_tensao_tn:
+              maximo: 2.3,  minimo: 2.1,  media: 2.2199999999999998,   variacao media por tempo: -0.011111111111111072
+          es.thd_tensao_rs:
+              maximo: 1.6,  minimo: 1.4,  media: 1.49,   variacao media por tempo: 0.0
+          es.thd_tensao_st:
+              maximo: 1.6,  minimo: 1.5,  media: 1.58,   variacao media por tempo: -0.01111111111111112
+          es.thd_tensao_tr:
+              maximo: 1.4,  minimo: 1.3,  media: 1.3599999999999999,   variacao media por tempo: -0.011111111111111096
+          es.thd_corrente_r:
+              maximo: 130.0,  minimo: 90.6,  media: 112.75999999999999,   variacao media por tempo: -1.7222222222222223
+          es.thd_corrente_s:
+              maximo: 125.8,  minimo: 92.7,  media: 108.87,   variacao media por tempo: 0.5666666666666677
+          es.thd_corrente_t:
+              maximo: 114.3,  minimo: 82.6,  media: 99.8,   variacao media por tempo: 3.5222222222222226
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 0.02,  minimo: 0.02,  media: 0.02,   variacao media por tempo: 0.0
+          es.corrente_s:
+              maximo: 0.02,  minimo: 0.02,  media: 0.02,   variacao media por tempo: 0.0
+          es.corrente_t:
+              maximo: 0.02,  minimo: 0.02,  media: 0.02,   variacao media por tempo: 0.0
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 0.02,  minimo: 0.02,  media: 0.02,   variacao media por tempo: 0.0
+          es.tensao_rs:
+              maximo: 221.1,  minimo: 218.6,  media: 219.68,   variacao media por tempo: 0.033333333333334596
+          es.tensao_st:
+              maximo: 218.7,  minimo: 216.6,  media: 217.85999999999999,   variacao media por tempo: 0.022222222222224117
+          es.tensao_tr:
+              maximo: 217.7,  minimo: 217.0,  media: 217.32,   variacao media por tempo: 0.0
+          es.ativa_r:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_s:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_t:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_total:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.reativa_r:
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0
+          es.reativa_s:
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0
+          es.reativa_t:
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0
+          es.reativa_total:
+              maximo: 65528.0,  minimo: 65528.0,  media: 65528.0,   variacao media por tempo: 0.0
+          es.aparente_r:
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0
+          es.aparente_s:
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0
+          es.aparente_t:
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0
+          es.aparente_total:
+              maximo: 8.0,  minimo: 8.0,  media: 8.0,   variacao media por tempo: 0.0
+          es.fp_r:
+              maximo: 32.823,  minimo: 0.038,  media: 19.7004,   variacao media por tempo: -0.0012222222222225316
+          es.fp_s:
+              maximo: 32.824,  minimo: 0.019,  media: 22.9692,   variacao media por tempo: 3.643333333333333
+          es.fp_t:
+              maximo: 32.868,  minimo: 0.069,  media: 29.5742,   variacao media por tempo: 0.001777777777777582
+          es.fp_total:
+              maximo: 32.827,  minimo: 32.807,  media: 32.8198,   variacao media por tempo: 0.001000000000000038
+          es.energia_ativa:
+              maximo: 15.0,  minimo: 15.0,  media: 15.0,   variacao media por tempo: 0.0
+          es.energia_reativa:
+              maximo: 9257.0,  minimo: 9257.0,  media: 9257.0,   variacao media por tempo: 0.0
+          es.energia_aparente:
+              maximo: 957.0,  minimo: 957.0,  media: 957.0,   variacao media por tempo: 0.0
+   Motor Ligado:
+       [0]:
+          es.encoder:
+              maximo: 1686.0,  minimo: 3.0,  media: 1501.3,   variacao media por tempo: 184.22222222222223
+          es.torque:
+              maximo: 0.08,  minimo: 0.0,  media: 0.05,   variacao media por tempo: 0.008888888888888889
+          es.temp_r:
+              maximo: 41.2,  minimo: 39.3,  media: 40.32,   variacao media por tempo: 0.21111111111111175
+          es.temp_s:
+              maximo: 59.9,  minimo: 52.8,  media: 56.129999999999995,   variacao media por tempo: 0.7888888888888891
+          es.temp_t:
+              maximo: 30.7,  minimo: 28.7,  media: 29.6,   variacao media por tempo: 0.2222222222222222
+          es.temp_carc:
+              maximo: 25.9,  minimo: 25.5,  media: 25.669999999999998,   variacao media por tempo: 0.04444444444444429
+          es.demanda_anterior:
+              maximo: 26.0,  minimo: 18.0,  media: 21.7,   variacao media por tempo: 0.8888888888888888
+          es.demanda_atual:
+              maximo: 26.0,  minimo: 18.0,  media: 21.7,   variacao media por tempo: 0.8888888888888888
+          es.demanda_media:
+              maximo: 332.0,  minimo: 17.0,  media: 225.6,   variacao media por tempo: 35.0
+          es.demanda_pico:
+              maximo: 406.0,  minimo: 65.0,  media: 347.2,   variacao media por tempo: 33.55555555555556
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.99,  minimo: 59.94,  media: 59.967999999999996,   variacao media por tempo: -0.00444444444444435
+          es.thd_tensao_rn:
+              maximo: 2.4,  minimo: 2.2,  media: 2.3099999999999996,   variacao media por tempo: -0.01111111111111112
+          es.thd_tensao_sn:
+              maximo: 2.9,  minimo: 2.7,  media: 2.7800000000000002,   variacao media por tempo: 0.0
+          es.thd_tensao_tn:
+              maximo: 2.3,  minimo: 2.1,  media: 2.2,   variacao media por tempo: 0.0
+          es.thd_tensao_rs:
+              maximo: 1.6,  minimo: 1.4,  media: 1.48,   variacao media por tempo: 0.0
+          es.thd_tensao_st:
+              maximo: 1.7,  minimo: 1.5,  media: 1.55,   variacao media por tempo: 0.01111111111111112
+          es.thd_tensao_tr:
+              maximo: 1.4,  minimo: 1.2,  media: 1.3,   variacao media por tempo: 0.011111111111111096
+          es.thd_corrente_r:
+              maximo: 118.6,  minimo: 2.7,  media: 18.080000000000002,   variacao media por tempo: -12.855555555555554
+          es.thd_corrente_s:
+              maximo: 86.1,  minimo: 3.0,  media: 15.14,   variacao media por tempo: -9.200000000000001
+          es.thd_corrente_t:
+              maximo: 88.2,  minimo: 2.9,  media: 15.35,   variacao media por tempo: -9.477777777777781
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 4.01,  minimo: 1.81,  media: 2.1919999999999997,   variacao media por tempo: -0.11222222222222222
+          es.corrente_s:
+              maximo: 4.01,  minimo: 1.83,  media: 2.213,   variacao media por tempo: -0.10888888888888888
+          es.corrente_t:
+              maximo: 3.94,  minimo: 1.73,  media: 2.107,   variacao media por tempo: -0.11666666666666664
+          es.corrente_n:
+              maximo: 0.01,  minimo: 0.0,  media: 0.001,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 3.99,  minimo: 1.79,  media: 2.1710000000000003,   variacao media por tempo: -0.11333333333333331
+          es.tensao_rs:
+              maximo: 219.4,  minimo: 218.8,  media: 219.11999999999998,   variacao media por tempo: -0.022222222222224117
+          es.tensao_st:
+              maximo: 217.5,  minimo: 217.0,  media: 217.33,   variacao media por tempo: 0.0
+          es.tensao_tr:
+              maximo: 216.7,  minimo: 215.9,  media: 216.45,   variacao media por tempo: -0.03333333333333144
+          es.ativa_r:
+              maximo: 208.0,  minimo: 87.0,  media: 125.4,   variacao media por tempo: 3.2222222222222223
+          es.ativa_s:
+              maximo: 206.0,  minimo: 86.0,  media: 132.4,   variacao media por tempo: 4.555555555555555
+          es.ativa_t:
+              maximo: 203.0,  minimo: 85.0,  media: 125.2,   variacao media por tempo: 3.6666666666666665
+          es.ativa_total:
+              maximo: 618.0,  minimo: 257.0,  media: 382.7,   variacao media por tempo: 11.555555555555555
+          es.reativa_r:
+              maximo: 457.0,  minimo: 191.0,  media: 244.2,   variacao media por tempo: -16.444444444444443
+          es.reativa_s:
+              maximo: 461.0,  minimo: 191.0,  media: 243.6,   variacao media por tempo: -16.666666666666668
+          es.reativa_t:
+              maximo: 450.0,  minimo: 180.0,  media: 231.4,   variacao media por tempo: -17.333333333333332
+          es.reativa_total:
+              maximo: 1368.0,  minimo: 562.0,  media: 718.9,   variacao media por tempo: -50.333333333333336
+          es.aparente_r:
+              maximo: 503.0,  minimo: 227.0,  media: 275.7,   variacao media por tempo: -14.222222222222221
+          es.aparente_s:
+              maximo: 505.0,  minimo: 230.0,  media: 279.1,   variacao media por tempo: -13.777777777777779
+          es.aparente_t:
+              maximo: 494.0,  minimo: 217.0,  media: 264.5,   variacao media por tempo: -14.777777777777779
+          es.aparente_total:
+              maximo: 1501.0,  minimo: 674.0,  media: 819.1,   variacao media por tempo: -42.77777777777778
+          es.fp_r:
+              maximo: 0.536,  minimo: 0.238,  media: 0.4706,   variacao media por tempo: 0.028
+          es.fp_s:
+              maximo: 0.558,  minimo: 0.234,  media: 0.4943000000000001,   variacao media por tempo: 0.03233333333333334
+          es.fp_t:
+              maximo: 0.56,  minimo: 0.238,  media: 0.49400000000000005,   variacao media por tempo: 0.03177777777777778
+          es.fp_total:
+              maximo: 0.551,  minimo: 0.236,  media: 0.487,   variacao media por tempo: 0.03077777777777778
+          es.energia_ativa:
+              maximo: 19.0,  minimo: 15.0,  media: 17.0,   variacao media por tempo: 0.4444444444444444
+          es.energia_reativa:
+              maximo: 9263.0,  minimo: 9258.0,  media: 9260.2,   variacao media por tempo: 0.5555555555555556
+          es.energia_aparente:
+              maximo: 965.0,  minimo: 958.0,  media: 961.6,   variacao media por tempo: 0.7777777777777778
+
+Partida Inversora:
+   Motor Desligado:
+       [0]:
+          es.encoder:
+              maximo: 6.0,  minimo: 3.0,  media: 4.1,   variacao media por tempo: -0.1111111111111111
+          es.torque:
+              maximo: 0.01,  minimo: 0.01,  media: 0.01,   variacao media por tempo: 0.0
+          es.temp_r:
+              maximo: 40.4,  minimo: 39.9,  media: 40.33,   variacao media por tempo: 0.05555555555555555
+          es.temp_s:
+              maximo: 44.0,  minimo: 42.1,  media: 43.33,   variacao media por tempo: 0.21111111111111094
+          es.temp_t:
+              maximo: 31.9,  minimo: 31.7,  media: 31.830000000000002,   variacao media por tempo: 0.0
+          es.temp_carc:
+              maximo: 26.4,  minimo: 26.0,  media: 26.2,   variacao media por tempo: 0.04444444444444429
+          es.demanda_anterior:
+              maximo: 37.0,  minimo: 32.0,  media: 36.5,   variacao media por tempo: 0.5555555555555556
+          es.demanda_atual:
+              maximo: 37.0,  minimo: 32.0,  media: 36.5,   variacao media por tempo: 0.5555555555555556
+          es.demanda_media:
+              maximo: 310.0,  minimo: 38.0,  media: 131.7,   variacao media por tempo: -30.22222222222222
+          es.demanda_pico:
+              maximo: 128.0,  minimo: 4.0,  media: 17.2,   variacao media por tempo: -13.777777777777779
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.98,  minimo: 59.95,  media: 59.963,   variacao media por tempo: 0.0022222222222217803
+          es.thd_tensao_rn:
+              maximo: 2.4,  minimo: 2.3,  media: 2.35,   variacao media por tempo: 0.0
+          es.thd_tensao_sn:
+              maximo: 3.0,  minimo: 2.8,  media: 2.88,   variacao media por tempo: -0.01111111111111112
+          es.thd_tensao_tn:
+              maximo: 2.3,  minimo: 2.2,  media: 2.2399999999999998,   variacao media por tempo: -0.011111111111111072
+          es.thd_tensao_rs:
+              maximo: 1.6,  minimo: 1.5,  media: 1.54,   variacao media por tempo: 0.0
+          es.thd_tensao_st:
+              maximo: 1.7,  minimo: 1.6,  media: 1.64,   variacao media por tempo: 0.0
+          es.thd_tensao_tr:
+              maximo: 1.4,  minimo: 1.3,  media: 1.39,   variacao media por tempo: 0.0
+          es.thd_corrente_r:
+              maximo: 453.1,  minimo: 180.8,  media: 336.11,   variacao media por tempo: 9.11111111111111
+          es.thd_corrente_s:
+              maximo: 390.6,  minimo: 192.5,  media: 265.74,   variacao media por tempo: -0.06666666666666919
+          es.thd_corrente_t:
+              maximo: 230.9,  minimo: 111.3,  media: 174.82,   variacao media por tempo: -1.8333333333333333
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 0.09,  minimo: 0.06,  media: 0.073,   variacao media por tempo: -0.0022222222222222227
+          es.corrente_s:
+              maximo: 0.09,  minimo: 0.07,  media: 0.078,   variacao media por tempo: -0.0011111111111111105
+          es.corrente_t:
+              maximo: 0.05,  minimo: 0.03,  media: 0.037,   variacao media por tempo: 0.0022222222222222227
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 0.07,  minimo: 0.06,  media: 0.062,   variacao media por tempo: -0.0011111111111111122
+          es.tensao_rs:
+              maximo: 220.1,  minimo: 219.6,  media: 219.86999999999998,   variacao media por tempo: 0.01111111111111048
+          es.tensao_st:
+              maximo: 218.6,  minimo: 218.0,  media: 218.35999999999999,   variacao media por tempo: 0.04444444444444508
+          es.tensao_tr:
+              maximo: 217.7,  minimo: 217.2,  media: 217.44,   variacao media por tempo: 0.02222222222222096
+          es.ativa_r:
+              maximo: 2.0,  minimo: 1.0,  media: 1.6,   variacao media por tempo: -0.1111111111111111
+          es.ativa_s:
+              maximo: 2.0,  minimo: 2.0,  media: 2.0,   variacao media por tempo: 0.0
+          es.ativa_t:
+              maximo: 1.0,  minimo: 0.0,  media: 0.3,   variacao media por tempo: 0.1111111111111111
+          es.ativa_total:
+              maximo: 4.0,  minimo: 4.0,  media: 4.0,   variacao media por tempo: 0.0
+          es.reativa_r:
+              maximo: 65530.0,  minimo: 9.0,  media: 52424.2,   variacao media por tempo: 7279.888888888889
+          es.reativa_s:
+              maximo: 65527.0,  minimo: 65525.0,  media: 65526.4,   variacao media por tempo: 0.2222222222222222
+          es.reativa_t:
+              maximo: 65533.0,  minimo: 65528.0,  media: 65531.1,   variacao media por tempo: -0.2222222222222222
+          es.reativa_total:
+              maximo: 65532.0,  minimo: 65512.0,  media: 65516.9,   variacao media por tempo: -2.0
+          es.aparente_r:
+              maximo: 11.0,  minimo: 6.0,  media: 8.8,   variacao media por tempo: -0.4444444444444444
+          es.aparente_s:
+              maximo: 11.0,  minimo: 9.0,  media: 9.8,   variacao media por tempo: -0.2222222222222222
+          es.aparente_t:
+              maximo: 8.0,  minimo: 3.0,  media: 4.9,   variacao media por tempo: 0.2222222222222222
+          es.aparente_total:
+              maximo: 24.0,  minimo: 6.0,  media: 19.7,   variacao media por tempo: 1.8888888888888888
+          es.fp_r:
+              maximo: 0.206,  minimo: 0.116,  media: 0.1743,   variacao media por tempo: -0.004555555555555557
+          es.fp_s:
+              maximo: 0.245,  minimo: 0.2,  media: 0.2217,   variacao media por tempo: 0.00422222222222222
+          es.fp_t:
+              maximo: 32.847,  minimo: 0.004,  media: 13.1648,   variacao media por tempo: -3.636222222222222
+          es.fp_total:
+              maximo: 0.723,  minimo: 0.164,  media: 0.27290000000000003,   variacao media por tempo: -0.06099999999999999
+          es.energia_ativa:
+              maximo: 20.0,  minimo: 20.0,  media: 20.0,   variacao media por tempo: 0.0
+          es.energia_reativa:
+              maximo: 9265.0,  minimo: 9265.0,  media: 9265.0,   variacao media por tempo: 0.0
+          es.energia_aparente:
+              maximo: 967.0,  minimo: 967.0,  media: 967.0,   variacao media por tempo: 0.0
+   Motor Ligado em 0hz:
+       [0]:
+          es.encoder:
+              maximo: 4.0,  minimo: 3.0,  media: 3.8,   variacao media por tempo: 0.0
+          es.torque:
+              maximo: 0.01,  minimo: 0.01,  media: 0.01,   variacao media por tempo: 0.0
+          es.temp_r:
+              maximo: 40.2,  minimo: 39.6,  media: 39.92,   variacao media por tempo: -0.06666666666666682
+          es.temp_s:
+              maximo: 46.8,  minimo: 44.5,  media: 45.410000000000004,   variacao media por tempo: 0.25555555555555526
+          es.temp_t:
+              maximo: 31.6,  minimo: 31.0,  media: 31.189999999999998,   variacao media por tempo: -0.06666666666666682
+          es.temp_carc:
+              maximo: 26.6,  minimo: 26.4,  media: 26.51,   variacao media por tempo: 0.02222222222222254
+          es.demanda_anterior:
+              maximo: 38.0,  minimo: 37.0,  media: 37.9,   variacao media por tempo: 0.1111111111111111
+          es.demanda_atual:
+              maximo: 38.0,  minimo: 37.0,  media: 37.9,   variacao media por tempo: 0.1111111111111111
+          es.demanda_media:
+              maximo: 20.0,  minimo: 6.0,  media: 10.4,   variacao media por tempo: -1.5555555555555556
+          es.demanda_pico:
+              maximo: 4.0,  minimo: 3.0,  media: 3.7,   variacao media por tempo: -0.1111111111111111
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.98,  minimo: 59.96,  media: 59.974000000000004,   variacao media por tempo: -0.0022222222222217803
+          es.thd_tensao_rn:
+              maximo: 2.4,  minimo: 2.3,  media: 2.34,   variacao media por tempo: -0.01111111111111112
+          es.thd_tensao_sn:
+              maximo: 3.0,  minimo: 2.8,  media: 2.92,   variacao media por tempo: 0.0
+          es.thd_tensao_tn:
+              maximo: 2.3,  minimo: 2.1,  media: 2.21,   variacao media por tempo: 0.0
+          es.thd_tensao_rs:
+              maximo: 1.5,  minimo: 1.4,  media: 1.48,   variacao media por tempo: -0.01111111111111112
+          es.thd_tensao_st:
+              maximo: 1.7,  minimo: 1.6,  media: 1.6199999999999999,   variacao media por tempo: 0.0
+          es.thd_tensao_tr:
+              maximo: 1.4,  minimo: 1.3,  media: 1.38,   variacao media por tempo: 0.0
+          es.thd_corrente_r:
+              maximo: 656.3,  minimo: 313.7,  media: 430.43999999999994,   variacao media por tempo: 38.06666666666666
+          es.thd_corrente_s:
+              maximo: 289.7,  minimo: 231.6,  media: 259.48,   variacao media por tempo: 0.32222222222222285
+          es.thd_corrente_t:
+              maximo: 233.3,  minimo: 147.6,  media: 187.20999999999998,   variacao media por tempo: 0.6888888888888877
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 0.07,  minimo: 0.06,  media: 0.062,   variacao media por tempo: 0.0
+          es.corrente_s:
+              maximo: 0.07,  minimo: 0.07,  media: 0.07,   variacao media por tempo: 0.0
+          es.corrente_t:
+              maximo: 0.05,  minimo: 0.03,  media: 0.044,   variacao media por tempo: 0.0011111111111111113
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 0.06,  minimo: 0.06,  media: 0.06,   variacao media por tempo: 0.0
+          es.tensao_rs:
+              maximo: 220.2,  minimo: 219.6,  media: 219.9,   variacao media por tempo: -0.02222222222222096
+          es.tensao_st:
+              maximo: 218.8,  minimo: 218.2,  media: 218.45,   variacao media por tempo: -0.011111111111113637
+          es.tensao_tr:
+              maximo: 217.7,  minimo: 217.2,  media: 217.46999999999997,   variacao media por tempo: -0.02222222222222096
+          es.ativa_r:
+              maximo: 2.0,  minimo: 0.0,  media: 1.0,   variacao media por tempo: -0.1111111111111111
+          es.ativa_s:
+              maximo: 2.0,  minimo: 2.0,  media: 2.0,   variacao media por tempo: 0.0
+          es.ativa_t:
+              maximo: 1.0,  minimo: 0.0,  media: 0.4,   variacao media por tempo: 0.1111111111111111
+          es.ativa_total:
+              maximo: 4.0,  minimo: 3.0,  media: 3.8,   variacao media por tempo: -0.1111111111111111
+          es.reativa_r:
+              maximo: 65529.0,  minimo: 0.0,  media: 52422.4,   variacao media por tempo: -7280.888888888889
+          es.reativa_s:
+              maximo: 65528.0,  minimo: 65527.0,  media: 65527.1,   variacao media por tempo: 0.0
+          es.reativa_t:
+              maximo: 65532.0,  minimo: 65530.0,  media: 65530.8,   variacao media por tempo: -0.1111111111111111
+          es.reativa_total:
+              maximo: 65522.0,  minimo: 65513.0,  media: 65515.6,   variacao media por tempo: 0.6666666666666666
+          es.aparente_r:
+              maximo: 9.0,  minimo: 0.0,  media: 6.6,   variacao media por tempo: -0.8888888888888888
+          es.aparente_s:
+              maximo: 9.0,  minimo: 8.0,  media: 8.9,   variacao media por tempo: 0.0
+          es.aparente_t:
+              maximo: 6.0,  minimo: 4.0,  media: 5.2,   variacao media por tempo: 0.1111111111111111
+          es.aparente_total:
+              maximo: 23.0,  minimo: 14.0,  media: 20.7,   variacao media por tempo: -0.6666666666666666
+          es.fp_r:
+              maximo: 1.0,  minimo: 0.157,  media: 0.3476,   variacao media por tempo: 0.09066666666666666
+          es.fp_s:
+              maximo: 0.253,  minimo: 0.225,  media: 0.2327,   variacao media por tempo: 0.003111111111111111
+          es.fp_t:
+              maximo: 32.839,  minimo: 0.031,  media: 6.6146,   variacao media por tempo: 0.004333333333333239
+          es.fp_total:
+              maximo: 0.192,  minimo: 0.172,  media: 0.1789,   variacao media por tempo: 0.0018888888888888905
+          es.energia_ativa:
+              maximo: 20.0,  minimo: 20.0,  media: 20.0,   variacao media por tempo: 0.0
+          es.energia_reativa:
+              maximo: 9265.0,  minimo: 9265.0,  media: 9265.0,   variacao media por tempo: 0.0
+          es.energia_aparente:
+              maximo: 968.0,  minimo: 967.0,  media: 967.1,   variacao media por tempo: 0.1111111111111111
+   Motor Ligado em 30hz:
+       [0]:
+          es.encoder:
+              maximo: 846.0,  minimo: 537.0,  media: 811.1,   variacao media por tempo: 33.888888888888886
+          es.torque:
+              maximo: 0.01,  minimo: 0.01,  media: 0.01,   variacao media por tempo: 0.0
+          es.temp_r:
+              maximo: 40.5,  minimo: 39.5,  media: 39.92,   variacao media por tempo: 0.1111111111111111
+          es.temp_s:
+              maximo: 51.0,  minimo: 47.7,  media: 49.53,   variacao media por tempo: 0.36666666666666636
+          es.temp_t:
+              maximo: 31.2,  minimo: 30.7,  media: 30.939999999999998,   variacao media por tempo: 0.05555555555555555
+          es.temp_carc:
+              maximo: 26.8,  minimo: 26.6,  media: 26.689999999999998,   variacao media por tempo: 0.011111111111110874
+          es.demanda_anterior:
+              maximo: 43.0,  minimo: 38.0,  media: 39.7,   variacao media por tempo: 0.5555555555555556
+          es.demanda_atual:
+              maximo: 43.0,  minimo: 38.0,  media: 39.7,   variacao media por tempo: 0.5555555555555556
+          es.demanda_media:
+              maximo: 164.0,  minimo: 17.0,  media: 110.9,   variacao media por tempo: 16.333333333333332
+          es.demanda_pico:
+              maximo: 202.0,  minimo: 62.0,  media: 179.4,   variacao media por tempo: 14.777777777777779
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 60.01,  minimo: 59.99,  media: 60.001,   variacao media por tempo: 0.0
+          es.thd_tensao_rn:
+              maximo: 2.3,  minimo: 2.2,  media: 2.2600000000000002,   variacao media por tempo: -0.011111111111111072
+          es.thd_tensao_sn:
+              maximo: 3.0,  minimo: 2.8,  media: 2.9,   variacao media por tempo: 0.0
+          es.thd_tensao_tn:
+              maximo: 2.4,  minimo: 2.2,  media: 2.3,   variacao media por tempo: 0.01111111111111112
+          es.thd_tensao_rs:
+              maximo: 1.6,  minimo: 1.5,  media: 1.55,   variacao media por tempo: -0.01111111111111112
+          es.thd_tensao_st:
+              maximo: 1.7,  minimo: 1.6,  media: 1.69,   variacao media por tempo: 0.0
+          es.thd_tensao_tr:
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0
+          es.thd_corrente_r:
+              maximo: 175.0,  minimo: 153.8,  media: 161.60999999999999,   variacao media por tempo: -1.9444444444444444
+          es.thd_corrente_s:
+              maximo: 155.1,  minimo: 141.5,  media: 146.5,   variacao media por tempo: -0.9222222222222203
+          es.thd_corrente_t:
+              maximo: 180.8,  minimo: 157.3,  media: 165.98,   variacao media por tempo: -2.2222222222222223
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 1.11,  minimo: 0.78,  media: 1.0450000000000002,   variacao media por tempo: 0.031111111111111114
+          es.corrente_s:
+              maximo: 1.19,  minimo: 0.88,  media: 1.143,   variacao media por tempo: 0.02999999999999999
+          es.corrente_t:
+              maximo: 0.76,  minimo: 0.48,  media: 0.694,   variacao media por tempo: 0.024444444444444442
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 1.0,  minimo: 0.71,  media: 0.96,   variacao media por tempo: 0.02888888888888889
+          es.tensao_rs:
+              maximo: 219.9,  minimo: 219.4,  media: 219.7,   variacao media por tempo: 0.01111111111111048
+          es.tensao_st:
+              maximo: 218.8,  minimo: 218.1,  media: 218.5,   variacao media por tempo: 0.033333333333334596
+          es.tensao_tr:
+              maximo: 217.6,  minimo: 217.1,  media: 217.39000000000001,   variacao media por tempo: 0.02222222222222096
+          es.ativa_r:
+              maximo: 74.0,  minimo: 46.0,  media: 68.6,   variacao media por tempo: 2.6666666666666665
+          es.ativa_s:
+              maximo: 82.0,  minimo: 56.0,  media: 77.9,   variacao media por tempo: 2.4444444444444446
+          es.ativa_t:
+              maximo: 47.0,  minimo: 25.0,  media: 42.5,   variacao media por tempo: 2.0
+          es.ativa_total:
+              maximo: 199.0,  minimo: 127.0,  media: 188.6,   variacao media por tempo: 7.111111111111111
+          es.reativa_r:
+              maximo: 119.0,  minimo: 87.0,  media: 112.9,   variacao media por tempo: 3.0
+          es.reativa_s:
+              maximo: 65440.0,  minimo: 65409.0,  media: 65413.7,   variacao media por tempo: -3.0
+          es.reativa_t:
+              maximo: 65481.0,  minimo: 65452.0,  media: 65459.7,   variacao media por tempo: -2.4444444444444446
+          es.reativa_total:
+              maximo: 65454.0,  minimo: 65441.0,  media: 65448.5,   variacao media por tempo: -0.4444444444444444
+          es.aparente_r:
+              maximo: 140.0,  minimo: 121.0,  media: 134.7,   variacao media por tempo: 1.4444444444444444
+          es.aparente_s:
+              maximo: 151.0,  minimo: 135.0,  media: 147.7,   variacao media por tempo: 1.2222222222222223
+          es.aparente_t:
+              maximo: 96.0,  minimo: 82.0,  media: 89.4,   variacao media por tempo: 0.6666666666666666
+          es.aparente_total:
+              maximo: 220.0,  minimo: 191.0,  media: 212.4,   variacao media por tempo: 2.0
+          es.fp_r:
+              maximo: 0.534,  minimo: 0.51,  media: 0.5225000000000001,   variacao media por tempo: 0.0014444444444444457
+          es.fp_s:
+              maximo: 0.547,  minimo: 0.534,  media: 0.5389,   variacao media por tempo: -0.00022222222222222242
+          es.fp_t:
+              maximo: 0.501,  minimo: 0.47,  media: 0.48869999999999997,   variacao media por tempo: 0.001555555555555557
+          es.fp_total:
+              maximo: 0.92,  minimo: 0.902,  media: 0.9116,   variacao media por tempo: 0.0008888888888888897
+          es.energia_ativa:
+              maximo: 21.0,  minimo: 20.0,  media: 20.7,   variacao media por tempo: 0.1111111111111111
+          es.energia_reativa:
+              maximo: 9265.0,  minimo: 9265.0,  media: 9265.0,   variacao media por tempo: 0.0
+          es.energia_aparente:
+              maximo: 969.0,  minimo: 968.0,  media: 968.4,   variacao media por tempo: 0.1111111111111111
+   Motor Ligado em 60hz:
+       [0]:
+          es.encoder:
+              maximo: 1708.0,  minimo: 1345.0,  media: 1655.4,   variacao media por tempo: 40.333333333333336
+          es.torque:
+              maximo: 0.06,  minimo: 0.01,  media: 0.047,   variacao media por tempo: 0.005555555555555555
+          es.temp_r:
+              maximo: 42.7,  minimo: 40.9,  media: 41.739999999999995,   variacao media por tempo: 0.20000000000000048
+          es.temp_s:
+              maximo: 61.0,  minimo: 52.1,  media: 55.56,   variacao media por tempo: 0.9888888888888887
+          es.temp_t:
+              maximo: 33.0,  minimo: 31.4,  media: 32.21,   variacao media por tempo: 0.17777777777777792
+          es.temp_carc:
+              maximo: 27.2,  minimo: 26.8,  media: 27.0,   variacao media por tempo: 0.04444444444444429
+          es.demanda_anterior:
+              maximo: 53.0,  minimo: 43.0,  media: 48.0,   variacao media por tempo: 1.1111111111111112
+          es.demanda_atual:
+              maximo: 53.0,  minimo: 43.0,  media: 48.0,   variacao media por tempo: 1.1111111111111112
+          es.demanda_media:
+              maximo: 336.0,  minimo: 184.0,  media: 276.1,   variacao media por tempo: 16.88888888888889
+          es.demanda_pico:
+              maximo: 375.0,  minimo: 235.0,  media: 344.6,   variacao media por tempo: 14.222222222222221
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.97,  minimo: 59.92,  media: 59.946000000000005,   variacao media por tempo: 0.0022222222222225696
+          es.thd_tensao_rn:
+              maximo: 2.4,  minimo: 2.2,  media: 2.29,   variacao media por tempo: 0.0
+          es.thd_tensao_sn:
+              maximo: 3.1,  minimo: 2.9,  media: 2.95,   variacao media por tempo: -0.01111111111111112
+          es.thd_tensao_tn:
+              maximo: 2.5,  minimo: 2.3,  media: 2.35,   variacao media por tempo: -0.02222222222222224
+          es.thd_tensao_rs:
+              maximo: 1.6,  minimo: 1.5,  media: 1.55,   variacao media por tempo: 0.0
+          es.thd_tensao_st:
+              maximo: 1.7,  minimo: 1.7,  media: 1.7,   variacao media por tempo: 0.0
+          es.thd_tensao_tr:
+              maximo: 1.5,  minimo: 1.4,  media: 1.42,   variacao media por tempo: 0.0
+          es.thd_corrente_r:
+              maximo: 147.6,  minimo: 131.2,  media: 136.51,   variacao media por tempo: -1.0333333333333314
+          es.thd_corrente_s:
+              maximo: 135.5,  minimo: 127.3,  media: 129.72,   variacao media por tempo: -0.5888888888888901
+          es.thd_corrente_t:
+              maximo: 149.5,  minimo: 138.1,  media: 141.32,   variacao media por tempo: -1.1222222222222216
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 1.78,  minimo: 1.4,  media: 1.7109999999999999,   variacao media por tempo: 0.041111111111111126
+          es.corrente_s:
+              maximo: 1.88,  minimo: 1.49,  media: 1.8039999999999998,   variacao media por tempo: 0.04222222222222224
+          es.corrente_t:
+              maximo: 1.44,  minimo: 1.04,  media: 1.311,   variacao media por tempo: 0.02888888888888889
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 1.7,  minimo: 1.31,  media: 1.611,   variacao media por tempo: 0.037777777777777764
+          es.tensao_rs:
+              maximo: 220.0,  minimo: 219.3,  media: 219.70999999999998,   variacao media por tempo: 0.05555555555555555
+          es.tensao_st:
+              maximo: 218.7,  minimo: 217.9,  media: 218.46999999999997,   variacao media por tempo: 0.05555555555555555
+          es.tensao_tr:
+              maximo: 217.7,  minimo: 217.0,  media: 217.42,   variacao media por tempo: 0.04444444444444508
+          es.ativa_r:
+              maximo: 134.0,  minimo: 100.0,  media: 127.6,   variacao media por tempo: 3.2222222222222223
+          es.ativa_s:
+              maximo: 141.0,  minimo: 106.0,  media: 134.7,   variacao media por tempo: 3.4444444444444446
+          es.ativa_t:
+              maximo: 104.0,  minimo: 70.0,  media: 93.1,   variacao media por tempo: 2.3333333333333335
+          es.ativa_total:
+              maximo: 378.0,  minimo: 276.0,  media: 355.4,   variacao media por tempo: 9.0
+          es.reativa_r:
+              maximo: 181.0,  minimo: 145.0,  media: 174.5,   variacao media por tempo: 3.4444444444444446
+          es.reativa_s:
+              maximo: 65381.0,  minimo: 65344.0,  media: 65350.5,   variacao media por tempo: -3.7777777777777777
+          es.reativa_t:
+              maximo: 65426.0,  minimo: 65387.0,  media: 65398.4,   variacao media por tempo: -2.7777777777777777
+          es.reativa_total:
+              maximo: 65416.0,  minimo: 65376.0,  media: 65387.1,   variacao media por tempo: -3.111111111111111
+          es.aparente_r:
+              maximo: 224.0,  minimo: 176.0,  media: 216.3,   variacao media por tempo: 4.666666666666667
+          es.aparente_s:
+              maximo: 237.0,  minimo: 188.0,  media: 229.4,   variacao media por tempo: 5.111111111111111
+          es.aparente_t:
+              maximo: 181.0,  minimo: 131.0,  media: 166.2,   variacao media por tempo: 3.5555555555555554
+          es.aparente_total:
+              maximo: 411.0,  minimo: 301.0,  media: 385.5,   variacao media por tempo: 9.555555555555555
+          es.fp_r:
+              maximo: 0.599,  minimo: 0.574,  media: 0.5912,   variacao media por tempo: 0.0017777777777777794
+          es.fp_s:
+              maximo: 0.595,  minimo: 0.57,  media: 0.5878,   variacao media por tempo: 0.0017777777777777794
+          es.fp_t:
+              maximo: 0.572,  minimo: 0.54,  media: 0.5603,   variacao media por tempo: 0.0022222222222222244
+          es.fp_total:
+              maximo: 0.926,  minimo: 0.919,  media: 0.9234,   variacao media por tempo: -0.00011111111111111121
+          es.energia_ativa:
+              maximo: 25.0,  minimo: 22.0,  media: 23.4,   variacao media por tempo: 0.3333333333333333
+          es.energia_reativa:
+              maximo: 9265.0,  minimo: 9265.0,  media: 9265.0,   variacao media por tempo: 0.0
+          es.energia_aparente:
+              maximo: 973.0,  minimo: 970.0,  media: 971.4,   variacao media por tempo: 0.3333333333333333
+
+Bomba Azul:
+Partida Direta:
+   Motor Desligado:
+       [0]:
+          es.encoder:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.torque:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.temp_r:
+              maximo: 41.6,  minimo: 41.4,  media: 41.57,   variacao media por tempo: -0.02222222222222254
+          es.temp_s:
+              maximo: 30.4,  minimo: 29.7,  media: 29.95,   variacao media por tempo: -0.0777777777777777
+          es.temp_t:
+              maximo: 36.0,  minimo: 35.6,  media: 35.74,   variacao media por tempo: -0.04444444444444429
+          es.temp_carc:
+              maximo: 29.9,  minimo: 29.7,  media: 29.78,   variacao media por tempo: -0.022222222222222143
+          es.demanda_anterior:
+              maximo: 62.0,  minimo: 62.0,  media: 62.0,   variacao media por tempo: 0.0
+          es.demanda_atual:
+              maximo: 62.0,  minimo: 62.0,  media: 62.0,   variacao media por tempo: 0.0
+          es.demanda_media:
+              maximo: 2.0,  minimo: 0.0,  media: 1.0,   variacao media por tempo: -0.2222222222222222
+          es.demanda_pico:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.97,  minimo: 59.94,  media: 59.955,   variacao media por tempo: 0.0
+          es.thd_tensao_rn:
+              maximo: 2.4,  minimo: 2.3,  media: 2.35,   variacao media por tempo: 0.0
+          es.thd_tensao_sn:
+              maximo: 2.9,  minimo: 2.7,  media: 2.82,   variacao media por tempo: 0.022222222222222192
+          es.thd_tensao_tn:
+              maximo: 2.3,  minimo: 2.1,  media: 2.2,   variacao media por tempo: 0.01111111111111112
+          es.thd_tensao_rs:
+              maximo: 1.5,  minimo: 1.4,  media: 1.49,   variacao media por tempo: 0.01111111111111112
+          es.thd_tensao_st:
+              maximo: 1.6,  minimo: 1.5,  media: 1.59,   variacao media por tempo: 0.01111111111111112
+          es.thd_tensao_tr:
+              maximo: 1.4,  minimo: 1.3,  media: 1.3699999999999999,   variacao media por tempo: 0.0
+          es.thd_corrente_r:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.thd_corrente_s:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.thd_corrente_t:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_s:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_t:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.tensao_rs:
+              maximo: 220.7,  minimo: 219.8,  media: 220.43,   variacao media por tempo: 0.01111111111111048
+          es.tensao_st:
+              maximo: 219.6,  minimo: 218.3,  media: 219.14000000000001,   variacao media por tempo: -0.03333333333333144
+          es.tensao_tr:
+              maximo: 218.3,  minimo: 217.1,  media: 217.93,   variacao media por tempo: -0.01111111111111048
+          es.ativa_r:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_s:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_t:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_total:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.reativa_r:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.reativa_s:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.reativa_t:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.reativa_total:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.aparente_r:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.aparente_s:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.aparente_t:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.aparente_total:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.fp_r:
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0
+          es.fp_s:
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0
+          es.fp_t:
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0
+          es.fp_total:
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0
+          es.energia_ativa:
+              maximo: 26.0,  minimo: 26.0,  media: 26.0,   variacao media por tempo: 0.0
+          es.energia_reativa:
+              maximo: 9266.0,  minimo: 9266.0,  media: 9266.0,   variacao media por tempo: 0.0
+          es.energia_aparente:
+              maximo: 975.0,  minimo: 975.0,  media: 975.0,   variacao media por tempo: 0.0
+   Motor Ligado:
+       [0]:
+          es.encoder:
+              maximo: 1680.0,  minimo: 1652.0,  media: 1663.9,   variacao media por tempo: -0.3333333333333333
+          es.torque:
+              maximo: 0.04,  minimo: 0.0,  media: 0.023,   variacao media por tempo: 0.003333333333333333
+          es.temp_r:
+              maximo: 41.9,  minimo: 41.4,  media: 41.55,   variacao media por tempo: 0.05555555555555555
+          es.temp_s:
+              maximo: 31.0,  minimo: 29.9,  media: 30.32,   variacao media por tempo: 0.12222222222222238
+          es.temp_t:
+              maximo: 36.4,  minimo: 35.6,  media: 35.910000000000004,   variacao media por tempo: 0.08888888888888857
+          es.temp_carc:
+              maximo: 30.0,  minimo: 29.8,  media: 29.889999999999997,   variacao media por tempo: 0.022222222222222143
+          es.demanda_anterior:
+              maximo: 72.0,  minimo: 62.0,  media: 66.0,   variacao media por tempo: 1.1111111111111112
+          es.demanda_atual:
+              maximo: 72.0,  minimo: 62.0,  media: 66.0,   variacao media por tempo: 1.1111111111111112
+          es.demanda_media:
+              maximo: 318.0,  minimo: 98.0,  media: 224.1,   variacao media por tempo: 24.444444444444443
+          es.demanda_pico:
+              maximo: 373.0,  minimo: 362.0,  media: 367.5,   variacao media por tempo: -0.6666666666666666
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.97,  minimo: 59.93,  media: 59.955,   variacao media por tempo: 0.0011111111111108901
+          es.thd_tensao_rn:
+              maximo: 2.4,  minimo: 2.3,  media: 2.3099999999999996,   variacao media por tempo: 0.0
+          es.thd_tensao_sn:
+              maximo: 2.8,  minimo: 2.7,  media: 2.7600000000000002,   variacao media por tempo: 0.0
+          es.thd_tensao_tn:
+              maximo: 2.3,  minimo: 2.0,  media: 2.21,   variacao media por tempo: -0.011111111111111072
+          es.thd_tensao_rs:
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0
+          es.thd_tensao_st:
+              maximo: 1.5,  minimo: 1.4,  media: 1.48,   variacao media por tempo: 0.0
+          es.thd_tensao_tr:
+              maximo: 1.3,  minimo: 1.3,  media: 1.3,   variacao media por tempo: 0.0
+          es.thd_corrente_r:
+              maximo: 3.6,  minimo: 3.1,  media: 3.4200000000000004,   variacao media por tempo: -0.01111111111111112
+          es.thd_corrente_s:
+              maximo: 3.7,  minimo: 3.4,  media: 3.59,   variacao media por tempo: 0.02222222222222224
+          es.thd_corrente_t:
+              maximo: 3.7,  minimo: 3.3,  media: 3.5200000000000005,   variacao media por tempo: 0.03333333333333336
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 1.98,  minimo: 1.94,  media: 1.952,   variacao media por tempo: -0.004444444444444449
+          es.corrente_s:
+              maximo: 2.02,  minimo: 1.97,  media: 1.987,   variacao media por tempo: -0.00555555555555556
+          es.corrente_t:
+              maximo: 1.88,  minimo: 1.82,  media: 1.848,   variacao media por tempo: -0.005555555555555536
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 1.96,  minimo: 1.91,  media: 1.9280000000000002,   variacao media por tempo: -0.00555555555555556
+          es.tensao_rs:
+              maximo: 219.8,  minimo: 219.2,  media: 219.55,   variacao media por tempo: 0.03333333333333144
+          es.tensao_st:
+              maximo: 218.4,  minimo: 217.6,  media: 218.07,   variacao media por tempo: 0.0
+          es.tensao_tr:
+              maximo: 216.8,  minimo: 216.1,  media: 216.55,   variacao media por tempo: 0.02222222222222096
+          es.ativa_r:
+              maximo: 126.0,  minimo: 115.0,  media: 118.9,   variacao media por tempo: -1.0
+          es.ativa_s:
+              maximo: 139.0,  minimo: 128.0,  media: 131.5,   variacao media por tempo: -1.0
+          es.ativa_t:
+              maximo: 129.0,  minimo: 117.0,  media: 120.9,   variacao media por tempo: -1.1111111111111112
+          es.ativa_total:
+              maximo: 394.0,  minimo: 361.0,  media: 371.5,   variacao media por tempo: -3.2222222222222223
+          es.reativa_r:
+              maximo: 215.0,  minimo: 214.0,  media: 214.7,   variacao media por tempo: 0.1111111111111111
+          es.reativa_s:
+              maximo: 216.0,  minimo: 213.0,  media: 214.4,   variacao media por tempo: -0.2222222222222222
+          es.reativa_t:
+              maximo: 199.0,  minimo: 197.0,  media: 198.2,   variacao media por tempo: 0.0
+          es.reativa_total:
+              maximo: 630.0,  minimo: 623.0,  media: 626.8,   variacao media por tempo: 0.0
+          es.aparente_r:
+              maximo: 248.0,  minimo: 243.0,  media: 245.7,   variacao media por tempo: -0.3333333333333333
+          es.aparente_s:
+              maximo: 256.0,  minimo: 248.0,  media: 251.4,   variacao media por tempo: -0.6666666666666666
+          es.aparente_t:
+              maximo: 236.0,  minimo: 229.0,  media: 232.1,   variacao media por tempo: -0.6666666666666666
+          es.aparente_total:
+              maximo: 740.0,  minimo: 720.0,  media: 729.4,   variacao media por tempo: -1.6666666666666667
+          es.fp_r:
+              maximo: 0.507,  minimo: 0.475,  media: 0.48549999999999993,   variacao media por tempo: -0.003111111111111114
+          es.fp_s:
+              maximo: 0.544,  minimo: 0.516,  media: 0.5245,   variacao media por tempo: -0.00277777777777778
+          es.fp_t:
+              maximo: 0.546,  minimo: 0.511,  media: 0.5217,   variacao media por tempo: -0.0035555555555555588
+          es.fp_total:
+              maximo: 0.532,  minimo: 0.501,  media: 0.5107,   variacao media por tempo: -0.003111111111111114
+          es.energia_ativa:
+              maximo: 29.0,  minimo: 26.0,  media: 27.8,   variacao media por tempo: 0.3333333333333333
+          es.energia_reativa:
+              maximo: 9271.0,  minimo: 9266.0,  media: 9268.6,   variacao media por tempo: 0.5555555555555556
+          es.energia_aparente:
+              maximo: 975.0,  minimo: 975.0,  media: 975.0,   variacao media por tempo: 0.0
+
+Partida Soft:
+   Motor Desligado:
+       [0]:
+          es.encoder:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.torque:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.temp_r:
+              maximo: 44.0,  minimo: 42.8,  media: 43.53,   variacao media por tempo: 0.13333333333333364
+          es.temp_s:
+              maximo: 32.8,  minimo: 31.9,  media: 32.42,   variacao media por tempo: 0.09999999999999984
+          es.temp_t:
+              maximo: 38.4,  minimo: 37.4,  media: 37.95,   variacao media por tempo: 0.1111111111111111
+          es.temp_carc:
+              maximo: 30.3,  minimo: 30.2,  media: 30.26,   variacao media por tempo: 0.01111111111111127
+          es.demanda_anterior:
+              maximo: 76.0,  minimo: 76.0,  media: 76.0,   variacao media por tempo: 0.0
+          es.demanda_atual:
+              maximo: 76.0,  minimo: 76.0,  media: 76.0,   variacao media por tempo: 0.0
+          es.demanda_media:
+              maximo: 140.0,  minimo: 27.0,  media: 68.1,   variacao media por tempo: -12.555555555555555
+          es.demanda_pico:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.94,  minimo: 59.92,  media: 59.936,   variacao media por tempo: -0.0022222222222217803
+          es.thd_tensao_rn:
+              maximo: 2.4,  minimo: 2.2,  media: 2.2800000000000002,   variacao media por tempo: 0.01111111111111112
+          es.thd_tensao_sn:
+              maximo: 2.8,  minimo: 2.7,  media: 2.71,   variacao media por tempo: 0.011111111111111072
+          es.thd_tensao_tn:
+              maximo: 2.3,  minimo: 2.1,  media: 2.16,   variacao media por tempo: 0.011111111111111072
+          es.thd_tensao_rs:
+              maximo: 1.4,  minimo: 1.3,  media: 1.3699999999999999,   variacao media por tempo: 0.011111111111111096
+          es.thd_tensao_st:
+              maximo: 1.5,  minimo: 1.4,  media: 1.48,   variacao media por tempo: 0.0
+          es.thd_tensao_tr:
+              maximo: 1.3,  minimo: 1.3,  media: 1.3,   variacao media por tempo: 0.0
+          es.thd_corrente_r:
+              maximo: 123.4,  minimo: 78.4,  media: 103.99000000000001,   variacao media por tempo: -1.6555555555555561
+          es.thd_corrente_s:
+              maximo: 113.1,  minimo: 82.5,  media: 102.21000000000001,   variacao media por tempo: 1.6444444444444457
+          es.thd_corrente_t:
+              maximo: 127.5,  minimo: 85.5,  media: 101.53999999999999,   variacao media por tempo: -1.8333333333333333
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 0.02,  minimo: 0.02,  media: 0.02,   variacao media por tempo: 0.0
+          es.corrente_s:
+              maximo: 0.02,  minimo: 0.02,  media: 0.02,   variacao media por tempo: 0.0
+          es.corrente_t:
+              maximo: 0.02,  minimo: 0.02,  media: 0.02,   variacao media por tempo: 0.0
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 0.02,  minimo: 0.02,  media: 0.02,   variacao media por tempo: 0.0
+          es.tensao_rs:
+              maximo: 220.0,  minimo: 219.7,  media: 219.78000000000003,   variacao media por tempo: -0.011111111111113637
+          es.tensao_st:
+              maximo: 218.2,  minimo: 217.9,  media: 218.05,   variacao media por tempo: -0.02222222222222096
+          es.tensao_tr:
+              maximo: 217.5,  minimo: 217.1,  media: 217.3,   variacao media por tempo: 0.0
+          es.ativa_r:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_s:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_t:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_total:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.reativa_r:
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0
+          es.reativa_s:
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0
+          es.reativa_t:
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0
+          es.reativa_total:
+              maximo: 65528.0,  minimo: 65528.0,  media: 65528.0,   variacao media por tempo: 0.0
+          es.aparente_r:
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0
+          es.aparente_s:
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0
+          es.aparente_t:
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0
+          es.aparente_total:
+              maximo: 8.0,  minimo: 8.0,  media: 8.0,   variacao media por tempo: 0.0
+          es.fp_r:
+              maximo: 32.81,  minimo: 0.036,  media: 26.243299999999998,   variacao media por tempo: -3.6415555555555557
+          es.fp_s:
+              maximo: 32.811,  minimo: 0.003,  media: 16.4016,   variacao media por tempo: 0.0033333333333334597
+          es.fp_t:
+              maximo: 32.843,  minimo: 0.061,  media: 23.0024,   variacao media por tempo: 3.640444444444445
+          es.fp_total:
+              maximo: 32.813,  minimo: 0.029,  media: 22.974600000000002,   variacao media por tempo: 0.0006666666666674814
+          es.energia_ativa:
+              maximo: 30.0,  minimo: 30.0,  media: 30.0,   variacao media por tempo: 0.0
+          es.energia_reativa:
+              maximo: 9272.0,  minimo: 9272.0,  media: 9272.0,   variacao media por tempo: 0.0
+          es.energia_aparente:
+              maximo: 982.0,  minimo: 982.0,  media: 982.0,   variacao media por tempo: 0.0
+   Motor Ligado:
+       [0]:
+          es.encoder:
+              maximo: 1688.0,  minimo: 0.0,  media: 1338.4,   variacao media por tempo: 183.22222222222223
+          es.torque:
+              maximo: 0.03,  minimo: 0.0,  media: 0.011,   variacao media por tempo: 0.003333333333333333
+          es.temp_r:
+              maximo: 45.4,  minimo: 44.4,  media: 44.769999999999996,   variacao media por tempo: 0.1111111111111111
+          es.temp_s:
+              maximo: 34.5,  minimo: 32.8,  media: 33.5,   variacao media por tempo: 0.18888888888888922
+          es.temp_t:
+              maximo: 39.9,  minimo: 38.6,  media: 39.12,   variacao media por tempo: 0.14444444444444413
+          es.temp_carc:
+              maximo: 30.8,  minimo: 30.4,  media: 30.55,   variacao media por tempo: 0.04444444444444468
+          es.demanda_anterior:
+              maximo: 84.0,  minimo: 76.0,  media: 78.9,   variacao media por tempo: 0.8888888888888888
+          es.demanda_atual:
+              maximo: 84.0,  minimo: 76.0,  media: 78.9,   variacao media por tempo: 0.8888888888888888
+          es.demanda_media:
+              maximo: 307.0,  minimo: 15.0,  media: 197.5,   variacao media por tempo: 32.44444444444444
+          es.demanda_pico:
+              maximo: 522.0,  minimo: 0.0,  media: 332.4,   variacao media por tempo: 40.333333333333336
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.95,  minimo: 59.92,  media: 59.93300000000001,   variacao media por tempo: 0.0011111111111116794
+          es.thd_tensao_rn:
+              maximo: 2.4,  minimo: 2.3,  media: 2.34,   variacao media por tempo: 0.0
+          es.thd_tensao_sn:
+              maximo: 2.8,  minimo: 2.7,  media: 2.73,   variacao media por tempo: 0.0
+          es.thd_tensao_tn:
+              maximo: 2.2,  minimo: 2.1,  media: 2.16,   variacao media por tempo: 0.01111111111111112
+          es.thd_tensao_rs:
+              maximo: 1.4,  minimo: 1.3,  media: 1.38,   variacao media por tempo: 0.0
+          es.thd_tensao_st:
+              maximo: 1.5,  minimo: 1.4,  media: 1.48,   variacao media por tempo: 0.0
+          es.thd_tensao_tr:
+              maximo: 1.3,  minimo: 1.2,  media: 1.29,   variacao media por tempo: 0.0
+          es.thd_corrente_r:
+              maximo: 140.0,  minimo: 3.2,  media: 21.98,   variacao media por tempo: -15.144444444444446
+          es.thd_corrente_s:
+              maximo: 99.9,  minimo: 3.4,  media: 18.09,   variacao media por tempo: -10.66666666666667
+          es.thd_corrente_t:
+              maximo: 91.0,  minimo: 3.6,  media: 17.45,   variacao media por tempo: -9.711111111111112
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 110.7,  media: 2652.07,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 3.83,  minimo: 1.72,  media: 2.248,   variacao media por tempo: -0.030000000000000027
+          es.corrente_s:
+              maximo: 3.84,  minimo: 1.74,  media: 2.256,   variacao media por tempo: -0.03111111111111109
+          es.corrente_t:
+              maximo: 3.77,  minimo: 1.65,  media: 2.16,   variacao media por tempo: -0.037777777777777764
+          es.corrente_n:
+              maximo: 0.01,  minimo: 0.0,  media: 0.001,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 3.81,  minimo: 1.74,  media: 2.2239999999999998,   variacao media por tempo: -0.03444444444444447
+          es.tensao_rs:
+              maximo: 219.9,  minimo: 219.2,  media: 219.57,   variacao media por tempo: 0.022222222222224117
+          es.tensao_st:
+              maximo: 217.9,  minimo: 217.3,  media: 217.6,   variacao media por tempo: -0.022222222222224117
+          es.tensao_tr:
+              maximo: 217.0,  minimo: 216.2,  media: 216.65,   variacao media por tempo: 0.033333333333334596
+          es.ativa_r:
+              maximo: 211.0,  minimo: 63.0,  media: 123.1,   variacao media por tempo: 6.222222222222222
+          es.ativa_s:
+              maximo: 210.0,  minimo: 65.0,  media: 129.2,   variacao media por tempo: 7.0
+          es.ativa_t:
+              maximo: 206.0,  minimo: 65.0,  media: 121.5,   variacao media por tempo: 5.777777777777778
+          es.ativa_total:
+              maximo: 626.0,  minimo: 193.0,  media: 374.5,   variacao media por tempo: 19.0
+          es.reativa_r:
+              maximo: 421.0,  minimo: 190.0,  media: 253.3,   variacao media por tempo: -6.666666666666667
+          es.reativa_s:
+              maximo: 425.0,  minimo: 190.0,  media: 252.0,   variacao media por tempo: -7.444444444444445
+          es.reativa_t:
+              maximo: 385.0,  minimo: 171.0,  media: 216.1,   variacao media por tempo: -7.777777777777778
+          es.reativa_total:
+              maximo: 1172.0,  minimo: 530.0,  media: 672.7,   variacao media por tempo: -21.88888888888889
+          es.aparente_r:
+              maximo: 416.0,  minimo: 218.0,  media: 258.1,   variacao media por tempo: -4.0
+          es.aparente_s:
+              maximo: 416.0,  minimo: 221.0,  media: 260.3,   variacao media por tempo: -4.222222222222222
+          es.aparente_t:
+              maximo: 406.0,  minimo: 211.0,  media: 246.0,   variacao media por tempo: -5.111111111111111
+          es.aparente_total:
+              maximo: 1238.0,  minimo: 649.0,  media: 764.3,   variacao media por tempo: -13.333333333333334
+          es.fp_r:
+              maximo: 0.567,  minimo: 0.228,  media: 0.46049999999999996,   variacao media por tempo: 0.029222222222222222
+          es.fp_s:
+              maximo: 0.581,  minimo: 0.229,  media: 0.4859,   variacao media por tempo: 0.03311111111111112
+          es.fp_t:
+              maximo: 0.586,  minimo: 0.237,  media: 0.4808,   variacao media por tempo: 0.030888888888888893
+          es.fp_total:
+              maximo: 0.578,  minimo: 0.232,  media: 0.476,   variacao media por tempo: 0.031000000000000003
+          es.energia_ativa:
+              maximo: 32.0,  minimo: 30.0,  media: 31.1,   variacao media por tempo: 0.2222222222222222
+          es.energia_reativa:
+              maximo: 9277.0,  minimo: 9272.0,  media: 9274.5,   variacao media por tempo: 0.5555555555555556
+          es.energia_aparente:
+              maximo: 988.0,  minimo: 983.0,  media: 985.3,   variacao media por tempo: 0.5555555555555556
+
+Partida Inversora:
+   Motor Desligado:
+       [0]:
+          es.encoder:
+              maximo: 6.0,  minimo: 3.0,  media: 4.1,   variacao media por tempo: -0.1111111111111111
+          es.torque:
+              maximo: 0.01,  minimo: 0.01,  media: 0.01,   variacao media por tempo: 0.0
+          es.temp_r:
+              maximo: 47.8,  minimo: 46.4,  media: 47.22,   variacao media por tempo: 0.1555555555555554
+          es.temp_s:
+              maximo: 36.8,  minimo: 35.5,  media: 36.22,   variacao media por tempo: 0.14444444444444413
+          es.temp_t:
+              maximo: 42.3,  minimo: 40.9,  media: 41.71,   variacao media por tempo: 0.1555555555555554
+          es.temp_carc:
+              maximo: 31.5,  minimo: 31.1,  media: 31.26,   variacao media por tempo: 0.04444444444444429
+          es.demanda_anterior:
+              maximo: 93.0,  minimo: 90.0,  media: 92.1,   variacao media por tempo: 0.3333333333333333
+          es.demanda_atual:
+              maximo: 93.0,  minimo: 90.0,  media: 92.4,   variacao media por tempo: 0.3333333333333333
+          es.demanda_media:
+              maximo: 295.0,  minimo: 49.0,  media: 134.1,   variacao media por tempo: -27.333333333333332
+          es.demanda_pico:
+              maximo: 101.0,  minimo: 4.0,  media: 14.3,   variacao media por tempo: -10.777777777777779
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.96,  minimo: 59.92,  media: 59.94199999999999,   variacao media por tempo: -0.0011111111111116794
+          es.thd_tensao_rn:
+              maximo: 2.4,  minimo: 2.2,  media: 2.3,   variacao media por tempo: 0.0
+          es.thd_tensao_sn:
+              maximo: 2.8,  minimo: 2.7,  media: 2.7600000000000002,   variacao media por tempo: 0.011111111111111072
+          es.thd_tensao_tn:
+              maximo: 2.3,  minimo: 2.2,  media: 2.21,   variacao media por tempo: 0.0
+          es.thd_tensao_rs:
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0
+          es.thd_tensao_st:
+              maximo: 1.6,  minimo: 1.5,  media: 1.51,   variacao media por tempo: 0.0
+          es.thd_tensao_tr:
+              maximo: 1.3,  minimo: 1.3,  media: 1.3,   variacao media por tempo: 0.0
+          es.thd_corrente_r:
+              maximo: 534.2,  minimo: 251.3,  media: 407.4,   variacao media por tempo: 24.04444444444444
+          es.thd_corrente_s:
+              maximo: 257.1,  minimo: 123.6,  media: 225.16,   variacao media por tempo: 14.833333333333336
+          es.thd_corrente_t:
+              maximo: 155.4,  minimo: 119.8,  media: 135.06,   variacao media por tempo: 0.08888888888888699
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 0.08,  minimo: 0.07,  media: 0.077,   variacao media por tempo: -0.0011111111111111105
+          es.corrente_s:
+              maximo: 0.08,  minimo: 0.08,  media: 0.08,   variacao media por tempo: 0.0
+          es.corrente_t:
+              maximo: 0.03,  minimo: 0.02,  media: 0.024,   variacao media por tempo: 0.0
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 0.06,  minimo: 0.06,  media: 0.06,   variacao media por tempo: 0.0
+          es.tensao_rs:
+              maximo: 220.1,  minimo: 219.7,  media: 219.91,   variacao media por tempo: -0.022222222222224117
+          es.tensao_st:
+              maximo: 218.2,  minimo: 217.8,  media: 218.08,   variacao media por tempo: -0.02222222222222096
+          es.tensao_tr:
+              maximo: 217.7,  minimo: 217.2,  media: 217.5,   variacao media por tempo: -0.01111111111111048
+          es.ativa_r:
+              maximo: 2.0,  minimo: 2.0,  media: 2.0,   variacao media por tempo: 0.0
+          es.ativa_s:
+              maximo: 2.0,  minimo: 2.0,  media: 2.0,   variacao media por tempo: 0.0
+          es.ativa_t:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_total:
+              maximo: 4.0,  minimo: 4.0,  media: 4.0,   variacao media por tempo: 0.0
+          es.reativa_r:
+              maximo: 65527.0,  minimo: 65526.0,  media: 65526.8,   variacao media por tempo: 0.1111111111111111
+          es.reativa_s:
+              maximo: 65527.0,  minimo: 65526.0,  media: 65526.1,   variacao media por tempo: 0.1111111111111111
+          es.reativa_t:
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0
+          es.reativa_total:
+              maximo: 65515.0,  minimo: 65513.0,  media: 65513.9,   variacao media por tempo: 0.2222222222222222
+          es.aparente_r:
+              maximo: 10.0,  minimo: 9.0,  media: 9.5,   variacao media por tempo: -0.1111111111111111
+          es.aparente_s:
+              maximo: 11.0,  minimo: 10.0,  media: 10.1,   variacao media por tempo: 0.0
+          es.aparente_t:
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0
+          es.aparente_total:
+              maximo: 24.0,  minimo: 22.0,  media: 22.4,   variacao media por tempo: -0.1111111111111111
+          es.fp_r:
+              maximo: 0.232,  minimo: 0.214,  media: 0.2222,   variacao media por tempo: 0.0011111111111111122
+          es.fp_s:
+              maximo: 0.221,  minimo: 0.207,  media: 0.2153,   variacao media por tempo: -0.00022222222222222242
+          es.fp_t:
+              maximo: 32.878,  minimo: 0.072,  media: 23.0236,   variacao media por tempo: -0.000999999999998459
+          es.fp_total:
+              maximo: 0.184,  minimo: 0.171,  media: 0.1779,   variacao media por tempo: 0.00022222222222222242
+          es.energia_ativa:
+              maximo: 34.0,  minimo: 34.0,  media: 34.0,   variacao media por tempo: 0.0
+          es.energia_reativa:
+              maximo: 9279.0,  minimo: 9279.0,  media: 9279.0,   variacao media por tempo: 0.0
+          es.energia_aparente:
+              maximo: 991.0,  minimo: 990.0,  media: 990.4,   variacao media por tempo: 0.1111111111111111
+   Motor Ligado em 0hz:
+       [0]:
+          es.encoder:
+              maximo: 6.0,  minimo: 3.0,  media: 4.1,   variacao media por tempo: 0.0
+          es.torque:
+              maximo: 0.01,  minimo: 0.01,  media: 0.01,   variacao media por tempo: 0.0
+          es.temp_r:
+              maximo: 48.3,  minimo: 48.2,  media: 48.279999999999994,   variacao media por tempo: 0.01111111111111048
+          es.temp_s:
+              maximo: 36.9,  minimo: 36.8,  media: 36.87,   variacao media por tempo: -0.01111111111111127
+          es.temp_t:
+              maximo: 42.6,  minimo: 42.5,  media: 42.54,   variacao media por tempo: 0.0
+          es.temp_carc:
+              maximo: 31.7,  minimo: 31.5,  media: 31.6,   variacao media por tempo: 0.022222222222222143
+          es.demanda_anterior:
+              maximo: 93.0,  minimo: 93.0,  media: 93.0,   variacao media por tempo: 0.0
+          es.demanda_atual:
+              maximo: 93.0,  minimo: 93.0,  media: 93.0,   variacao media por tempo: 0.0
+          es.demanda_media:
+              maximo: 28.0,  minimo: 6.0,  media: 14.3,   variacao media por tempo: -2.4444444444444446
+          es.demanda_pico:
+              maximo: 4.0,  minimo: 4.0,  media: 4.0,   variacao media por tempo: 0.0
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.96,  minimo: 59.95,  media: 59.952999999999996,   variacao media por tempo: 0.0011111111111108901
+          es.thd_tensao_rn:
+              maximo: 2.3,  minimo: 2.2,  media: 2.25,   variacao media por tempo: 0.011111111111111072
+          es.thd_tensao_sn:
+              maximo: 2.9,  minimo: 2.8,  media: 2.84,   variacao media por tempo: 0.01111111111111112
+          es.thd_tensao_tn:
+              maximo: 2.2,  minimo: 2.1,  media: 2.16,   variacao media por tempo: 0.0
+          es.thd_tensao_rs:
+              maximo: 1.5,  minimo: 1.4,  media: 1.43,   variacao media por tempo: 0.01111111111111112
+          es.thd_tensao_st:
+              maximo: 1.6,  minimo: 1.5,  media: 1.55,   variacao media por tempo: 0.01111111111111112
+          es.thd_tensao_tr:
+              maximo: 1.4,  minimo: 1.3,  media: 1.3199999999999998,   variacao media por tempo: 0.011111111111111096
+          es.thd_corrente_r:
+              maximo: 550.3,  minimo: 310.7,  media: 414.98,   variacao media por tempo: 9.67777777777778
+          es.thd_corrente_s:
+              maximo: 254.6,  minimo: 209.8,  media: 237.28000000000003,   variacao media por tempo: -2.4111111111111097
+          es.thd_corrente_t:
+              maximo: 3276.8,  minimo: 94.4,  media: 446.53000000000003,   variacao media por tempo: 349.53333333333336
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 0.07,  minimo: 0.07,  media: 0.07,   variacao media por tempo: 0.0
+          es.corrente_s:
+              maximo: 0.08,  minimo: 0.07,  media: 0.074,   variacao media por tempo: 0.0
+          es.corrente_t:
+              maximo: 0.03,  minimo: 0.02,  media: 0.027999999999999997,   variacao media por tempo: 0.0
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 0.06,  minimo: 0.06,  media: 0.06,   variacao media por tempo: 0.0
+          es.tensao_rs:
+              maximo: 220.3,  minimo: 219.6,  media: 219.94,   variacao media por tempo: 0.04444444444444508
+          es.tensao_st:
+              maximo: 218.4,  minimo: 217.9,  media: 218.11999999999998,   variacao media por tempo: 0.03333333333333144
+          es.tensao_tr:
+              maximo: 217.4,  minimo: 216.9,  media: 217.06,   variacao media por tempo: 0.02222222222222096
+          es.ativa_r:
+              maximo: 2.0,  minimo: 2.0,  media: 2.0,   variacao media por tempo: 0.0
+          es.ativa_s:
+              maximo: 2.0,  minimo: 2.0,  media: 2.0,   variacao media por tempo: 0.0
+          es.ativa_t:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.ativa_total:
+              maximo: 4.0,  minimo: 4.0,  media: 4.0,   variacao media por tempo: 0.0
+          es.reativa_r:
+              maximo: 65528.0,  minimo: 65527.0,  media: 65527.2,   variacao media por tempo: 0.0
+          es.reativa_s:
+              maximo: 65527.0,  minimo: 65527.0,  media: 65527.0,   variacao media por tempo: 0.0
+          es.reativa_t:
+              maximo: 65533.0,  minimo: 0.0,  media: 58979.5,   variacao media por tempo: -7281.444444444444
+          es.reativa_total:
+              maximo: 65518.0,  minimo: 65514.0,  media: 65515.2,   variacao media por tempo: 0.3333333333333333
+          es.aparente_r:
+              maximo: 9.0,  minimo: 9.0,  media: 9.0,   variacao media por tempo: 0.0
+          es.aparente_s:
+              maximo: 10.0,  minimo: 9.0,  media: 9.2,   variacao media por tempo: 0.0
+          es.aparente_t:
+              maximo: 4.0,  minimo: 0.0,  media: 2.9,   variacao media por tempo: -0.3333333333333333
+          es.aparente_total:
+              maximo: 22.0,  minimo: 18.0,  media: 21.1,   variacao media por tempo: -0.3333333333333333
+          es.fp_r:
+              maximo: 0.227,  minimo: 0.212,  media: 0.21960000000000002,   variacao media por tempo: -0.0006666666666666673
+          es.fp_s:
+              maximo: 0.237,  minimo: 0.211,  media: 0.22360000000000002,   variacao media por tempo: 0.00033333333333333365
+          es.fp_t:
+              maximo: 32.826,  minimo: 0.017,  media: 19.8036,   variacao media por tempo: -3.5348888888888883
+          es.fp_total:
+              maximo: 0.221,  minimo: 0.175,  media: 0.18519999999999998,   variacao media por tempo: 0.004333333333333334
+          es.energia_ativa:
+              maximo: 34.0,  minimo: 34.0,  media: 34.0,   variacao media por tempo: 0.0
+          es.energia_reativa:
+              maximo: 9279.0,  minimo: 9279.0,  media: 9279.0,   variacao media por tempo: 0.0
+          es.energia_aparente:
+              maximo: 991.0,  minimo: 991.0,  media: 991.0,   variacao media por tempo: 0.0
+   Motor Ligado em 30hz:
+       [0]:
+          es.encoder:
+              maximo: 836.0,  minimo: 394.0,  media: 784.1,   variacao media por tempo: 48.111111111111114
+          es.torque:
+              maximo: 0.01,  minimo: 0.01,  media: 0.01,   variacao media por tempo: 0.0
+          es.temp_r:
+              maximo: 48.4,  minimo: 48.1,  media: 48.22,   variacao media por tempo: 0.022222222222221748
+          es.temp_s:
+              maximo: 37.1,  minimo: 36.6,  media: 36.81,   variacao media por tempo: 0.04444444444444429
+          es.temp_t:
+              maximo: 42.7,  minimo: 42.4,  media: 42.5,   variacao media por tempo: 0.02222222222222254
+          es.temp_carc:
+              maximo: 32.1,  minimo: 31.8,  media: 31.93,   variacao media por tempo: 0.03333333333333341
+          es.demanda_anterior:
+              maximo: 97.0,  minimo: 93.0,  media: 94.7,   variacao media por tempo: 0.4444444444444444
+          es.demanda_atual:
+              maximo: 97.0,  minimo: 93.0,  media: 94.7,   variacao media por tempo: 0.4444444444444444
+          es.demanda_media:
+              maximo: 180.0,  minimo: 17.0,  media: 118.9,   variacao media por tempo: 18.11111111111111
+          es.demanda_pico:
+              maximo: 217.0,  minimo: 66.0,  media: 187.3,   variacao media por tempo: 15.333333333333334
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.95,  minimo: 59.93,  media: 59.939,   variacao media por tempo: 0.0
+          es.thd_tensao_rn:
+              maximo: 2.3,  minimo: 2.2,  media: 2.2399999999999998,   variacao media por tempo: -0.011111111111111072
+          es.thd_tensao_sn:
+              maximo: 3.0,  minimo: 2.9,  media: 2.92,   variacao media por tempo: 0.0
+          es.thd_tensao_tn:
+              maximo: 2.3,  minimo: 2.2,  media: 2.2399999999999998,   variacao media por tempo: -0.011111111111111072
+          es.thd_tensao_rs:
+              maximo: 1.6,  minimo: 1.5,  media: 1.52,   variacao media por tempo: 0.0
+          es.thd_tensao_st:
+              maximo: 1.7,  minimo: 1.6,  media: 1.6199999999999999,   variacao media por tempo: 0.0
+          es.thd_tensao_tr:
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0
+          es.thd_corrente_r:
+              maximo: 199.5,  minimo: 154.8,  media: 162.35,   variacao media por tempo: -4.744444444444444
+          es.thd_corrente_s:
+              maximo: 158.3,  minimo: 142.3,  media: 148.26,   variacao media por tempo: -0.8777777777777784
+          es.thd_corrente_t:
+              maximo: 205.6,  minimo: 166.9,  media: 176.82999999999998,   variacao media por tempo: -3.2666666666666675
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 1.32,  minimo: 0.98,  media: 1.215,   variacao media por tempo: 0.027777777777777776
+          es.corrente_s:
+              maximo: 1.4,  minimo: 1.05,  media: 1.298,   variacao media por tempo: 0.025555555555555554
+          es.corrente_t:
+              maximo: 0.65,  minimo: 0.39,  media: 0.595,   variacao media por tempo: 0.02888888888888889
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 1.11,  minimo: 0.8,  media: 1.0350000000000001,   variacao media por tempo: 0.02888888888888889
+          es.tensao_rs:
+              maximo: 220.1,  minimo: 219.7,  media: 219.86999999999998,   variacao media por tempo: 0.0
+          es.tensao_st:
+              maximo: 218.2,  minimo: 217.9,  media: 218.05,   variacao media por tempo: -0.01111111111111048
+          es.tensao_tr:
+              maximo: 217.1,  minimo: 216.7,  media: 216.85,   variacao media por tempo: 0.0
+          es.ativa_r:
+              maximo: 87.0,  minimo: 58.0,  media: 79.8,   variacao media por tempo: 2.6666666666666665
+          es.ativa_s:
+              maximo: 94.0,  minimo: 65.0,  media: 86.3,   variacao media por tempo: 2.0
+          es.ativa_t:
+              maximo: 39.0,  minimo: 18.0,  media: 35.0,   variacao media por tempo: 2.2222222222222223
+          es.ativa_total:
+              maximo: 218.0,  minimo: 141.0,  media: 201.3,   variacao media por tempo: 6.888888888888889
+          es.reativa_r:
+              maximo: 142.0,  minimo: 109.0,  media: 132.3,   variacao media por tempo: 2.4444444444444446
+          es.reativa_s:
+              maximo: 65420.0,  minimo: 65384.0,  media: 65394.1,   variacao media por tempo: -2.4444444444444446
+          es.reativa_t:
+              maximo: 65490.0,  minimo: 65463.0,  media: 65468.8,   variacao media por tempo: -2.4444444444444446
+          es.reativa_total:
+              maximo: 65483.0,  minimo: 65452.0,  media: 65459.2,   variacao media por tempo: -2.5555555555555554
+          es.aparente_r:
+              maximo: 167.0,  minimo: 123.0,  media: 154.6,   variacao media por tempo: 3.4444444444444446
+          es.aparente_s:
+              maximo: 179.0,  minimo: 133.0,  media: 166.9,   variacao media por tempo: 4.0
+          es.aparente_t:
+              maximo: 83.0,  minimo: 49.0,  media: 75.7,   variacao media por tempo: 3.0
+          es.aparente_total:
+              maximo: 234.0,  minimo: 150.0,  media: 215.9,   variacao media por tempo: 7.888888888888889
+          es.fp_r:
+              maximo: 0.527,  minimo: 0.468,  media: 0.5139,   variacao media por tempo: 0.006222222222222222
+          es.fp_s:
+              maximo: 0.532,  minimo: 0.488,  media: 0.5203,   variacao media por tempo: 0.0034444444444444475
+          es.fp_t:
+              maximo: 0.482,  minimo: 0.374,  media: 0.45780000000000004,   variacao media por tempo: 0.01122222222222222
+          es.fp_total:
+              maximo: 0.939,  minimo: 0.927,  media: 0.9345000000000001,   variacao media por tempo: 0.0002222222222222101
+          es.energia_ativa:
+              maximo: 36.0,  minimo: 34.0,  media: 34.7,   variacao media por tempo: 0.2222222222222222
+          es.energia_reativa:
+              maximo: 9279.0,  minimo: 9279.0,  media: 9279.0,   variacao media por tempo: 0.0
+          es.energia_aparente:
+              maximo: 993.0,  minimo: 991.0,  media: 991.9,   variacao media por tempo: 0.2222222222222222
+   Motor Ligado em 60hz:
+       [0]:
+          es.encoder:
+              maximo: 1699.0,  minimo: 1247.0,  media: 1630.2,   variacao media por tempo: 47.44444444444444
+          es.torque:
+              maximo: 0.06,  minimo: 0.01,  media: 0.041,   variacao media por tempo: 0.005555555555555555
+          es.temp_r:
+              maximo: 50.2,  minimo: 48.5,  media: 49.21,   variacao media por tempo: 0.18888888888888922
+          es.temp_s:
+              maximo: 39.4,  minimo: 37.5,  media: 38.46,   variacao media por tempo: 0.21111111111111094
+          es.temp_t:
+              maximo: 44.8,  minimo: 43.0,  media: 43.82,   variacao media por tempo: 0.19999999999999968
+          es.temp_carc:
+              maximo: 32.9,  minimo: 32.2,  media: 32.56,   variacao media por tempo: 0.07777777777777731
+          es.demanda_anterior:
+              maximo: 112.0,  minimo: 101.0,  media: 105.7,   variacao media por tempo: 1.2222222222222223
+          es.demanda_atual:
+              maximo: 112.0,  minimo: 101.0,  media: 105.7,   variacao media por tempo: 1.2222222222222223
+          es.demanda_media:
+              maximo: 350.0,  minimo: 198.0,  media: 292.3,   variacao media por tempo: 16.88888888888889
+          es.demanda_pico:
+              maximo: 376.0,  minimo: 238.0,  media: 349.2,   variacao media por tempo: 13.88888888888889
+          es.demanda_prevista:
+              maximo: 255.0,  minimo: 255.0,  media: 255.0,   variacao media por tempo: 0.0
+          es.frequencia:
+              maximo: 59.94,  minimo: 59.93,  media: 59.934000000000005,   variacao media por tempo: 0.0
+          es.thd_tensao_rn:
+              maximo: 2.3,  minimo: 2.2,  media: 2.27,   variacao media por tempo: 0.0
+          es.thd_tensao_sn:
+              maximo: 3.0,  minimo: 2.9,  media: 2.95,   variacao media por tempo: -0.01111111111111112
+          es.thd_tensao_tn:
+              maximo: 2.3,  minimo: 2.2,  media: 2.22,   variacao media por tempo: -0.011111111111111072
+          es.thd_tensao_rs:
+              maximo: 1.6,  minimo: 1.5,  media: 1.58,   variacao media por tempo: 0.0
+          es.thd_tensao_st:
+              maximo: 1.7,  minimo: 1.6,  media: 1.6600000000000001,   variacao media por tempo: 0.011111111111111096
+          es.thd_tensao_tr:
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0
+          es.thd_corrente_r:
+              maximo: 149.3,  minimo: 127.4,  media: 133.81,   variacao media por tempo: -1.9222222222222234
+          es.thd_corrente_s:
+              maximo: 139.7,  minimo: 129.0,  media: 133.16,   variacao media por tempo: -0.7999999999999987
+          es.thd_corrente_t:
+              maximo: 167.0,  minimo: 143.3,  media: 148.14000000000001,   variacao media por tempo: -2.477777777777779
+          es.thd_corrente_n:
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0
+          es.corrente_r:
+              maximo: 1.97,  minimo: 1.47,  media: 1.886,   variacao media por tempo: 0.05333333333333333
+          es.corrente_s:
+              maximo: 2.02,  minimo: 1.52,  media: 1.934,   variacao media por tempo: 0.05444444444444442
+          es.corrente_t:
+              maximo: 1.28,  minimo: 0.74,  media: 1.184,   variacao media por tempo: 0.05777777777777778
+          es.corrente_n:
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          es.corrente_media:
+              maximo: 1.75,  minimo: 1.24,  media: 1.6669999999999998,   variacao media por tempo: 0.05555555555555555
+          es.tensao_rs:
+              maximo: 220.0,  minimo: 219.6,  media: 219.69,   variacao media por tempo: -0.033333333333334596
+          es.tensao_st:
+              maximo: 217.9,  minimo: 217.5,  media: 217.65,   variacao media por tempo: -0.022222222222224117
+          es.tensao_tr:
+              maximo: 216.8,  minimo: 216.3,  media: 216.57,   variacao media por tempo: -0.022222222222224117
+          es.ativa_r:
+              maximo: 149.0,  minimo: 99.0,  media: 139.5,   variacao media por tempo: 5.222222222222222
+          es.ativa_s:
+              maximo: 145.0,  minimo: 100.0,  media: 137.0,   variacao media por tempo: 5.0
+          es.ativa_t:
+              maximo: 90.0,  minimo: 50.0,  media: 82.0,   variacao media por tempo: 4.222222222222222
+          es.ativa_total:
+              maximo: 381.0,  minimo: 249.0,  media: 358.5,   variacao media por tempo: 14.444444444444445
+          es.reativa_r:
+              maximo: 199.0,  minimo: 150.0,  media: 190.4,   variacao media por tempo: 5.111111111111111
+          es.reativa_s:
+              maximo: 65376.0,  minimo: 65326.0,  media: 65334.7,   variacao media por tempo: -5.444444444444445
+          es.reativa_t:
+              maximo: 65451.0,  minimo: 65402.0,  media: 65411.1,   variacao media por tempo: -5.111111111111111
+          es.reativa_total:
+              maximo: 65440.0,  minimo: 65391.0,  media: 65400.2,   variacao media por tempo: -5.222222222222222
+          es.aparente_r:
+              maximo: 248.0,  minimo: 205.0,  media: 238.7,   variacao media por tempo: 4.444444444444445
+          es.aparente_s:
+              maximo: 256.0,  minimo: 215.0,  media: 246.2,   variacao media por tempo: 4.333333333333333
+          es.aparente_t:
+              maximo: 161.0,  minimo: 127.0,  media: 152.2,   variacao media por tempo: 3.4444444444444446
+          es.aparente_total:
+              maximo: 408.0,  minimo: 325.0,  media: 389.2,   variacao media por tempo: 8.88888888888889
+          es.fp_r:
+              maximo: 0.599,  minimo: 0.57,  media: 0.5928,   variacao media por tempo: 0.0030000000000000027
+          es.fp_s:
+              maximo: 0.57,  minimo: 0.549,  media: 0.5631999999999999,   variacao media por tempo: 0.002333333333333323
+          es.fp_t:
+              maximo: 0.559,  minimo: 0.524,  media: 0.5492000000000001,   variacao media por tempo: 0.00366666666666667
+          es.fp_total:
+              maximo: 0.939,  minimo: 0.93,  media: 0.9349000000000001,   variacao media por tempo: 0.0005555555555555561
+          es.energia_ativa:
+              maximo: 40.0,  minimo: 36.0,  media: 38.0,   variacao media por tempo: 0.4444444444444444
+          es.energia_reativa:
+              maximo: 9279.0,  minimo: 9279.0,  media: 9279.0,   variacao media por tempo: 0.0
+          es.energia_aparente:
+              maximo: 997.0,  minimo: 993.0,  media: 995.2,   variacao media por tempo: 0.4444444444444444
+

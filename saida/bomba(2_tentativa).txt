@@ -1,0 +1,1934 @@
+Bomba Azul:
+Partida Direta:
+   Motor Desligado:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 52.6,  minimo: 52.4,  media: 52.5,   variacao media por tempo: -0.02222222222222254
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 54.0,  minimo: 53.9,  media: 53.94,   variacao media por tempo: -0.01111111111111127
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 53.3,  minimo: 53.1,  media: 53.19,   variacao media por tempo: -0.022222222222221748
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 44.5,  minimo: 44.3,  media: 44.32,   variacao media por tempo: 0.02222222222222254
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 0.10000000149011612,  minimo: 0.10000000149011612,  media: 0.10000000149011612,   variacao media por tempo: 0.0***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 0.30000001192092896,  minimo: 0.30000001192092896,  media: 0.30000001192092896,   variacao media por tempo: 0.0***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 8.300000190734863,  minimo: 8.199999809265137,  media: 8.239999961853027,   variacao media por tempo: 0.011111153496636285
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 16.8,  minimo: 16.8,  media: 16.8,   variacao media por tempo: 0.0***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 16.8,  minimo: 16.8,  media: 16.8,   variacao media por tempo: 0.0***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 0.5,  minimo: 0.1,  media: 0.3,   variacao media por tempo: -0.044444444444444446***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 60.0,  minimo: 59.98,  media: 59.984,   variacao media por tempo: -0.0022222222222225696
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 1.9,  minimo: 1.7,  media: 1.8,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.2,  minimo: 2.1,  media: 2.1100000000000003,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 1.9,  minimo: 1.8,  media: 1.8699999999999999,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.4,  minimo: 1.3,  media: 1.39,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.3,  minimo: 1.2,  media: 1.27,   variacao media por tempo: -0.01111111111111112***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 220.4,  minimo: 220.2,  media: 220.26999999999998,   variacao media por tempo: 0.0***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 223.8,  minimo: 223.6,  media: 223.69,   variacao media por tempo: -0.022222222222224117***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 221.4,  minimo: 221.0,  media: 221.19,   variacao media por tempo: -0.033333333333334596***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 870.0,  minimo: 870.0,  media: 870.0,   variacao media por tempo: 0.0***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5609.0,  minimo: 5609.0,  media: 5609.0,   variacao media por tempo: 0.0***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5547.0,  minimo: 5547.0,  media: 5547.0,   variacao media por tempo: 0.0***********
+   Motor Ligado:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 3394.0,  minimo: 0.0,  media: 3054.6,   variacao media por tempo: 377.1111111111111
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 1.933249831199646,  minimo: 0.0,  media: 1.7242498755455018,   variacao media por tempo: 0.20899999141693115***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 52.4,  minimo: 52.3,  media: 52.31,   variacao media por tempo: 0.01111111111111127
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 53.8,  minimo: 53.5,  media: 53.629999999999995,   variacao media por tempo: -0.03333333333333302
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 53.0,  minimo: 52.9,  media: 52.92999999999999,   variacao media por tempo: -0.01111111111111127
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 44.7,  minimo: 44.5,  media: 44.56,   variacao media por tempo: 0.02222222222222254
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 2.4000000953674316,  minimo: 2.4000000953674316,  media: 2.4000000953674316,   variacao media por tempo: 0.0***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 3.5,  minimo: 3.5,  media: 3.5,   variacao media por tempo: 0.0***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 22.100000381469727,  minimo: 10.600000381469727,  media: 16.19999990463257,   variacao media por tempo: 1.2777777777777777
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 18.8,  minimo: 16.8,  media: 17.4,   variacao media por tempo: 0.2222222222222222***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 18.8,  minimo: 16.8,  media: 17.4,   variacao media por tempo: 0.2222222222222222***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 95.0,  minimo: 26.1,  media: 60.92999999999999,   variacao media por tempo: 7.655555555555556***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 126.0,  minimo: 114.9,  media: 124.21,   variacao media por tempo: 1.1999999999999997***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 60.0,  minimo: 59.98,  media: 59.989,   variacao media por tempo: 0.0011111111111116794
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 1.9,  minimo: 1.8,  media: 1.81,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.1,  minimo: 2.1,  media: 2.1,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 1.9,  minimo: 1.9,  media: 1.9,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.4,  minimo: 1.3,  media: 1.39,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.4,  minimo: 1.3,  media: 1.39,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.3,  minimo: 1.3,  media: 1.3,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 6.2,  minimo: 2.6,  media: 3.18,   variacao media por tempo: -0.3666666666666667***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 2.6,  minimo: 2.1,  media: 2.45,   variacao media por tempo: 0.04444444444444443***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 2.8,  minimo: 1.6,  media: 2.04,   variacao media por tempo: -0.07777777777777775***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 114.6,  media: 2960.5800000000004,   variacao media por tempo: 351.3555555555556***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 3.4,  minimo: 0.0,  media: 3.0599999999999996,   variacao media por tempo: 0.37777777777777777***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 3.8,  minimo: 0.0,  media: 3.4199999999999995,   variacao media por tempo: 0.4222222222222222***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 3.7,  minimo: 0.0,  media: 3.3300000000000005,   variacao media por tempo: 0.41111111111111115***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 3.7,  minimo: 0.0,  media: 3.3,   variacao media por tempo: 0.4***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 219.0,  minimo: 218.9,  media: 218.98000000000002,   variacao media por tempo: 0.01111111111111048***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 222.3,  minimo: 222.1,  media: 222.18,   variacao media por tempo: -0.022222222222224117***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 219.7,  minimo: 219.5,  media: 219.57,   variacao media por tempo: -0.01111111111111048***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 397.0,  minimo: 45.0,  media: 361.1,   variacao media por tempo: 38.888888888888886***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 445.0,  minimo: 39.0,  media: 403.8,   variacao media por tempo: 44.888888888888886***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 420.0,  minimo: 30.0,  media: 380.0,   variacao media por tempo: 43.22222222222222***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 1262.0,  minimo: 114.0,  media: 1144.9,   variacao media por tempo: 127.0***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 383.0,  minimo: 179.0,  media: 199.4,   variacao media por tempo: -22.666666666666668***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 389.0,  minimo: 192.0,  media: 212.7,   variacao media por tempo: -21.88888888888889***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 356.0,  minimo: 223.0,  media: 236.7,   variacao media por tempo: -14.777777777777779***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 1129.0,  minimo: 594.0,  media: 648.9,   variacao media por tempo: -59.44444444444444***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 436.0,  minimo: 386.0,  media: 430.2,   variacao media por tempo: 5.333333333333333***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 486.0,  minimo: 391.0,  media: 475.1,   variacao media por tempo: 10.11111111111111***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 476.0,  minimo: 357.0,  media: 462.6,   variacao media por tempo: 13.0***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 1396.0,  minimo: 1134.0,  media: 1367.3,   variacao media por tempo: 28.444444444444443***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 0.912,  minimo: 0.115,  media: 0.752,   variacao media por tempo: 0.08844444444444445***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 0.918,  minimo: 0.101,  media: 0.7541,   variacao media por tempo: 0.09077777777777779***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 0.884,  minimo: 0.085,  media: 0.7234,   variacao media por tempo: 0.08877777777777779***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 0.904,  minimo: 0.101,  media: 0.7434000000000001,   variacao media por tempo: 0.08922222222222223***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 877.0,  minimo: 871.0,  media: 873.9,   variacao media por tempo: 0.6666666666666666***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5612.0,  minimo: 5611.0,  media: 5611.7,   variacao media por tempo: 0.1111111111111111***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5556.0,  minimo: 5549.0,  media: 5551.7,   variacao media por tempo: 0.7777777777777778***********
+
+Partida Soft:
+   Motor Desligado:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 52.9,  minimo: 52.4,  media: 52.7,   variacao media por tempo: 0.05555555555555555
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 53.9,  minimo: 53.5,  media: 53.720000000000006,   variacao media por tempo: 0.04444444444444429
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 53.4,  minimo: 52.9,  media: 53.19,   variacao media por tempo: 0.05555555555555555
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 45.0,  minimo: 44.7,  media: 44.89,   variacao media por tempo: 0.03333333333333302
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 0.10000000149011612,  minimo: 0.10000000149011612,  media: 0.10000000149011612,   variacao media por tempo: 0.0***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 0.30000001192092896,  minimo: 0.30000001192092896,  media: 0.30000001192092896,   variacao media por tempo: 0.0***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 21.799999237060547,  minimo: 16.399999618530273,  media: 18.899999809265136,   variacao media por tempo: -0.5999999576144748
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 20.1,  minimo: 18.8,  media: 19.84,   variacao media por tempo: 0.14444444444444451***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 20.1,  minimo: 18.8,  media: 19.84,   variacao media por tempo: 0.14444444444444451***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 86.6,  minimo: 26.8,  media: 51.56999999999999,   variacao media por tempo: -6.644444444444443***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 6553.5,  minimo: 0.0,  media: 2627.43,   variacao media por tempo: 724.9444444444445***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 60.01,  minimo: 59.98,  media: 60.0,   variacao media por tempo: 0.0033333333333334597
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 1.9,  minimo: 1.8,  media: 1.8399999999999999,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.2,  minimo: 2.1,  media: 2.1100000000000003,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 1.9,  minimo: 1.8,  media: 1.8800000000000001,   variacao media por tempo: -0.011111111111111096***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.4,  minimo: 1.3,  media: 1.38,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.4,  minimo: 1.3,  media: 1.3599999999999999,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.3,  minimo: 1.3,  media: 1.3,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 3276.8,  minimo: 138.3,  media: 474.08000000000004,   variacao media por tempo: -348.0777777777778***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 3276.8,  minimo: 112.8,  media: 454.45,   variacao media por tempo: -349.6111111111111***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 3276.8,  minimo: 101.6,  media: 446.91999999999996,   variacao media por tempo: -344.0111111111111***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 220.8,  minimo: 220.5,  media: 220.55,   variacao media por tempo: 0.033333333333334596***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 224.0,  minimo: 223.9,  media: 223.94,   variacao media por tempo: -0.01111111111111048***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 221.6,  minimo: 221.5,  media: 221.53000000000003,   variacao media por tempo: 0.0***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 65535.0,  minimo: 0.0,  media: 45874.5,   variacao media por tempo: 7281.666666666667***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 65533.0,  minimo: 0.0,  media: 45873.1,   variacao media por tempo: 7281.444444444444***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 65533.0,  minimo: 65527.0,  media: 65531.2,   variacao media por tempo: 0.6666666666666666***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 65533.0,  minimo: 0.0,  media: 45873.1,   variacao media por tempo: 7281.444444444444***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 65527.0,  minimo: 65526.0,  media: 65526.2,   variacao media por tempo: -0.1111111111111111***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 3.0,  minimo: 0.0,  media: 2.4,   variacao media por tempo: 0.3333333333333333***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 9.0,  minimo: 3.0,  media: 4.2,   variacao media por tempo: -0.6666666666666666***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 3.0,  minimo: 0.0,  media: 2.4,   variacao media por tempo: 0.3333333333333333***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 10.0,  minimo: 9.0,  media: 9.8,   variacao media por tempo: 0.1111111111111111***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 32.857,  minimo: 1.0,  media: 26.480200000000004,   variacao media por tempo: 0.002555555555555126***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 32.852,  minimo: 0.042,  media: 29.563,   variacao media por tempo: 3.6447777777777777***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 32.819,  minimo: 0.037,  media: 19.6959,   variacao media por tempo: -3.6402222222222225***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 32.836,  minimo: 32.813,  media: 32.830200000000005,   variacao media por tempo: 0.0023333333333334216***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 878.0,  minimo: 878.0,  media: 878.0,   variacao media por tempo: 0.0***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5614.0,  minimo: 5614.0,  media: 5614.0,   variacao media por tempo: 0.0***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5557.0,  minimo: 5557.0,  media: 5557.0,   variacao media por tempo: 0.0***********
+   Motor Ligado:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 53.2,  minimo: 53.0,  media: 53.13000000000001,   variacao media por tempo: 0.02222222222222254
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 54.2,  minimo: 53.9,  media: 54.08,   variacao media por tempo: 0.033333333333333805
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 53.7,  minimo: 53.4,  media: 53.589999999999996,   variacao media por tempo: 0.033333333333333805
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 45.2,  minimo: 45.0,  media: 45.1,   variacao media por tempo: 0.01111111111111127
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 0.10000000149011612,  minimo: 0.10000000149011612,  media: 0.10000000149011612,   variacao media por tempo: 0.0***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 0.30000001192092896,  minimo: 0.30000001192092896,  media: 0.30000001192092896,   variacao media por tempo: 0.0***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 14.899999618530273,  minimo: 11.100000381469727,  media: 12.760000038146973,   variacao media por tempo: -0.3999999364217122
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 20.1,  minimo: 20.1,  media: 20.1,   variacao media por tempo: 0.0***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 20.1,  minimo: 20.1,  media: 20.1,   variacao media por tempo: 0.0***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 16.5,  minimo: 5.8,  media: 9.91,   variacao media por tempo: -1.188888888888889***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 6553.5,  minimo: 6553.5,  media: 6553.5,   variacao media por tempo: 0.0***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 60.02,  minimo: 60.0,  media: 60.011,   variacao media por tempo: 0.0022222222222225696
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 1.9,  minimo: 1.8,  media: 1.8800000000000001,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.1,  minimo: 2.0,  media: 2.08,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 1.9,  minimo: 1.8,  media: 1.86,   variacao media por tempo: 0.011111111111111096***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.4,  minimo: 1.3,  media: 1.3599999999999999,   variacao media por tempo: -0.011111111111111096***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.3,  minimo: 1.3,  media: 1.3,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 155.2,  minimo: 119.9,  media: 131.82,   variacao media por tempo: -2.8555555555555543***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 174.5,  minimo: 127.2,  media: 149.29000000000002,   variacao media por tempo: 2.755555555555557***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 147.4,  minimo: 121.3,  media: 130.54000000000002,   variacao media por tempo: -0.7444444444444448***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 220.8,  minimo: 220.5,  media: 220.64000000000001,   variacao media por tempo: -0.033333333333334596***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 224.1,  minimo: 223.9,  media: 224.01,   variacao media por tempo: -0.02222222222222096***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 221.7,  minimo: 221.5,  media: 221.62999999999997,   variacao media por tempo: -0.01111111111111048***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 65535.0,  minimo: 0.0,  media: 52428.0,   variacao media por tempo: -7281.666666666667***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 65533.0,  minimo: 0.0,  media: 52426.4,   variacao media por tempo: -7281.444444444444***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 65530.0,  minimo: 65526.0,  media: 65527.3,   variacao media por tempo: 0.3333333333333333***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 3.0,  minimo: 0.0,  media: 2.4,   variacao media por tempo: -0.3333333333333333***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 10.0,  minimo: 6.0,  media: 8.8,   variacao media por tempo: -0.3333333333333333***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 32.876,  minimo: 32.859,  media: 32.868700000000004,   variacao media por tempo: -0.001000000000000038***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 32.865,  minimo: 32.85,  media: 32.8544,   variacao media por tempo: 0.0***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 32.81,  minimo: 0.029,  media: 22.9765,   variacao media por tempo: 3.641***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 32.845,  minimo: 32.832,  media: 32.8421,   variacao media por tempo: -0.0002222222222217043***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 878.0,  minimo: 878.0,  media: 878.0,   variacao media por tempo: 0.0***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5614.0,  minimo: 5614.0,  media: 5614.0,   variacao media por tempo: 0.0***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5557.0,  minimo: 5557.0,  media: 5557.0,   variacao media por tempo: 0.0***********
+
+Partida Inversora:
+   Motor Desligado:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 0.05224999785423279,  minimo: 0.0,  media: 0.04702499806880951,   variacao media por tempo: 0.005805555317136977***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 53.3,  minimo: 53.1,  media: 53.2,   variacao media por tempo: -0.01111111111111048
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 54.2,  minimo: 54.2,  media: 54.2,   variacao media por tempo: 0.0
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 53.7,  minimo: 53.6,  media: 53.69,   variacao media por tempo: 0.0
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 45.3,  minimo: 45.1,  media: 45.21,   variacao media por tempo: 0.01111111111111048
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 0.0,  media: 0.6,   variacao media por tempo: -0.1111111111111111
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 0.10000000149011612,  minimo: 0.10000000149011612,  media: 0.10000000149011612,   variacao media por tempo: 0.0***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 0.30000001192092896,  minimo: 0.30000001192092896,  media: 0.30000001192092896,   variacao media por tempo: 0.0***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 10.100000381469727,  minimo: 8.199999809265137,  media: 8.780000019073487,   variacao media por tempo: -0.21111117468939888
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 20.1,  minimo: 20.1,  media: 20.1,   variacao media por tempo: 0.0***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 20.1,  minimo: 20.1,  media: 20.1,   variacao media por tempo: 0.0***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 3.3,  minimo: 1.3,  media: 2.45,   variacao media por tempo: -0.2222222222222222***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 3.3,  minimo: 0.3,  media: 1.52,   variacao media por tempo: -0.3333333333333333***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 60.01,  minimo: 60.0,  media: 60.007999999999996,   variacao media por tempo: 0.0
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 2.0,  minimo: 1.9,  media: 1.95,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.2,  minimo: 2.1,  media: 2.1100000000000003,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 2.0,  minimo: 1.8,  media: 1.9300000000000002,   variacao media por tempo: -0.022222222222222216***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.4,  minimo: 1.3,  media: 1.35,   variacao media por tempo: -0.011111111111111096***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 3276.8,  minimo: 104.1,  media: 885.6200000000001,   variacao media por tempo: 24.09999999999996***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 240.8,  minimo: 170.4,  media: 207.99,   variacao media por tempo: 1.8666666666666647***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 297.8,  minimo: 124.6,  media: 241.76999999999998,   variacao media por tempo: 14.322222222222223***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 0.1,  minimo: 0.0,  media: 0.04,   variacao media por tempo: 0.0***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 0.1,  minimo: 0.0,  media: 0.02,   variacao media por tempo: 0.0***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 0.1,  minimo: 0.0,  media: 0.09,   variacao media por tempo: 0.011111111111111112***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 0.1,  minimo: 0.0,  media: 0.09,   variacao media por tempo: 0.011111111111111112***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 220.8,  minimo: 220.6,  media: 220.70999999999998,   variacao media por tempo: -0.01111111111111048***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 224.2,  minimo: 224.1,  media: 224.16,   variacao media por tempo: 0.01111111111111048***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 221.8,  minimo: 221.8,  media: 221.8,   variacao media por tempo: 0.0***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 1.0,  minimo: 0.0,  media: 0.5,   variacao media por tempo: 0.1111111111111111***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 1.0,  minimo: 0.0,  media: 0.8,   variacao media por tempo: 0.1111111111111111***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 3.0,  minimo: 0.0,  media: 2.1,   variacao media por tempo: 0.2222222222222222***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 65535.0,  minimo: 3.0,  media: 6557.0,   variacao media por tempo: -7281.222222222223***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 65533.0,  minimo: 0.0,  media: 39317.5,   variacao media por tempo: -0.2222222222222222***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 65533.0,  minimo: 65529.0,  media: 65529.7,   variacao media por tempo: -0.4444444444444444***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 65533.0,  minimo: 65526.0,  media: 65528.5,   variacao media por tempo: -0.4444444444444444***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 65526.0,  minimo: 65511.0,  media: 65518.3,   variacao media por tempo: -1.0***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 9.0,  minimo: 0.0,  media: 4.1,   variacao media por tempo: 0.2222222222222222***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 7.0,  minimo: 3.0,  media: 6.4,   variacao media por tempo: 0.4444444444444444***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 10.0,  minimo: 3.0,  media: 7.8,   variacao media por tempo: 0.4444444444444444***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 26.0,  minimo: 10.0,  media: 18.8,   variacao media por tempo: 1.0***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 32.867,  minimo: 32.867,  media: 32.867,   variacao media por tempo: 0.0***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 32.85,  minimo: 32.85,  media: 32.85,   variacao media por tempo: 0.0***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 32.81,  minimo: 32.81,  media: 32.81,   variacao media por tempo: 0.0***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 32.843,  minimo: 32.843,  media: 32.843,   variacao media por tempo: 0.0***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 878.0,  minimo: 878.0,  media: 878.0,   variacao media por tempo: 0.0***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5614.0,  minimo: 5614.0,  media: 5614.0,   variacao media por tempo: 0.0***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5557.0,  minimo: 5557.0,  media: 5557.0,   variacao media por tempo: 0.0***********
+   Motor Ligado em 0hz:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 0.05224999785423279,  minimo: 0.0,  media: 0.04702499806880951,   variacao media por tempo: 0.005805555317136977***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 53.3,  minimo: 53.1,  media: 53.19,   variacao media por tempo: -0.01111111111111127
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 54.2,  minimo: 54.1,  media: 54.15,   variacao media por tempo: -0.01111111111111127
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 53.7,  minimo: 53.6,  media: 53.65,   variacao media por tempo: -0.01111111111111127
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 45.4,  minimo: 45.3,  media: 45.339999999999996,   variacao media por tempo: 0.01111111111111127
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 0.10000000149011612,  minimo: 0.10000000149011612,  media: 0.10000000149011612,   variacao media por tempo: 0.0***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 0.30000001192092896,  minimo: 0.30000001192092896,  media: 0.30000001192092896,   variacao media por tempo: 0.0***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 8.300000190734863,  minimo: 8.199999809265137,  media: 8.229999923706055,   variacao media por tempo: 0.0
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 20.1,  minimo: 20.1,  media: 20.1,   variacao media por tempo: 0.0***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 20.1,  minimo: 20.1,  media: 20.1,   variacao media por tempo: 0.0***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 1.0,  minimo: 0.6,  media: 0.77,   variacao media por tempo: -0.044444444444444446***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 0.4,  minimo: 0.3,  media: 0.38,   variacao media por tempo: 0.011111111111111115***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 59.99,  minimo: 59.98,  media: 59.989,   variacao media por tempo: 0.0
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 1.9,  minimo: 1.9,  media: 1.9,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.1,  minimo: 2.0,  media: 2.07,   variacao media por tempo: -0.01111111111111112***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 2.0,  minimo: 1.9,  media: 1.9099999999999997,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.5,  minimo: 1.4,  media: 1.43,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.3,  minimo: 1.3,  media: 1.3,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 288.0,  minimo: 239.3,  media: 260.83000000000004,   variacao media por tempo: -2.6444444444444457***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 217.4,  minimo: 197.6,  media: 203.4,   variacao media por tempo: 2.122222222222222***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 401.5,  minimo: 261.7,  media: 295.34000000000003,   variacao media por tempo: 15.533333333333335***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 0.1,  minimo: 0.1,  media: 0.1,   variacao media por tempo: 0.0***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 0.1,  minimo: 0.1,  media: 0.1,   variacao media por tempo: 0.0***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 0.1,  minimo: 0.0,  media: 0.09,   variacao media por tempo: 0.011111111111111112***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 221.0,  minimo: 220.5,  media: 220.6,   variacao media por tempo: 0.05555555555555555***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 224.3,  minimo: 224.1,  media: 224.14000000000001,   variacao media por tempo: 0.022222222222224117***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 222.0,  minimo: 221.7,  media: 221.76,   variacao media por tempo: 0.033333333333334596***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 1.0,  minimo: 0.0,  media: 0.6,   variacao media por tempo: -0.1111111111111111***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 2.0,  minimo: 2.0,  media: 2.0,   variacao media por tempo: 0.0***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 4.0,  minimo: 3.0,  media: 3.7,   variacao media por tempo: -0.1111111111111111***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 65531.0,  minimo: 0.0,  media: 45871.7,   variacao media por tempo: -7281.222222222223***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 65530.0,  minimo: 65529.0,  media: 65529.3,   variacao media por tempo: 0.1111111111111111***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 65529.0,  minimo: 65529.0,  media: 65529.0,   variacao media por tempo: 0.0***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 65523.0,  minimo: 65517.0,  media: 65518.6,   variacao media por tempo: 0.6666666666666666***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 5.0,  minimo: 0.0,  media: 3.5,   variacao media por tempo: -0.5555555555555556***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 7.0,  minimo: 6.0,  media: 6.9,   variacao media por tempo: -0.1111111111111111***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 7.0,  minimo: 7.0,  media: 7.0,   variacao media por tempo: 0.0***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 19.0,  minimo: 14.0,  media: 17.0,   variacao media por tempo: -0.5555555555555556***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 32.867,  minimo: 0.083,  media: 6.7408,   variacao media por tempo: -0.011000000000000417***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 32.85,  minimo: 0.113,  media: 3.4062000000000006,   variacao media por tempo: -3.637444444444444***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 32.81,  minimo: 0.273,  media: 3.5333000000000006,   variacao media por tempo: -3.614777777777777***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 32.843,  minimo: 0.183,  media: 3.4560000000000004,   variacao media por tempo: -3.626666666666667***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 878.0,  minimo: 878.0,  media: 878.0,   variacao media por tempo: 0.0***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5614.0,  minimo: 5614.0,  media: 5614.0,   variacao media por tempo: 0.0***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5557.0,  minimo: 5557.0,  media: 5557.0,   variacao media por tempo: 0.0***********
+   Motor Ligado em 30hz:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 1800.0,  minimo: 1800.0,  media: 1800.0,   variacao media por tempo: 0.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 10.0,  minimo: 0.0,  media: 6.0,   variacao media por tempo: -1.1111111111111112
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 0.6269999742507935,  minimo: 0.6269999742507935,  media: 0.6269999742507935,   variacao media por tempo: 0.0***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 55.0,  minimo: 53.4,  media: 54.279999999999994,   variacao media por tempo: 0.17777777777777792
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 54.0,  minimo: 53.7,  media: 53.9,   variacao media por tempo: -0.02222222222222254
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 54.4,  minimo: 53.7,  media: 54.08,   variacao media por tempo: 0.07777777777777731
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 45.5,  minimo: 45.3,  media: 45.44,   variacao media por tempo: 0.02222222222222254
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 0.0,  media: 0.8,   variacao media por tempo: 0.1111111111111111
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 0.6000000238418579,  minimo: 0.5,  media: 0.5900000214576722,   variacao media por tempo: 0.011111113760206435***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 1.600000023841858,  minimo: 1.600000023841858,  media: 1.600000023841858,   variacao media por tempo: 0.0***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 12.100000381469727,  minimo: 8.199999809265137,  media: 10.109999942779542,   variacao media por tempo: 0.4333333969116211
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 20.5,  minimo: 20.1,  media: 20.18,   variacao media por tempo: 0.04444444444444429***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 20.5,  minimo: 20.1,  media: 20.18,   variacao media por tempo: 0.04444444444444429***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 17.8,  minimo: 1.5,  media: 10.97,   variacao media por tempo: 1.8111111111111111***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 23.3,  minimo: 7.5,  media: 20.09,   variacao media por tempo: 1.7555555555555555***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 59.99,  minimo: 59.99,  media: 59.989999999999995,   variacao media por tempo: 0.0
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 1.8,  minimo: 1.8,  media: 1.8,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.2,  minimo: 2.1,  media: 2.18,   variacao media por tempo: -0.01111111111111112***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 2.0,  minimo: 1.9,  media: 1.95,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.6,  minimo: 1.5,  media: 1.51,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.4,  minimo: 1.3,  media: 1.31,   variacao media por tempo: 0.011111111111111096***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 187.1,  minimo: 175.8,  media: 181.1,   variacao media por tempo: 0.8777777777777752***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 162.9,  minimo: 155.1,  media: 157.92000000000002,   variacao media por tempo: 0.3333333333333333***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 141.7,  minimo: 138.8,  media: 140.07,   variacao media por tempo: 0.05555555555555555***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 1.1,  minimo: 1.1,  media: 1.1,   variacao media por tempo: 0.0***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 1.5,  minimo: 1.4,  media: 1.46,   variacao media por tempo: 0.0***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 1.2,  minimo: 1.2,  media: 1.2,   variacao media por tempo: 0.0***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 220.9,  minimo: 220.7,  media: 220.75,   variacao media por tempo: 0.01111111111111048***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 224.0,  minimo: 223.8,  media: 223.85999999999999,   variacao media por tempo: 0.01111111111111048***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 221.6,  minimo: 221.4,  media: 221.51,   variacao media por tempo: 0.0***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 68.0,  minimo: 66.0,  media: 66.9,   variacao media por tempo: -0.1111111111111111***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 60.0,  minimo: 56.0,  media: 57.9,   variacao media por tempo: 0.4444444444444444***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 109.0,  minimo: 105.0,  media: 106.7,   variacao media por tempo: 0.1111111111111111***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 234.0,  minimo: 230.0,  media: 231.7,   variacao media por tempo: 0.4444444444444444***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 126.0,  minimo: 124.0,  media: 125.5,   variacao media por tempo: -0.2222222222222222***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 65426.0,  minimo: 65423.0,  media: 65424.5,   variacao media por tempo: 0.1111111111111111***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 65385.0,  minimo: 65381.0,  media: 65383.0,   variacao media por tempo: 0.2222222222222222***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 65399.0,  minimo: 65394.0,  media: 65397.3,   variacao media por tempo: 0.1111111111111111***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 143.0,  minimo: 141.0,  media: 142.3,   variacao media por tempo: -0.2222222222222222***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 128.0,  minimo: 124.0,  media: 125.7,   variacao media por tempo: 0.2222222222222222***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 189.0,  minimo: 185.0,  media: 186.6,   variacao media por tempo: -0.1111111111111111***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 273.0,  minimo: 268.0,  media: 270.2,   variacao media por tempo: 0.3333333333333333***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 0.476,  minimo: 0.463,  media: 0.4697,   variacao media por tempo: -0.0013333333333333283***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 0.466,  minimo: 0.451,  media: 0.4561,   variacao media por tempo: 0.001666666666666668***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 0.576,  minimo: 0.568,  media: 0.572,   variacao media por tempo: 0.0008888888888888897***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 0.858,  minimo: 0.856,  media: 0.8571,   variacao media por tempo: -0.00011111111111111121***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 880.0,  minimo: 879.0,  media: 879.2,   variacao media por tempo: 0.1111111111111111***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5614.0,  minimo: 5614.0,  media: 5614.0,   variacao media por tempo: 0.0***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5559.0,  minimo: 5557.0,  media: 5558.0,   variacao media por tempo: 0.2222222222222222***********
+   Motor Ligado em 60hz:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 3600.0,  minimo: 3600.0,  media: 3600.0,   variacao media por tempo: 0.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 10.0,  minimo: 0.0,  media: 1.0,   variacao media por tempo: 1.1111111111111112
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 2.76924991607666,  minimo: 2.5602498054504395,  media: 2.727449893951416,   variacao media por tempo: 0.023222234514024522***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 55.1,  minimo: 54.8,  media: 54.92999999999999,   variacao media por tempo: 0.033333333333333805
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 54.0,  minimo: 53.7,  media: 53.85,   variacao media por tempo: 0.01111111111111127
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 54.5,  minimo: 54.2,  media: 54.36,   variacao media por tempo: 0.02222222222222254
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 45.9,  minimo: 45.5,  media: 45.62,   variacao media por tempo: 0.03333333333333302
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 2.5,  minimo: 2.4000000953674316,  media: 2.490000009536743,   variacao media por tempo: 0.011111100514729818***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 3.5999999046325684,  minimo: 3.5,  media: 3.5899999141693115,   variacao media por tempo: 0.011111100514729818***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 25.899999618530273,  minimo: 15.600000381469727,  media: 21.23000011444092,   variacao media por tempo: 1.1444443596733942
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 21.7,  minimo: 20.5,  media: 21.34,   variacao media por tempo: 0.13333333333333325***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 21.7,  minimo: 20.5,  media: 21.34,   variacao media por tempo: 0.13333333333333325***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 84.9,  minimo: 20.3,  media: 67.83000000000001,   variacao media por tempo: 7.177777777777779***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 142.6,  minimo: 32.1,  media: 127.99000000000001,   variacao media por tempo: 12.277777777777777***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 60.02,  minimo: 60.0,  media: 60.00599999999999,   variacao media por tempo: 0.0022222222222225696
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 1.9,  minimo: 1.7,  media: 1.8800000000000001,   variacao media por tempo: 0.022222222222222216***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.5,  minimo: 2.3,  media: 2.4099999999999997,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 2.2,  minimo: 2.1,  media: 2.18,   variacao media por tempo: -0.01111111111111112***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.6,  minimo: 1.5,  media: 1.59,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.9,  minimo: 1.8,  media: 1.85,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.5,  minimo: 1.4,  media: 1.49,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 103.0,  minimo: 101.6,  media: 102.21000000000001,   variacao media por tempo: 0.1222222222222216***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 96.1,  minimo: 93.8,  media: 94.72999999999999,   variacao media por tempo: 0.19999999999999968***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 97.0,  minimo: 94.6,  media: 95.34,   variacao media por tempo: 0.2666666666666673***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 5.1,  minimo: 4.6,  media: 5.029999999999999,   variacao media por tempo: 0.05555555555555555***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 5.1,  minimo: 4.7,  media: 5.06,   variacao media por tempo: 0.044444444444444384***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 5.7,  minimo: 5.3,  media: 5.66,   variacao media por tempo: 0.04444444444444448***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 5.3,  minimo: 4.9,  media: 5.26,   variacao media por tempo: 0.044444444444444384***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 219.8,  minimo: 219.3,  media: 219.46999999999997,   variacao media por tempo: -0.033333333333334596***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 222.7,  minimo: 222.2,  media: 222.36999999999998,   variacao media por tempo: -0.03333333333333144***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 220.3,  minimo: 219.8,  media: 220.04000000000002,   variacao media por tempo: -0.011111111111113637***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 446.0,  minimo: 399.0,  media: 439.9,   variacao media por tempo: 5.222222222222222***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 460.0,  minimo: 415.0,  media: 454.0,   variacao media por tempo: 4.555555555555555***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 525.0,  minimo: 478.0,  media: 519.2,   variacao media por tempo: 4.888888888888889***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 1428.0,  minimo: 1292.0,  media: 1412.7,   variacao media por tempo: 14.666666666666666***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 65105.0,  minimo: 460.0,  media: 6925.4,   variacao media por tempo: -7182.444444444444***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 65104.0,  minimo: 65073.0,  media: 65078.1,   variacao media por tempo: -3.0***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 65054.0,  minimo: 65022.0,  media: 65026.2,   variacao media por tempo: -3.4444444444444446***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 65027.0,  minimo: 64190.0,  media: 64939.9,   variacao media por tempo: 93.0***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 643.0,  minimo: 587.0,  media: 635.1,   variacao media por tempo: 6.222222222222222***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 652.0,  minimo: 599.0,  media: 644.8,   variacao media por tempo: 5.333333333333333***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 734.0,  minimo: 679.0,  media: 727.4,   variacao media por tempo: 5.888888888888889***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 1865.0,  minimo: 1512.0,  media: 1550.6,   variacao media por tempo: -39.22222222222222***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 0.695,  minimo: 0.679,  media: 0.6929,   variacao media por tempo: 0.001777777777777767***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 0.706,  minimo: 0.692,  media: 0.7038,   variacao media por tempo: 0.0014444444444444457***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 0.716,  minimo: 0.704,  media: 0.7131,   variacao media por tempo: 0.0011111111111111122***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 0.941,  minimo: 0.692,  media: 0.916,   variacao media por tempo: 0.027666666666666666***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 887.0,  minimo: 881.0,  media: 884.0,   variacao media por tempo: 0.6666666666666666***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5615.0,  minimo: 5614.0,  media: 5614.1,   variacao media por tempo: 0.1111111111111111***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5566.0,  minimo: 5560.0,  media: 5563.2,   variacao media por tempo: 0.6666666666666666***********
+
+Bomba Verde:
+Partida Direta:
+   Motor Desligado:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 40.4,  minimo: 39.3,  media: 39.769999999999996,   variacao media por tempo: 0.12222222222222238
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 31.9,  minimo: 31.6,  media: 31.78,   variacao media por tempo: 0.03333333333333302
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 36.1,  minimo: 35.4,  media: 35.739999999999995,   variacao media por tempo: 0.0777777777777781
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 29.4,  minimo: 29.3,  media: 29.389999999999997,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 0.0,  media: 0.9,   variacao media por tempo: 0.0
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 0.10000000149011612,  minimo: 0.10000000149011612,  media: 0.10000000149011612,   variacao media por tempo: 0.0***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 0.30000001192092896,  minimo: 0.30000001192092896,  media: 0.30000001192092896,   variacao media por tempo: 0.0***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 12.5,  minimo: 8.399999618530273,  media: 10.380000019073487,   variacao media por tempo: -0.34444448682996964
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 24.3,  minimo: 24.3,  media: 24.3,   variacao media por tempo: 0.0***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 24.3,  minimo: 24.3,  media: 24.3,   variacao media por tempo: 0.0***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 6.1,  minimo: 1.3,  media: 3.2600000000000002,   variacao media por tempo: -0.5333333333333333***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 59.99,  minimo: 59.98,  media: 59.987,   variacao media por tempo: -0.0011111111111116794
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 1.9,  minimo: 1.9,  media: 1.9,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.1,  minimo: 2.0,  media: 2.05,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 1.9,  minimo: 1.7,  media: 1.8699999999999999,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.4,  minimo: 1.3,  media: 1.3199999999999998,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 220.9,  minimo: 220.8,  media: 220.82000000000002,   variacao media por tempo: 0.01111111111111048***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 223.9,  minimo: 223.7,  media: 223.83,   variacao media por tempo: 0.0***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 222.2,  minimo: 222.0,  media: 222.08,   variacao media por tempo: 0.0***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 32.768,  minimo: 32.768,  media: 32.768,   variacao media por tempo: 0.0***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 889.0,  minimo: 889.0,  media: 889.0,   variacao media por tempo: 0.0***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5615.0,  minimo: 5615.0,  media: 5615.0,   variacao media por tempo: 0.0***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5569.0,  minimo: 5569.0,  media: 5569.0,   variacao media por tempo: 0.0***********
+   Motor Ligado:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 3400.0,  minimo: 3400.0,  media: 3400.0,   variacao media por tempo: 0.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 1.8809999227523804,  minimo: 1.8809999227523804,  media: 1.8809999227523804,   variacao media por tempo: 0.0***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 42.0,  minimo: 40.7,  media: 41.34,   variacao media por tempo: 0.14444444444444413
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 32.0,  minimo: 31.8,  media: 31.869999999999997,   variacao media por tempo: 0.01111111111111127
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 37.0,  minimo: 36.3,  media: 36.589999999999996,   variacao media por tempo: 0.0777777777777781
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 29.5,  minimo: 29.3,  media: 29.389999999999997,   variacao media por tempo: 0.01111111111111127
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 2.5,  minimo: 2.4000000953674316,  media: 2.4200000762939453,   variacao media por tempo: 0.0***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 3.5999999046325684,  minimo: 3.5,  media: 3.5899999141693115,   variacao media por tempo: 0.011111100514729818***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 22.200000762939453,  minimo: 10.199999809265137,  media: 17.420000076293945,   variacao media por tempo: 1.3333334392971463
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 25.1,  minimo: 24.3,  media: 24.94,   variacao media por tempo: 0.08888888888888896***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 25.1,  minimo: 24.3,  media: 24.94,   variacao media por tempo: 0.08888888888888896***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 55.7,  minimo: 15.3,  media: 48.02,   variacao media por tempo: 4.48888888888889***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 120.5,  minimo: 85.5,  media: 116.05,   variacao media por tempo: 3.888888888888889***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 60.03,  minimo: 60.0,  media: 60.016999999999996,   variacao media por tempo: 0.0033333333333334597
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 2.0,  minimo: 1.8,  media: 1.9099999999999997,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.1,  minimo: 2.0,  media: 2.0300000000000002,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 1.9,  minimo: 1.8,  media: 1.86,   variacao media por tempo: -0.011111111111111096***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.4,  minimo: 1.3,  media: 1.34,   variacao media por tempo: 0.011111111111111096***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.3,  minimo: 1.3,  media: 1.3,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 1.9,  minimo: 1.9,  media: 1.9,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 1.5,  minimo: 1.5,  media: 1.5,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 3.4,  minimo: 3.4,  media: 3.4,   variacao media por tempo: 0.0***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 3.7,  minimo: 3.7,  media: 3.7,   variacao media por tempo: 0.0***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 3.7,  minimo: 3.7,  media: 3.7,   variacao media por tempo: 0.0***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 3.6,  minimo: 3.6,  media: 3.6,   variacao media por tempo: 0.0***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 219.8,  minimo: 219.6,  media: 219.68,   variacao media por tempo: 0.0***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 222.5,  minimo: 222.3,  media: 222.35,   variacao media por tempo: -0.01111111111111048***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 220.9,  minimo: 220.6,  media: 220.65,   variacao media por tempo: 0.01111111111111048***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 380.0,  minimo: 379.0,  media: 379.8,   variacao media por tempo: 0.0***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 422.0,  minimo: 421.0,  media: 421.6,   variacao media por tempo: 0.0***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 406.0,  minimo: 404.0,  media: 405.0,   variacao media por tempo: -0.2222222222222222***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 1208.0,  minimo: 1206.0,  media: 1206.9,   variacao media por tempo: -0.1111111111111111***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 213.0,  minimo: 211.0,  media: 212.4,   variacao media por tempo: -0.1111111111111111***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 219.0,  minimo: 218.0,  media: 218.8,   variacao media por tempo: 0.0***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 250.0,  minimo: 249.0,  media: 249.1,   variacao media por tempo: -0.1111111111111111***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 682.0,  minimo: 679.0,  media: 680.2,   variacao media por tempo: -0.2222222222222222***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 436.0,  minimo: 434.0,  media: 435.3,   variacao media por tempo: 0.0***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 476.0,  minimo: 475.0,  media: 475.3,   variacao media por tempo: 0.0***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 477.0,  minimo: 474.0,  media: 475.7,   variacao media por tempo: -0.2222222222222222***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 1386.0,  minimo: 1384.0,  media: 1385.2,   variacao media por tempo: -0.2222222222222222***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 0.873,  minimo: 0.872,  media: 0.8724999999999999,   variacao media por tempo: 0.00011111111111111121***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 0.888,  minimo: 0.888,  media: 0.8880000000000001,   variacao media por tempo: 0.0***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 0.853,  minimo: 0.852,  media: 0.8520999999999999,   variacao media por tempo: 0.0***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 0.871,  minimo: 0.871,  media: 0.8710000000000001,   variacao media por tempo: 0.0***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 896.0,  minimo: 890.0,  media: 892.7,   variacao media por tempo: 0.6666666666666666***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5619.0,  minimo: 5615.0,  media: 5616.6,   variacao media por tempo: 0.4444444444444444***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5578.0,  minimo: 5570.0,  media: 5573.6,   variacao media por tempo: 0.8888888888888888***********
+
+Partida Soft:
+   Motor Desligado:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 43.7,  minimo: 42.7,  media: 43.3,   variacao media por tempo: 0.1111111111111111
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 32.3,  minimo: 32.0,  media: 32.15,   variacao media por tempo: 0.03333333333333302
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 38.0,  minimo: 37.3,  media: 37.7,   variacao media por tempo: 0.0777777777777781
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 29.6,  minimo: 29.5,  media: 29.57,   variacao media por tempo: 0.01111111111111127
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 0.10000000149011612,  minimo: 0.10000000149011612,  media: 0.10000000149011612,   variacao media por tempo: 0.0***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 0.30000001192092896,  minimo: 0.30000001192092896,  media: 0.30000001192092896,   variacao media por tempo: 0.0***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 23.700000762939453,  minimo: 17.5,  media: 20.400000190734865,   variacao media por tempo: -0.6888889736599393
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 27.7,  minimo: 27.1,  media: 27.46,   variacao media por tempo: 0.06666666666666643***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 27.7,  minimo: 27.1,  media: 27.46,   variacao media por tempo: 0.06666666666666643***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 88.9,  minimo: 27.5,  media: 50.15,   variacao media por tempo: -6.822222222222223***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 6553.5,  minimo: 0.0,  media: 2626.8,   variacao media por tempo: 723.6444444444445***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 60.03,  minimo: 60.01,  media: 60.016999999999996,   variacao media por tempo: -0.0022222222222225696
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 1.9,  minimo: 1.8,  media: 1.8800000000000001,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.1,  minimo: 2.0,  media: 2.0300000000000002,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 2.0,  minimo: 1.8,  media: 1.85,   variacao media por tempo: 0.022222222222222216***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.4,  minimo: 1.3,  media: 1.38,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.4,  minimo: 1.3,  media: 1.39,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.3,  minimo: 1.2,  media: 1.28,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 3276.8,  minimo: 123.9,  media: 455.81000000000006,   variacao media por tempo: -348.0444444444445***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 3276.8,  minimo: 130.1,  media: 457.37,   variacao media por tempo: -348.8444444444445***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 3276.8,  minimo: 115.0,  media: 448.0400000000001,   variacao media por tempo: -348.1666666666667***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 221.4,  minimo: 221.0,  media: 221.26,   variacao media por tempo: -0.01111111111111048***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 224.4,  minimo: 224.1,  media: 224.26999999999998,   variacao media por tempo: -0.01111111111111048***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 222.5,  minimo: 222.1,  media: 222.26,   variacao media por tempo: -0.02222222222222096***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 65535.0,  minimo: 0.0,  media: 58981.5,   variacao media por tempo: 7281.666666666667***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 65527.0,  minimo: 65526.0,  media: 65526.2,   variacao media por tempo: 0.1111111111111111***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 10.0,  minimo: 9.0,  media: 9.9,   variacao media por tempo: 0.0***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 32.868,  minimo: 0.062,  media: 29.5734,   variacao media por tempo: 0.004222222222221856***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 32.859,  minimo: 32.82,  media: 32.8446,   variacao media por tempo: 0.003555555555555164***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 32.826,  minimo: 0.032,  media: 26.2577,   variacao media por tempo: 3.641888888888889***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 32.845,  minimo: 32.813,  media: 32.8354,   variacao media por tempo: 0.002888888888888472***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 897.0,  minimo: 897.0,  media: 897.0,   variacao media por tempo: 0.0***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5619.0,  minimo: 5619.0,  media: 5619.0,   variacao media por tempo: 0.0***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5579.0,  minimo: 5579.0,  media: 5579.0,   variacao media por tempo: 0.0***********
+   Motor Ligado:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 44.8,  minimo: 43.9,  media: 44.37,   variacao media por tempo: 0.09999999999999984
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 32.8,  minimo: 32.4,  media: 32.67,   variacao media por tempo: 0.04444444444444429
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 38.8,  minimo: 38.1,  media: 38.5,   variacao media por tempo: 0.07777777777777731
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 29.7,  minimo: 29.6,  media: 29.65,   variacao media por tempo: 0.011111111111110874
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 0.10000000149011612,  minimo: 0.10000000149011612,  media: 0.10000000149011612,   variacao media por tempo: 0.0***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 0.30000001192092896,  minimo: 0.30000001192092896,  media: 0.30000001192092896,   variacao media por tempo: 0.0***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 15.699999809265137,  minimo: 11.699999809265137,  media: 13.819999980926514,   variacao media por tempo: -0.4444444444444444
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 27.7,  minimo: 27.7,  media: 27.7,   variacao media por tempo: 0.0***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 27.7,  minimo: 27.7,  media: 27.7,   variacao media por tempo: 0.0***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 15.8,  minimo: 4.8,  media: 9.32,   variacao media por tempo: -1.2222222222222223***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 6553.5,  minimo: 0.0,  media: 5898.15,   variacao media por tempo: 0.0***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 60.01,  minimo: 60.0,  media: 60.004999999999995,   variacao media por tempo: -0.0011111111111108901
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 1.9,  minimo: 1.8,  media: 1.8800000000000001,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.2,  minimo: 2.1,  media: 2.13,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 1.9,  minimo: 1.8,  media: 1.8699999999999999,   variacao media por tempo: 0.011111111111111096***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.5,  minimo: 1.4,  media: 1.43,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.4,  minimo: 1.3,  media: 1.31,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 3276.8,  minimo: 127.9,  media: 467.99000000000007,   variacao media por tempo: -1.4333333333333624***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 189.1,  minimo: 118.8,  media: 142.47,   variacao media por tempo: 3.7222222222222237***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 148.6,  minimo: 122.4,  media: 133.44,   variacao media por tempo: -0.2222222222222222***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 221.5,  minimo: 221.2,  media: 221.27999999999997,   variacao media por tempo: 0.022222222222224117***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 224.7,  minimo: 224.2,  media: 224.36999999999998,   variacao media por tempo: 0.05555555555555555***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 222.5,  minimo: 222.2,  media: 222.27999999999997,   variacao media por tempo: 0.022222222222224117***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 65535.0,  minimo: 0.0,  media: 58981.5,   variacao media por tempo: 0.0***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 65533.0,  minimo: 0.0,  media: 58979.7,   variacao media por tempo: 0.0***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 65533.0,  minimo: 65533.0,  media: 65533.0,   variacao media por tempo: 0.0***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 65530.0,  minimo: 65526.0,  media: 65526.6,   variacao media por tempo: 0.1111111111111111***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 3.0,  minimo: 0.0,  media: 2.7,   variacao media por tempo: 0.0***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 3.0,  minimo: 3.0,  media: 3.0,   variacao media por tempo: 0.0***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 10.0,  minimo: 6.0,  media: 9.5,   variacao media por tempo: 0.0***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 32.873,  minimo: 1.0,  media: 29.6762,   variacao media por tempo: 0.0013333333333333838***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 32.863,  minimo: 0.081,  media: 29.5721,   variacao media por tempo: 0.00011111111111085215***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 32.82,  minimo: 0.03,  media: 22.9788,   variacao media por tempo: 3.643333333333333***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 32.845,  minimo: 32.83,  media: 32.8389,   variacao media por tempo: 0.0013333333333333838***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 897.0,  minimo: 897.0,  media: 897.0,   variacao media por tempo: 0.0***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5619.0,  minimo: 5619.0,  media: 5619.0,   variacao media por tempo: 0.0***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5579.0,  minimo: 5579.0,  media: 5579.0,   variacao media por tempo: 0.0***********
+
+Partida Inversora:
+   Motor Desligado:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 0.05224999785423279,  minimo: 0.0,  media: 0.04702499806880951,   variacao media por tempo: 0.005805555317136977***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 40.7,  minimo: 40.0,  media: 40.43,   variacao media por tempo: 0.0777777777777781
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 33.1,  minimo: 32.8,  media: 32.97,   variacao media por tempo: 0.033333333333333805
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 36.9,  minimo: 36.4,  media: 36.69,   variacao media por tempo: 0.05555555555555555
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 29.9,  minimo: 29.7,  media: 29.830000000000002,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 0.0,  media: 0.7,   variacao media por tempo: -0.1111111111111111
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 0.10000000149011612,  minimo: 0.10000000149011612,  media: 0.10000000149011612,   variacao media por tempo: 0.0***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 0.30000001192092896,  minimo: 0.30000001192092896,  media: 0.30000001192092896,   variacao media por tempo: 0.0***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 11.300000190734863,  minimo: 8.300000190734863,  media: 9.310000038146972,   variacao media por tempo: -0.17777771419949
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 27.7,  minimo: 27.3,  media: 27.46,   variacao media por tempo: -0.04444444444444429***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 27.7,  minimo: 27.3,  media: 27.46,   variacao media por tempo: -0.04444444444444429***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 3.2,  minimo: 1.2,  media: 2.21,   variacao media por tempo: -0.2222222222222222***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 6553.5,  minimo: 0.3,  media: 655.8399999999999,   variacao media por tempo: -728.1333333333333***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 59.98,  minimo: 59.97,  media: 59.973,   variacao media por tempo: 0.0
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 2.0,  minimo: 1.8,  media: 1.9,   variacao media por tempo: 0.011111111111111096***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.2,  minimo: 2.1,  media: 2.14,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 1.9,  minimo: 1.8,  media: 1.8800000000000001,   variacao media por tempo: 0.011111111111111096***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.5,  minimo: 1.4,  media: 1.45,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.4,  minimo: 1.3,  media: 1.3699999999999999,   variacao media por tempo: 0.011111111111111096***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 374.2,  minimo: 114.1,  media: 227.43,   variacao media por tempo: 21.74444444444445***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 264.9,  minimo: 144.1,  media: 185.55,   variacao media por tempo: 6.422222222222223***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 274.4,  minimo: 132.1,  media: 191.98,   variacao media por tempo: 12.622222222222222***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 0.1,  minimo: 0.0,  media: 0.02,   variacao media por tempo: 0.011111111111111112***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 0.1,  minimo: 0.0,  media: 0.04,   variacao media por tempo: 0.0***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 0.1,  minimo: 0.0,  media: 0.09,   variacao media por tempo: 0.011111111111111112***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 0.1,  minimo: 0.0,  media: 0.09,   variacao media por tempo: 0.011111111111111112***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 221.8,  minimo: 221.4,  media: 221.48000000000002,   variacao media por tempo: 0.04444444444444508***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 224.9,  minimo: 224.5,  media: 224.65,   variacao media por tempo: 0.033333333333334596***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 222.7,  minimo: 222.3,  media: 222.45,   variacao media por tempo: 0.02222222222222096***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 1.0,  minimo: 0.0,  media: 0.8,   variacao media por tempo: 0.1111111111111111***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 1.0,  minimo: 0.0,  media: 0.7,   variacao media por tempo: 0.0***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 2.0,  minimo: 0.0,  media: 1.8,   variacao media por tempo: 0.2222222222222222***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 65535.0,  minimo: 3.0,  media: 6557.1,   variacao media por tempo: -7281.222222222223***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 65533.0,  minimo: 0.0,  media: 58977.5,   variacao media por tempo: -0.3333333333333333***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 65533.0,  minimo: 65527.0,  media: 65529.9,   variacao media por tempo: -0.2222222222222222***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 65533.0,  minimo: 65527.0,  media: 65529.0,   variacao media por tempo: -0.5555555555555556***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 65526.0,  minimo: 65513.0,  media: 65518.0,   variacao media por tempo: -1.0***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 7.0,  minimo: 0.0,  media: 5.0,   variacao media por tempo: 0.4444444444444444***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 9.0,  minimo: 3.0,  media: 6.1,   variacao media por tempo: 0.2222222222222222***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 9.0,  minimo: 3.0,  media: 7.5,   variacao media por tempo: 0.5555555555555556***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 24.0,  minimo: 10.0,  media: 18.8,   variacao media por tempo: 1.1111111111111112***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 32.864,  minimo: 0.145,  media: 3.5279,   variacao media por tempo: -3.6284444444444444***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 32.867,  minimo: 0.051,  media: 3.3867999999999996,   variacao media por tempo: -3.646222222222222***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 0.283,  minimo: 0.038,  media: 0.2435,   variacao media por tempo: 0.02311111111111111***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 32.846,  minimo: 0.181,  media: 3.4581999999999993,   variacao media por tempo: -3.6294444444444434***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 897.0,  minimo: 897.0,  media: 897.0,   variacao media por tempo: 0.0***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5620.0,  minimo: 5619.0,  media: 5619.8,   variacao media por tempo: 0.1111111111111111***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5579.0,  minimo: 5579.0,  media: 5579.0,   variacao media por tempo: 0.0***********
+   Motor Ligado em 0hz:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 0.05224999785423279,  minimo: 0.0,  media: 0.03657499849796295,   variacao media por tempo: 0.0***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 41.0,  minimo: 40.8,  media: 40.94,   variacao media por tempo: 0.02222222222222254
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 33.4,  minimo: 33.1,  media: 33.239999999999995,   variacao media por tempo: 0.01111111111111127
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 37.2,  minimo: 37.0,  media: 37.07,   variacao media por tempo: 0.02222222222222254
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 29.9,  minimo: 29.7,  media: 29.82,   variacao media por tempo: -0.011111111111110874
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 0.10000000149011612,  minimo: 0.10000000149011612,  media: 0.10000000149011612,   variacao media por tempo: 0.0***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 0.30000001192092896,  minimo: 0.30000001192092896,  media: 0.30000001192092896,   variacao media por tempo: 0.0***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 8.199999809265137,  minimo: 8.199999809265137,  media: 8.199999809265137,   variacao media por tempo: 0.0
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 26.3,  minimo: 23.9,  media: 26.060000000000002,   variacao media por tempo: -0.2666666666666669***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 26.3,  minimo: 23.9,  media: 26.060000000000002,   variacao media por tempo: -0.2666666666666669***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 1.0,  minimo: 0.5,  media: 0.75,   variacao media por tempo: -0.05555555555555555***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 0.4,  minimo: 0.3,  media: 0.32999999999999996,   variacao media por tempo: 0.0***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 60.03,  minimo: 60.0,  media: 60.022000000000006,   variacao media por tempo: -0.0033333333333334597
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 1.9,  minimo: 1.8,  media: 1.8199999999999998,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.2,  minimo: 2.1,  media: 2.1700000000000004,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 1.9,  minimo: 1.8,  media: 1.89,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.4,  minimo: 1.4,  media: 1.4,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.5,  minimo: 1.4,  media: 1.48,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.4,  minimo: 1.3,  media: 1.3699999999999999,   variacao media por tempo: -0.011111111111111096***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 3276.8,  minimo: 256.9,  media: 1187.3,   variacao media por tempo: -333.1555555555556***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 232.2,  minimo: 181.2,  media: 209.74,   variacao media por tempo: 1.6000000000000005***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 298.0,  minimo: 234.4,  media: 268.15999999999997,   variacao media por tempo: 2.3444444444444468***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 0.1,  minimo: 0.0,  media: 0.09,   variacao media por tempo: 0.011111111111111112***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 0.1,  minimo: 0.1,  media: 0.1,   variacao media por tempo: 0.0***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 0.1,  minimo: 0.0,  media: 0.07,   variacao media por tempo: 0.0***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 221.5,  minimo: 221.4,  media: 221.45,   variacao media por tempo: -0.01111111111111048***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 224.8,  minimo: 224.7,  media: 224.74,   variacao media por tempo: 0.0***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 222.5,  minimo: 222.4,  media: 222.43,   variacao media por tempo: -0.01111111111111048***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 1.0,  minimo: 0.0,  media: 0.4,   variacao media por tempo: 0.0***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 2.0,  minimo: 2.0,  media: 2.0,   variacao media por tempo: 0.0***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 4.0,  minimo: 3.0,  media: 3.7,   variacao media por tempo: 0.0***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 65531.0,  minimo: 0.0,  media: 45871.7,   variacao media por tempo: 0.0***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 65530.0,  minimo: 65529.0,  media: 65529.1,   variacao media por tempo: -0.1111111111111111***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 65529.0,  minimo: 65529.0,  media: 65529.0,   variacao media por tempo: 0.0***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 65523.0,  minimo: 65517.0,  media: 65518.5,   variacao media por tempo: -0.1111111111111111***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 5.0,  minimo: 0.0,  media: 3.5,   variacao media por tempo: 0.0***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 8.0,  minimo: 6.0,  media: 7.1,   variacao media por tempo: 0.1111111111111111***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 8.0,  minimo: 7.0,  media: 7.4,   variacao media por tempo: 0.0***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 20.0,  minimo: 14.0,  media: 18.0,   variacao media por tempo: 0.0***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 32.768,  minimo: 0.076,  media: 3.4611000000000005,   variacao media por tempo: -3.529777777777778***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 0.152,  minimo: 0.121,  media: 0.1369,   variacao media por tempo: 0.0013333333333333346***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 0.288,  minimo: 0.269,  media: 0.2775,   variacao media por tempo: 0.0009999999999999948***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 0.216,  minimo: 0.179,  media: 0.189,   variacao media por tempo: 0.0010000000000000009***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 897.0,  minimo: 897.0,  media: 897.0,   variacao media por tempo: 0.0***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5620.0,  minimo: 5620.0,  media: 5620.0,   variacao media por tempo: 0.0***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5579.0,  minimo: 5579.0,  media: 5579.0,   variacao media por tempo: 0.0***********
+   Motor Ligado em 30hz:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 1800.0,  minimo: 0.0,  media: 1620.0,   variacao media por tempo: 200.0
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 10.0,  minimo: 0.0,  media: 5.0,   variacao media por tempo: -1.1111111111111112
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 0.5747500061988831,  minimo: 0.05224999785423279,  media: 0.522500005364418,   variacao media por tempo: 0.05805555648273892***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 41.4,  minimo: 41.1,  media: 41.260000000000005,   variacao media por tempo: 0.01111111111111048
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 33.6,  minimo: 33.3,  media: 33.44,   variacao media por tempo: 0.0
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 37.4,  minimo: 37.3,  media: 37.33,   variacao media por tempo: 0.0
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 30.0,  minimo: 29.8,  media: 29.939999999999998,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 0.0,  media: 0.8,   variacao media por tempo: 0.1111111111111111
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 0.6000000238418579,  minimo: 0.6000000238418579,  media: 0.6000000238418579,   variacao media por tempo: 0.0***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 1.600000023841858,  minimo: 1.600000023841858,  media: 1.600000023841858,   variacao media por tempo: 0.0***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 12.399999618530273,  minimo: 8.199999809265137,  media: 9.989999866485595,   variacao media por tempo: 0.4666666454739041
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 23.9,  minimo: 23.6,  media: 23.69,   variacao media por tempo: -0.03333333333333302***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 23.9,  minimo: 23.6,  media: 23.69,   variacao media por tempo: -0.03333333333333302***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 16.5,  minimo: 3.8,  media: 10.370000000000001,   variacao media por tempo: 1.4111111111111112***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 21.8,  minimo: 17.4,  media: 20.79,   variacao media por tempo: 0.48888888888888915***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 60.0,  minimo: 60.0,  media: 60.0,   variacao media por tempo: 0.0
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 1.8,  minimo: 1.7,  media: 1.78,   variacao media por tempo: -0.01111111111111112***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.4,  minimo: 2.2,  media: 2.29,   variacao media por tempo: 0.011111111111111072***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 2.0,  minimo: 1.9,  media: 1.98,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.5,  minimo: 1.4,  media: 1.44,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.6,  minimo: 1.6,  media: 1.6,   variacao media por tempo: 0.0***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.3,  minimo: 1.3,  media: 1.3,   variacao media por tempo: 0.0***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 180.2,  minimo: 170.5,  media: 177.04,   variacao media por tempo: 1.0777777777777766***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 158.6,  minimo: 152.9,  media: 155.26,   variacao media por tempo: 0.32222222222222285***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 145.4,  minimo: 140.3,  media: 141.69,   variacao media por tempo: -0.28888888888888825***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 1.0,  minimo: 0.0,  media: 0.9,   variacao media por tempo: 0.1111111111111111***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 0.9,  minimo: 0.1,  media: 0.8200000000000001,   variacao media por tempo: 0.08888888888888889***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 1.3,  minimo: 0.1,  media: 1.1800000000000002,   variacao media por tempo: 0.13333333333333333***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 1.1,  minimo: 0.1,  media: 1.0,   variacao media por tempo: 0.1111111111111111***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 221.5,  minimo: 221.4,  media: 221.43,   variacao media por tempo: 0.01111111111111048***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 224.7,  minimo: 224.5,  media: 224.57,   variacao media por tempo: 0.02222222222222096***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 222.3,  minimo: 222.2,  media: 222.25,   variacao media por tempo: 0.0***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 61.0,  minimo: 0.0,  media: 30.5,   variacao media por tempo: 6.777777777777778***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 57.0,  minimo: 1.0,  media: 29.0,   variacao media por tempo: 6.222222222222222***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 99.0,  minimo: 2.0,  media: 50.5,   variacao media por tempo: 10.777777777777779***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 217.0,  minimo: 3.0,  media: 110.0,   variacao media por tempo: 23.77777777777778***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 115.0,  minimo: 0.0,  media: 57.5,   variacao media por tempo: 12.777777777777779***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 65529.0,  minimo: 65430.0,  media: 65479.5,   variacao media por tempo: -11.0***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 65529.0,  minimo: 65394.0,  media: 65461.5,   variacao media por tempo: -15.0***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 65522.0,  minimo: 65403.0,  media: 65462.5,   variacao media por tempo: -13.222222222222221***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 130.0,  minimo: 0.0,  media: 65.0,   variacao media por tempo: 14.444444444444445***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 120.0,  minimo: 7.0,  media: 63.5,   variacao media por tempo: 12.555555555555555***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 173.0,  minimo: 7.0,  media: 90.0,   variacao media por tempo: 18.444444444444443***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 255.0,  minimo: 14.0,  media: 134.5,   variacao media por tempo: 26.77777777777778***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 0.487,  minimo: 0.467,  media: 0.47539999999999993,   variacao media por tempo: -0.002222222222222218***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 0.482,  minimo: 0.459,  media: 0.46959999999999996,   variacao media por tempo: 0.00033333333333333365***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 0.57,  minimo: 0.56,  media: 0.567,   variacao media por tempo: 0.0006666666666666549***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 0.862,  minimo: 0.857,  media: 0.8593,   variacao media por tempo: 0.00033333333333333365***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 898.0,  minimo: 898.0,  media: 898.0,   variacao media por tempo: 0.0***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5620.0,  minimo: 5620.0,  media: 5620.0,   variacao media por tempo: 0.0***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5580.0,  minimo: 5579.0,  media: 5579.8,   variacao media por tempo: 0.1111111111111111***********
+   Motor Ligado em 60hz:
+       [0, 0, 0, 0]:
+          bc.encoder (Medida da Rota��o do Motor selecionado (RPM)):
+              maximo: 3600.0,  minimo: 2031.0,  media: 3286.2,   variacao media por tempo: 174.33333333333334
+          bc.encoder_dina (Medida da Rota��o do Motor selecionado (RPM) no Dinam�metro):
+              maximo: 13.0,  minimo: 0.0,  media: 4.4,   variacao media por tempo: 0.0
+          bc.torque (Medida do Torque no Motor Selecionado):
+              maximo: 2.66474986076355,  minimo: 0.8359999656677246,  media: 2.2624247789382936,   variacao media por tempo: 0.19738886091444227***********
+          bc.temp_r (Temperatura Enrolamento R Motor):
+              maximo: 42.2,  minimo: 41.4,  media: 41.64,   variacao media por tempo: 0.0777777777777781
+          bc.temp_s (Temperatura Enrolamento S Motor):
+              maximo: 33.9,  minimo: 33.5,  media: 33.63,   variacao media por tempo: 0.0
+          bc.temp_t (Temperatura Enrolamento T Motor):
+              maximo: 37.9,  minimo: 37.4,  media: 37.62,   variacao media por tempo: 0.04444444444444429
+          bc.temp_carc (Temperatura Carca�a):
+              maximo: 30.3,  minimo: 30.0,  media: 30.160000000000004,   variacao media por tempo: 0.03333333333333341
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.naa_tq_superior (Indicador de N�vel Muito Alto):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.na_tq_superior (Sensor de Reservat�rio Superior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_superior (Sensor de Reservat�rio Superior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.na_tq_inferior (Sensor de Reservat�rio Inferior N�vel Alto (Ativo = 1)):
+              maximo: 0.0,  minimo: 0.0,  media: 0.0,   variacao media por tempo: 0.0
+          bc.nb_tq_inferior (Sensor de Reservat�rio Inferior N�vel Baixo (Ativo = 0)):
+              maximo: 1.0,  minimo: 1.0,  media: 1.0,   variacao media por tempo: 0.0
+          bc.pit01 (Medida da Press�o PIT-01):
+              maximo: 2.5999999046325684,  minimo: 2.4000000953674316,  media: 2.569999933242798,   variacao media por tempo: 0.022222201029459637***********
+          bc.fit01 (Medida da Vaz�o FIT-01):
+              maximo: 3.700000047683716,  minimo: 3.5,  media: 3.6600000143051146,   variacao media por tempo: 0.02222222752041287***********
+          bc.lit01 (Medida do N�vel do Reservat�rio superior (Porcentagem)):
+              maximo: 28.0,  minimo: 15.600000381469727,  media: 21.440000152587892,   variacao media por tempo: 1.3777777353922527
+          bc.demanda_anterior (Medida de Demanda Anterior):
+              maximo: 25.7,  minimo: 24.0,  media: 24.68,   variacao media por tempo: 0.1888888888888888***********
+          bc.demanda_atual (Medida de Demanda Atual):
+              maximo: 25.7,  minimo: 24.0,  media: 24.68,   variacao media por tempo: 0.1888888888888888***********
+          bc.demanda_media (Medidade de Demanda M�dia):
+              maximo: 110.5,  minimo: 18.4,  media: 71.49,   variacao media por tempo: 10.233333333333333***********
+          bc.demanda_pico (Medidade de Demanda de Pico):
+              maximo: 134.8,  minimo: 26.4,  media: 121.8,   variacao media por tempo: 11.988888888888889***********
+          bc.demanda_prevista (Medida de Demanda Prevista):
+              maximo: 11.4,  minimo: 11.4,  media: 11.4,   variacao media por tempo: 0.0***********
+          bc.frequencia (Frequ�ncia Rede):
+              maximo: 60.02,  minimo: 60.0,  media: 60.013,   variacao media por tempo: 0.0022222222222225696
+          bc.thd_tensao_rn (Medida THD Tens�o entre fase R e Neutro):
+              maximo: 2.0,  minimo: 1.7,  media: 1.8699999999999999,   variacao media por tempo: 0.022222222222222216***********
+          bc.thd_tensao_sn (Medida THD Tens�o entre fase S e Neutro):
+              maximo: 2.6,  minimo: 2.2,  media: 2.4899999999999998,   variacao media por tempo: 0.03333333333333331***********
+          bc.thd_tensao_tn (Medida THD Tens�o entre fase T e Neutro):
+              maximo: 2.2,  minimo: 2.0,  media: 2.13,   variacao media por tempo: 0.02222222222222224***********
+          bc.thd_tensao_rs (Medida THD Tens�o entre fase R e Fase S):
+              maximo: 1.7,  minimo: 1.5,  media: 1.6199999999999999,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_tensao_st (Medida THD Tens�o entre fase S e Fase T):
+              maximo: 1.9,  minimo: 1.7,  media: 1.8399999999999999,   variacao media por tempo: 0.022222222222222216***********
+          bc.thd_tensao_tr (Medida THD Tens�o entre fase T e Fase R):
+              maximo: 1.5,  minimo: 1.4,  media: 1.47,   variacao media por tempo: 0.01111111111111112***********
+          bc.thd_corrente_r (Medida do THD de Corrente da fase R):
+              maximo: 124.3,  minimo: 103.0,  media: 105.39000000000001,   variacao media por tempo: -2.2888888888888883***********
+          bc.thd_corrente_s (Medida do THD de Corrente da fase S):
+              maximo: 112.5,  minimo: 95.1,  media: 97.96000000000001,   variacao media por tempo: -1.7777777777777777***********
+          bc.thd_corrente_t (Medida do THD de Corrente da fase T):
+              maximo: 112.5,  minimo: 96.4,  media: 98.75,   variacao media por tempo: -1.6999999999999997***********
+          bc.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              maximo: 3276.8,  minimo: 3276.8,  media: 3276.8,   variacao media por tempo: 0.0***********
+          bc.corrente_r (Corrente na fase R):
+              maximo: 4.8,  minimo: 1.5,  media: 4.47,   variacao media por tempo: 0.36666666666666664***********
+          bc.corrente_s (Corrente na fase S):
+              maximo: 4.9,  minimo: 1.4,  media: 4.4799999999999995,   variacao media por tempo: 0.37777777777777777***********
+          bc.corrente_t (Corrente na fase T):
+              maximo: 5.5,  minimo: 1.9,  media: 5.14,   variacao media por tempo: 0.4***********
+          bc.corrente_n (Corrente no Neutro):
+              maximo: 0.1,  minimo: 0.0,  media: 0.01,   variacao media por tempo: 0.011111111111111112***********
+          bc.corrente_media (Corrente M�dia):
+              maximo: 5.1,  minimo: 1.6,  media: 4.68,   variacao media por tempo: 0.37777777777777777***********
+          bc.tensao_rs (ddp entre Fase R e S):
+              maximo: 220.4,  minimo: 220.1,  media: 220.23000000000002,   variacao media por tempo: -0.033333333333334596***********
+          bc.tensao_st (ddp entre Fase S e T):
+              maximo: 223.6,  minimo: 223.4,  media: 223.45,   variacao media por tempo: 0.01111111111111048***********
+          bc.tensao_tr (ddp entre Fase T e R):
+              maximo: 221.1,  minimo: 220.9,  media: 220.95,   variacao media por tempo: 0.01111111111111048***********
+          bc.ativa_r (Medida Pot�ncia Ativa Fase R):
+              maximo: 423.0,  minimo: 417.0,  media: 420.0,   variacao media por tempo: -0.6666666666666666***********
+          bc.ativa_s (Medida Pot�ncia Ativa Fase S):
+              maximo: 436.0,  minimo: 430.0,  media: 432.5,   variacao media por tempo: -0.4444444444444444***********
+          bc.ativa_t (Medida Pot�ncia Ativa Fase T):
+              maximo: 498.0,  minimo: 492.0,  media: 496.6,   variacao media por tempo: 0.6666666666666666***********
+          bc.ativa_total (Medida Pot�ncia Ativa Total):
+              maximo: 1352.0,  minimo: 1345.0,  media: 1348.6,   variacao media por tempo: -0.4444444444444444***********
+          bc.reativa_r (Medida Pot�ncia Reativa Fase R):
+              maximo: 446.0,  minimo: 442.0,  media: 444.1,   variacao media por tempo: -0.3333333333333333***********
+          bc.reativa_s (Medida Pot�ncia Reativa Fase S):
+              maximo: 65096.0,  minimo: 65091.0,  media: 65093.7,   variacao media por tempo: -0.3333333333333333***********
+          bc.reativa_t (Medida Pot�ncia Reativa Fase T):
+              maximo: 65046.0,  minimo: 65038.0,  media: 65040.3,   variacao media por tempo: -0.7777777777777778***********
+          bc.reativa_total (Medida Pot�ncia Reativa Total):
+              maximo: 65050.0,  minimo: 65037.0,  media: 65042.0,   variacao media por tempo: -1.4444444444444444***********
+          bc.aparente_r (Medida Pot�ncia Aparente Fase R):
+              maximo: 614.0,  minimo: 607.0,  media: 611.1,   variacao media por tempo: -0.7777777777777778***********
+          bc.aparente_s (Medida Pot�ncia Aparente Fase S):
+              maximo: 623.0,  minimo: 617.0,  media: 618.4,   variacao media por tempo: -0.1111111111111111***********
+          bc.aparente_t (Medida Pot�ncia Aparente Fase T):
+              maximo: 704.0,  minimo: 695.0,  media: 701.7,   variacao media por tempo: 1.0***********
+          bc.aparente_total (Medida Pot�ncia Aparente Total):
+              maximo: 1441.0,  minimo: 1433.0,  media: 1436.0,   variacao media por tempo: 0.1111111111111111***********
+          bc.fp_r (Medida do Fator de Pot�ncia Fase R):
+              maximo: 0.689,  minimo: 0.686,  media: 0.6878,   variacao media por tempo: -0.00011111111111111121***********
+          bc.fp_s (Medida do Fator de Pot�ncia Fase S):
+              maximo: 0.702,  minimo: 0.696,  media: 0.699,   variacao media por tempo: -0.0005555555555555561***********
+          bc.fp_t (Medida do Fator de Pot�ncia Fase T):
+              maximo: 0.709,  minimo: 0.706,  media: 0.7074,   variacao media por tempo: 0.00011111111111111121***********
+          bc.fp_total (Medida do Fator de Pot�ncia Total):
+              maximo: 0.941,  minimo: 0.937,  media: 0.9392999999999999,   variacao media por tempo: -0.00033333333333333365***********
+          bc.energia_ativa (Medida da Energia Ativa):
+              maximo: 908.0,  minimo: 899.0,  media: 901.9,   variacao media por tempo: 1.0***********
+          bc.energia_reativa (Medida da Energia Reativa):
+              maximo: 5620.0,  minimo: 5620.0,  media: 5620.0,   variacao media por tempo: 0.0***********
+          bc.energia_aparente (Medida da Energia Aparente):
+              maximo: 5590.0,  minimo: 5581.0,  media: 5585.2,   variacao media por tempo: 1.0***********
+

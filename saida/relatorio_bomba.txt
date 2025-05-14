@@ -1,0 +1,470 @@
+Controle de registrador da bancada:
+    Sem resposta do registrador bc.sol_inf (716), valor (escrito: 0, lido: 1.0)
+    Sem resposta do registrador bc.sol_sup (716), valor (escrito: 1, lido: 0.0)
+
+Relatorio de comando do motor VERDE (1): 
+        habilita com valor contraditorio. valor = [1.0], esperado = [0]
+        status_ats48 com valor contraditorio. valor = [0.0], esperado = [1]
+        habilita com valor contraditorio. valor = [1.0], esperado = [0]
+        status_atv31 com valor contraditorio. valor = [0.0], esperado = [1]
+    Partida Direta:
+        desligado, 0:
+            bc.demanda_media[1206]: valor = 0.14, esperado = 0
+            bc.thd_tensao_sn[801]: valor = 2.64, esperado = 2.0
+            bc.tensao_rs[847]: valor = 216.46999999999997, esperado = 221
+            bc.tensao_tr[849]: valor = 215.98000000000002, esperado = 221
+            bc.pit01[710]: valor = 0.10000000149011612, esperado = 0
+            bc.fit01[712]: valor = 0.30000001192092896, esperado = 0
+        ligado, 0:
+            bc.demanda_anterior[1204]: valor = 1.4, esperado = 0
+            bc.demanda_atual[1205]: valor = 1.4, esperado = 0
+            bc.demanda_media[1206]: valor = 79.22, esperado = 0
+            bc.demanda_pico[1207]: valor = 120.63, esperado = 0
+            bc.thd_tensao_sn[801]: valor = 2.6900000000000004, esperado = 2.0
+            bc.thd_tensao_tn[802]: valor = 2.42, esperado = 2.0
+            bc.thd_corrente_s[875]: valor = 2.21, esperado = 3
+            bc.thd_corrente_t[876]: valor = 2.21, esperado = 3
+            bc.tensao_rs[847]: valor = 215.32, esperado = 221
+            bc.tensao_tr[849]: valor = 214.64000000000001, esperado = 221
+            bc.ativa_s[853]: valor = 427.0, esperado = 400
+            bc.fp_r[868]: valor = 0.8926999999999999, esperado = 0.65
+            bc.fp_s[869]: valor = 0.8864000000000001, esperado = 0.65
+            bc.fp_t[870]: valor = 0.8603, esperado = 0.65
+            bc.fp_total[871]: valor = 0.8801, esperado = 0.65
+            bc.energia_ativa[1210]: valor = 1075.7, esperado = 850
+            bc.energia_reativa[1212]: valor = 5900.1, esperado = 850
+            bc.energia_aparente[1214]: valor = 6610.1, esperado = 850
+            bc.pit01[710]: valor = 2.4000000953674316, esperado = 0
+            bc.fit01[712]: valor = 3.559999942779541, esperado = 0
+    Partida Soft-Start:
+        desligado, 0:
+            bc.demanda_anterior[1204]: valor = 4.619999999999999, esperado = 0
+            bc.demanda_atual[1205]: valor = 4.619999999999999, esperado = 0
+            bc.demanda_media[1206]: valor = 38.540000000000006, esperado = 0
+            bc.demanda_pico[1207]: valor = 1971.94, esperado = 0
+            bc.thd_tensao_sn[801]: valor = 2.71, esperado = 2.0
+            bc.thd_tensao_tn[802]: valor = 2.44, esperado = 2.0
+            bc.tensao_rs[847]: valor = 216.55, esperado = 221
+            bc.tensao_tr[849]: valor = 216.1, esperado = 221
+            bc.ativa_total[855]: valor = 65535.0, esperado = 0
+            bc.reativa_r[856]: valor = 65533.0, esperado = 0
+            bc.reativa_s[857]: valor = 65533.0, esperado = 0
+            bc.reativa_t[858]: valor = 65533.0, esperado = 0
+            bc.reativa_total[859]: valor = 65527.9, esperado = 0
+            bc.aparente_r[860]: valor = 3.0, esperado = 0
+            bc.aparente_s[861]: valor = 3.0, esperado = 0
+            bc.aparente_t[862]: valor = 3.0, esperado = 0
+            bc.aparente_total[863]: valor = 8.4, esperado = 0
+            bc.pit01[710]: valor = 0.10000000149011612, esperado = 0
+            bc.fit01[712]: valor = 0.30000001192092896, esperado = 0
+        ligado, 0:
+            bc.encoder[727]: valor = 2720.0, esperado = 3100
+            bc.demanda_anterior[1204]: valor = 5.279999999999999, esperado = 0
+            bc.demanda_atual[1205]: valor = 5.279999999999999, esperado = 0
+            bc.demanda_media[1206]: valor = 50.78, esperado = 0
+            bc.demanda_pico[1207]: valor = 1404.3200000000002, esperado = 0
+            bc.thd_tensao_sn[801]: valor = 2.7, esperado = 2.0
+            bc.thd_tensao_tn[802]: valor = 2.5, esperado = 2.0
+            bc.thd_corrente_r[874]: valor = 25.479999999999997, esperado = 3
+            bc.thd_corrente_s[875]: valor = 22.84, esperado = 3
+            bc.thd_corrente_t[876]: valor = 27.130000000000003, esperado = 3
+            bc.tensao_rs[847]: valor = 215.8, esperado = 221
+            bc.tensao_tr[849]: valor = 215.23000000000002, esperado = 221
+            bc.ativa_r[852]: valor = 316.6, esperado = 400
+            bc.ativa_s[853]: valor = 336.8, esperado = 400
+            bc.ativa_t[854]: valor = 314.6, esperado = 400
+            bc.ativa_total[855]: valor = 14075.0, esperado = 1200
+            bc.reativa_r[856]: valor = 13289.1, esperado = 210
+            bc.reativa_s[857]: valor = 13306.8, esperado = 210
+            bc.reativa_t[858]: valor = 13310.3, esperado = 210
+            bc.reativa_total[859]: valor = 13692.2, esperado = 630
+            bc.aparente_r[860]: valor = 367.1, esperado = 450
+            bc.aparente_s[861]: valor = 392.2, esperado = 450
+            bc.aparente_t[862]: valor = 374.7, esperado = 450
+            bc.aparente_total[863]: valor = 1132.0, esperado = 1350
+            bc.fp_r[868]: valor = 7.259899999999999, esperado = 0.65
+            bc.fp_s[869]: valor = 7.264100000000001, esperado = 0.65
+            bc.fp_t[870]: valor = 3.9595, esperado = 0.65
+            bc.fp_total[871]: valor = 7.256, esperado = 0.65
+            bc.energia_ativa[1210]: valor = 1085.2, esperado = 850
+            bc.energia_reativa[1212]: valor = 5905.7, esperado = 850
+            bc.energia_aparente[1214]: valor = 6621.5, esperado = 850
+            bc.pit01[710]: valor = 2.0900000669062138, esperado = 0
+            bc.fit01[712]: valor = 3.139999967813492, esperado = 0
+    Partida Inversora:
+        desligado, 0:
+            bc.torque[1334]: valor = 0.2403499811887741, esperado = 0
+            bc.demanda_anterior[1204]: valor = 9.030000000000001, esperado = 0
+            bc.demanda_atual[1205]: valor = 9.030000000000001, esperado = 0
+            bc.demanda_media[1206]: valor = 49.59, esperado = 0
+            bc.demanda_pico[1207]: valor = 24.7, esperado = 0
+            bc.thd_tensao_sn[801]: valor = 2.71, esperado = 2.0
+            bc.thd_tensao_tn[802]: valor = 2.42, esperado = 2.0
+            bc.corrente_r[840]: valor = 0.35, esperado = 0
+            bc.corrente_s[841]: valor = 0.47000000000000003, esperado = 0
+            bc.corrente_t[842]: valor = 0.45, esperado = 0
+            bc.corrente_media[845]: valor = 0.4600000000000001, esperado = 0
+            bc.tensao_rs[847]: valor = 216.99, esperado = 221
+            bc.tensao_tr[849]: valor = 216.78000000000003, esperado = 221
+            bc.reativa_r[856]: valor = 58979.6, esperado = 0
+            bc.reativa_s[857]: valor = 65526.0, esperado = 0
+            bc.reativa_t[858]: valor = 65526.7, esperado = 0
+            bc.reativa_total[859]: valor = 65513.8, esperado = 0
+            bc.aparente_r[860]: valor = 2.8, esperado = 0
+            bc.aparente_s[861]: valor = 10.2, esperado = 0
+            bc.aparente_t[862]: valor = 9.5, esperado = 0
+            bc.aparente_total[863]: valor = 22.4, esperado = 0
+            bc.pit01[710]: valor = 0.10000000149011612, esperado = 0
+            bc.fit01[712]: valor = 0.30000001192092896, esperado = 0
+        ligado em 0hz, 0:
+            bc.temp_r[700]: valor = 35.22, esperado = 50*0
+            bc.temp_s[702]: valor = 35.08, esperado = 50*0
+            bc.temp_t[704]: valor = 35.12, esperado = 50*0
+            bc.temp_carc[706]: valor = 32.08, esperado = 35*0
+            bc.demanda_anterior[1204]: valor = 9.3, esperado = 0*0
+            bc.demanda_atual[1205]: valor = 9.3, esperado = 0*0
+            bc.demanda_media[1206]: valor = 3.41, esperado = 0*0
+            bc.demanda_pico[1207]: valor = 0.4, esperado = 0*0
+            bc.demanda_prevista[1208]: valor = 11.4, esperado = 11.4*0
+            bc.frequencia[830]: valor = 59.983000000000004, esperado = 60*0
+            bc.thd_tensao_rn[800]: valor = 2.3, esperado = 2.0*0
+            bc.thd_tensao_sn[801]: valor = 2.73, esperado = 2.0*0
+            bc.thd_tensao_tn[802]: valor = 2.44, esperado = 2.0*0
+            bc.thd_tensao_rs[804]: valor = 1.6800000000000002, esperado = 1.4*0
+            bc.thd_tensao_st[805]: valor = 1.45, esperado = 1.4*0
+            bc.thd_tensao_tr[806]: valor = 1.47, esperado = 1.4*0
+            bc.thd_corrente_r[874]: valor = 139.38, esperado = 3*0
+            bc.thd_corrente_s[875]: valor = 263.55, esperado = 3*0
+            bc.thd_corrente_t[876]: valor = 389.8, esperado = 3*0
+            bc.thd_corrente_n[877]: valor = 3276.8, esperado = 3276.8*0
+            bc.tensao_rs[847]: valor = 216.57999999999998, esperado = 221*0
+            bc.tensao_st[848]: valor = 219.19, esperado = 221*0
+            bc.tensao_tr[849]: valor = 217.09, esperado = 221*0
+            bc.reativa_r[856]: valor = 65532.9, esperado = 210*0
+            bc.reativa_s[857]: valor = 65525.6, esperado = 210*0
+            bc.reativa_t[858]: valor = 65526.3, esperado = 210*0
+            bc.reativa_total[859]: valor = 65512.6, esperado = 630*0
+            bc.fp_r[868]: valor = 23.2036, esperado = 0.65*0
+            bc.fp_t[870]: valor = 0.22290000000000001, esperado = 0.65*0
+            bc.energia_ativa[1210]: valor = 1093.0, esperado = 850*0
+            bc.energia_reativa[1212]: valor = 5910.0, esperado = 850*0
+            bc.energia_aparente[1214]: valor = 6631.0, esperado = 850*0
+            bc.pit01[710]: valor = 0.10000000149011612, esperado = 0*0
+            bc.fit01[712]: valor = 0.30000001192092896, esperado = 0*0
+        ligado em 30hz, 0:
+            bc.temp_carc[706]: valor = 32.55, esperado = 35*.5
+            bc.demanda_anterior[1204]: valor = 9.53, esperado = 0*.5
+            bc.demanda_atual[1205]: valor = 9.53, esperado = 0*.5
+            bc.demanda_media[1206]: valor = 13.16, esperado = 0*.5
+            bc.demanda_pico[1207]: valor = 21.009999999999998, esperado = 0*.5
+            bc.demanda_prevista[1208]: valor = 11.4, esperado = 11.4*.5
+            bc.frequencia[830]: valor = 59.968999999999994, esperado = 60*.5
+            bc.thd_tensao_rn[800]: valor = 2.38, esperado = 2.0*.5
+            bc.thd_tensao_sn[801]: valor = 2.79, esperado = 2.0*.5
+            bc.thd_tensao_tn[802]: valor = 2.35, esperado = 2.0*.5
+            bc.thd_tensao_rs[804]: valor = 1.7399999999999998, esperado = 1.4*.5
+            bc.thd_tensao_st[805]: valor = 1.54, esperado = 1.4*.5
+            bc.thd_tensao_tr[806]: valor = 1.49, esperado = 1.4*.5
+            bc.thd_corrente_r[874]: valor = 170.15, esperado = 3*.5
+            bc.thd_corrente_s[875]: valor = 154.95999999999998, esperado = 3*.5
+            bc.thd_corrente_t[876]: valor = 145.92000000000002, esperado = 3*.5
+            bc.thd_corrente_n[877]: valor = 3276.8, esperado = 3276.8*.5
+            bc.tensao_rs[847]: valor = 216.19, esperado = 221*.5
+            bc.tensao_st[848]: valor = 217.91, esperado = 221*.5
+            bc.tensao_tr[849]: valor = 215.6, esperado = 221*.5
+            bc.ativa_r[852]: valor = 45.0, esperado = 400*.5
+            bc.ativa_s[853]: valor = 75.9, esperado = 400*.5
+            bc.ativa_t[854]: valor = 97.3, esperado = 400*.5
+            bc.ativa_total[855]: valor = 218.4, esperado = 1200*.5
+            bc.reativa_s[857]: valor = 65395.2, esperado = 210*.5
+            bc.reativa_t[858]: valor = 142.2, esperado = 210*.5
+            bc.reativa_total[859]: valor = 81.6, esperado = 630*.5
+            bc.aparente_r[860]: valor = 91.7, esperado = 450*.5
+            bc.aparente_s[861]: valor = 159.9, esperado = 450*.5
+            bc.aparente_t[862]: valor = 172.3, esperado = 450*.5
+            bc.aparente_total[863]: valor = 232.9, esperado = 1350*.5
+            bc.fp_t[870]: valor = 0.5652999999999999, esperado = 0.65*.5
+            bc.fp_total[871]: valor = 0.9356, esperado = 0.65*.5
+            bc.energia_ativa[1210]: valor = 1093.9, esperado = 850*.5
+            bc.energia_reativa[1212]: valor = 5910.0, esperado = 850*.5
+            bc.energia_aparente[1214]: valor = 6632.1, esperado = 850*.5
+            bc.pit01[710]: valor = 0.5900000214576722, esperado = 0*.5
+            bc.fit01[712]: valor = 1.600000023841858, esperado = 0*.5
+        ligado em 60hz, 0:
+            bc.encoder[727]: valor = 3600.0, esperado = 3100*1
+            bc.demanda_anterior[1204]: valor = 12.18, esperado = 0*1
+            bc.demanda_atual[1205]: valor = 12.18, esperado = 0*1
+            bc.demanda_media[1206]: valor = 92.95, esperado = 0*1
+            bc.demanda_pico[1207]: valor = 131.42000000000002, esperado = 0*1
+            bc.thd_tensao_rn[800]: valor = 2.64, esperado = 2.0*1
+            bc.thd_tensao_sn[801]: valor = 2.96, esperado = 2.0*1
+            bc.thd_tensao_tn[802]: valor = 2.5100000000000002, esperado = 2.0*1
+            bc.thd_tensao_rs[804]: valor = 2.0, esperado = 1.4*1
+            bc.thd_tensao_st[805]: valor = 1.89, esperado = 1.4*1
+            bc.thd_corrente_r[874]: valor = 99.56, esperado = 3*1
+            bc.thd_corrente_s[875]: valor = 98.08000000000001, esperado = 3*1
+            bc.thd_corrente_t[876]: valor = 97.83, esperado = 3*1
+            bc.corrente_s[841]: valor = 5.3100000000000005, esperado = 3.4*1
+            bc.corrente_t[842]: valor = 5.430000000000001, esperado = 3.4*1
+            bc.corrente_media[845]: valor = 5.14, esperado = 3.4*1
+            bc.tensao_rs[847]: valor = 214.79000000000002, esperado = 221*1
+            bc.tensao_st[848]: valor = 216.51, esperado = 221*1
+            bc.tensao_tr[849]: valor = 213.91, esperado = 221*1
+            bc.ativa_s[853]: valor = 456.8, esperado = 400*1
+            bc.ativa_t[854]: valor = 478.4, esperado = 400*1
+            bc.ativa_total[855]: valor = 1344.8, esperado = 1200*1
+            bc.reativa_r[856]: valor = 65118.9, esperado = 210*1
+            bc.reativa_s[857]: valor = 65063.6, esperado = 210*1
+            bc.reativa_t[858]: valor = 65062.8, esperado = 210*1
+            bc.reativa_total[859]: valor = 64173.0, esperado = 630*1
+            bc.aparente_r[860]: valor = 584.4, esperado = 450*1
+            bc.aparente_s[861]: valor = 657.1, esperado = 450*1
+            bc.aparente_t[862]: valor = 673.1, esperado = 450*1
+            bc.aparente_total[863]: valor = 1914.5, esperado = 1350*1
+            bc.energia_ativa[1210]: valor = 1101.9, esperado = 850*1
+            bc.energia_reativa[1212]: valor = 5910.7, esperado = 850*1
+            bc.energia_aparente[1214]: valor = 6643.5, esperado = 850*1
+            bc.pit01[710]: valor = 2.5, esperado = 0*1
+            bc.fit01[712]: valor = 3.6399999618530274, esperado = 0*1
+Relatorio de comando do motor AZUL (2): 
+        status_ats48 com valor contraditorio. valor = [2.0], esperado = [0]
+        habilita com valor contraditorio. valor = [1.0], esperado = [0]
+        status_ats48 com valor contraditorio. valor = [2.0], esperado = [1]
+        habilita com valor contraditorio. valor = [1.0], esperado = [0]
+        status_atv31 com valor contraditorio. valor = [0.0], esperado = [1]
+    Partida Direta:
+        desligado, 0:
+            bc.demanda_anterior[1204]: valor = 16.4, esperado = 0
+            bc.demanda_atual[1205]: valor = 16.4, esperado = 0
+            bc.demanda_media[1206]: valor = 0.17, esperado = 0
+            bc.thd_tensao_sn[801]: valor = 2.7800000000000002, esperado = 2.0
+            bc.tensao_rs[847]: valor = 216.6, esperado = 221
+            bc.tensao_tr[849]: valor = 216.15, esperado = 221
+            bc.pit01[710]: valor = 0.10000000149011612, esperado = 0
+            bc.fit01[712]: valor = 0.30000001192092896, esperado = 0
+        ligado, 0:
+            bc.demanda_anterior[1204]: valor = 18.28, esperado = 0
+            bc.demanda_atual[1205]: valor = 18.28, esperado = 0
+            bc.demanda_media[1206]: valor = 88.12, esperado = 0
+            bc.demanda_pico[1207]: valor = 126.47999999999999, esperado = 0
+            bc.thd_tensao_sn[801]: valor = 2.7399999999999998, esperado = 2.0
+            bc.tensao_rs[847]: valor = 214.82, esperado = 221
+            bc.tensao_st[848]: valor = 216.98000000000002, esperado = 221
+            bc.tensao_tr[849]: valor = 214.07, esperado = 221
+            bc.ativa_s[853]: valor = 448.2, esperado = 400
+            bc.ativa_total[855]: valor = 1267.0, esperado = 1200
+            bc.reativa_r[856]: valor = 172.1, esperado = 210
+            bc.fp_r[868]: valor = 0.9211, esperado = 0.65
+            bc.fp_s[869]: valor = 0.9156000000000001, esperado = 0.65
+            bc.fp_t[870]: valor = 0.8888999999999999, esperado = 0.65
+            bc.fp_total[871]: valor = 0.9091000000000001, esperado = 0.65
+            bc.energia_ativa[1210]: valor = 1118.5, esperado = 850
+            bc.energia_reativa[1212]: valor = 5914.9, esperado = 850
+            bc.energia_aparente[1214]: valor = 6663.2, esperado = 850
+            bc.pit01[710]: valor = 2.4000000953674316, esperado = 0
+            bc.fit01[712]: valor = 3.5, esperado = 0
+    Partida Soft-Start:
+        desligado, 0:
+            bc.torque[1334]: valor = 0.1933249831199646, esperado = 0
+            bc.demanda_anterior[1204]: valor = 22.139999999999997, esperado = 0
+            bc.demanda_atual[1205]: valor = 22.139999999999997, esperado = 0
+            bc.demanda_media[1206]: valor = 45.14, esperado = 0
+            bc.demanda_pico[1207]: valor = 2623.41, esperado = 0
+            bc.thd_tensao_sn[801]: valor = 2.73, esperado = 2.0
+            bc.corrente_r[840]: valor = 0.36, esperado = 0
+            bc.corrente_s[841]: valor = 0.39, esperado = 0
+            bc.corrente_t[842]: valor = 0.37, esperado = 0
+            bc.corrente_media[845]: valor = 0.37, esperado = 0
+            bc.tensao_rs[847]: valor = 216.8, esperado = 221
+            bc.tensao_tr[849]: valor = 216.04000000000002, esperado = 221
+            bc.ativa_total[855]: valor = 58981.5, esperado = 0
+            bc.reativa_r[856]: valor = 58979.7, esperado = 0
+            bc.reativa_s[857]: valor = 58979.7, esperado = 0
+            bc.reativa_t[858]: valor = 58979.7, esperado = 0
+            bc.reativa_total[859]: valor = 58974.3, esperado = 0
+            bc.aparente_r[860]: valor = 2.7, esperado = 0
+            bc.aparente_s[861]: valor = 2.7, esperado = 0
+            bc.aparente_t[862]: valor = 2.7, esperado = 0
+            bc.aparente_total[863]: valor = 8.1, esperado = 0
+            bc.pit01[710]: valor = 0.10000000149011612, esperado = 0
+            bc.fit01[712]: valor = 0.30000001192092896, esperado = 0
+        ligado, 0:
+            bc.encoder[727]: valor = 0.0, esperado = 3100
+            bc.torque[1334]: valor = 0.0, esperado = 2.2
+            bc.demanda_anterior[1204]: valor = 22.5, esperado = 0
+            bc.demanda_atual[1205]: valor = 22.5, esperado = 0
+            bc.demanda_media[1206]: valor = 2.16, esperado = 0
+            bc.demanda_pico[1207]: valor = 6553.5, esperado = 0
+            bc.thd_tensao_sn[801]: valor = 2.71, esperado = 2.0
+            bc.thd_corrente_r[874]: valor = 760.76, esperado = 3
+            bc.thd_corrente_s[875]: valor = 124.67999999999999, esperado = 3
+            bc.thd_corrente_t[876]: valor = 139.47, esperado = 3
+            bc.corrente_r[840]: valor = 0.0, esperado = 3.4
+            bc.corrente_s[841]: valor = 0.0, esperado = 3.4
+            bc.corrente_t[842]: valor = 0.0, esperado = 3.4
+            bc.corrente_media[845]: valor = 0.0, esperado = 3.4
+            bc.tensao_rs[847]: valor = 216.53000000000003, esperado = 221
+            bc.tensao_tr[849]: valor = 215.76999999999998, esperado = 221
+            bc.ativa_r[852]: valor = 0.0, esperado = 400
+            bc.ativa_s[853]: valor = 0.0, esperado = 400
+            bc.ativa_t[854]: valor = 0.0, esperado = 400
+            bc.ativa_total[855]: valor = 52428.0, esperado = 1200
+            bc.reativa_r[856]: valor = 52426.4, esperado = 210
+            bc.reativa_s[857]: valor = 65533.0, esperado = 210
+            bc.reativa_t[858]: valor = 65533.0, esperado = 210
+            bc.reativa_total[859]: valor = 65527.6, esperado = 630
+            bc.aparente_r[860]: valor = 2.4, esperado = 450
+            bc.aparente_s[861]: valor = 3.0, esperado = 450
+            bc.aparente_t[862]: valor = 3.0, esperado = 450
+            bc.aparente_total[863]: valor = 8.4, esperado = 1350
+            bc.fp_r[868]: valor = 29.554399999999998, esperado = 0.65
+            bc.fp_s[869]: valor = 29.5988, esperado = 0.65
+            bc.fp_t[870]: valor = 16.4223, esperado = 0.65
+            bc.fp_total[871]: valor = 32.8416, esperado = 0.65
+            bc.energia_ativa[1210]: valor = 1126.0, esperado = 850
+            bc.energia_reativa[1212]: valor = 5918.0, esperado = 850
+            bc.energia_aparente[1214]: valor = 6672.0, esperado = 850
+            bc.pit01[710]: valor = 0.10000000149011612, esperado = 0
+            bc.fit01[712]: valor = 0.30000001192092896, esperado = 0
+    Partida Inversora:
+        desligado, 0:
+            bc.demanda_anterior[1204]: valor = 22.5, esperado = 0
+            bc.demanda_atual[1205]: valor = 22.5, esperado = 0
+            bc.demanda_media[1206]: valor = 0.47000000000000003, esperado = 0
+            bc.demanda_pico[1207]: valor = 0.54, esperado = 0
+            bc.thd_tensao_sn[801]: valor = 2.7600000000000002, esperado = 2.0
+            bc.tensao_rs[847]: valor = 216.94, esperado = 221
+            bc.tensao_tr[849]: valor = 216.20999999999998, esperado = 221
+            bc.reativa_r[856]: valor = 58979.5, esperado = 0
+            bc.reativa_s[857]: valor = 65525.9, esperado = 0
+            bc.reativa_t[858]: valor = 65526.6, esperado = 0
+            bc.reativa_total[859]: valor = 65513.4, esperado = 0
+            bc.aparente_r[860]: valor = 2.9, esperado = 0
+            bc.aparente_s[861]: valor = 10.2, esperado = 0
+            bc.aparente_t[862]: valor = 9.8, esperado = 0
+            bc.aparente_total[863]: valor = 22.9, esperado = 0
+            bc.pit01[710]: valor = 0.10000000149011612, esperado = 0
+            bc.fit01[712]: valor = 0.30000001192092896, esperado = 0
+        ligado em 0hz, 0:
+            bc.temp_r[700]: valor = 40.3, esperado = 50*0
+            bc.temp_s[702]: valor = 35.4, esperado = 50*0
+            bc.temp_t[704]: valor = 37.82, esperado = 50*0
+            bc.temp_carc[706]: valor = 38.08, esperado = 35*0
+            bc.demanda_anterior[1204]: valor = 22.5, esperado = 0*0
+            bc.demanda_atual[1205]: valor = 22.5, esperado = 0*0
+            bc.demanda_media[1206]: valor = 0.4, esperado = 0*0
+            bc.demanda_pico[1207]: valor = 0.4, esperado = 0*0
+            bc.demanda_prevista[1208]: valor = 11.4, esperado = 11.4*0
+            bc.frequencia[830]: valor = 60.004, esperado = 60*0
+            bc.thd_tensao_rn[800]: valor = 2.32, esperado = 2.0*0
+            bc.thd_tensao_sn[801]: valor = 2.75, esperado = 2.0*0
+            bc.thd_tensao_tn[802]: valor = 2.36, esperado = 2.0*0
+            bc.thd_tensao_rs[804]: valor = 1.67, esperado = 1.4*0
+            bc.thd_tensao_st[805]: valor = 1.43, esperado = 1.4*0
+            bc.thd_tensao_tr[806]: valor = 1.44, esperado = 1.4*0
+            bc.thd_corrente_r[874]: valor = 455.26000000000005, esperado = 3*0
+            bc.thd_corrente_s[875]: valor = 252.33, esperado = 3*0
+            bc.thd_corrente_t[876]: valor = 422.66999999999996, esperado = 3*0
+            bc.thd_corrente_n[877]: valor = 3276.8, esperado = 3276.8*0
+            bc.tensao_rs[847]: valor = 216.6, esperado = 221*0
+            bc.tensao_st[848]: valor = 218.96999999999997, esperado = 221*0
+            bc.tensao_tr[849]: valor = 216.11999999999998, esperado = 221*0
+            bc.reativa_r[856]: valor = 45873.1, esperado = 210*0
+            bc.reativa_s[857]: valor = 65526.0, esperado = 210*0
+            bc.reativa_t[858]: valor = 65526.9, esperado = 210*0
+            bc.reativa_total[859]: valor = 65514.4, esperado = 630*0
+            bc.fp_r[868]: valor = 26.484500000000004, esperado = 0.65*0
+            bc.fp_t[870]: valor = 0.2192, esperado = 0.65*0
+            bc.energia_ativa[1210]: valor = 1126.0, esperado = 850*0
+            bc.energia_reativa[1212]: valor = 5918.0, esperado = 850*0
+            bc.energia_aparente[1214]: valor = 6672.0, esperado = 850*0
+            bc.pit01[710]: valor = 0.10000000149011612, esperado = 0*0
+            bc.fit01[712]: valor = 0.30000001192092896, esperado = 0*0
+        ligado em 30hz, 0:
+            bc.temp_carc[706]: valor = 38.07, esperado = 35*.5
+            bc.demanda_anterior[1204]: valor = 22.94, esperado = 0*.5
+            bc.demanda_atual[1205]: valor = 22.94, esperado = 0*.5
+            bc.demanda_media[1206]: valor = 15.809999999999999, esperado = 0*.5
+            bc.demanda_pico[1207]: valor = 22.85, esperado = 0*.5
+            bc.demanda_prevista[1208]: valor = 11.4, esperado = 11.4*.5
+            bc.frequencia[830]: valor = 59.974000000000004, esperado = 60*.5
+            bc.thd_tensao_rn[800]: valor = 2.31, esperado = 2.0*.5
+            bc.thd_tensao_sn[801]: valor = 2.84, esperado = 2.0*.5
+            bc.thd_tensao_tn[802]: valor = 2.3, esperado = 2.0*.5
+            bc.thd_tensao_rs[804]: valor = 1.7, esperado = 1.4*.5
+            bc.thd_tensao_st[805]: valor = 1.49, esperado = 1.4*.5
+            bc.thd_tensao_tr[806]: valor = 1.4, esperado = 1.4*.5
+            bc.thd_corrente_r[874]: valor = 163.92000000000002, esperado = 3*.5
+            bc.thd_corrente_s[875]: valor = 146.10999999999999, esperado = 3*.5
+            bc.thd_corrente_t[876]: valor = 138.31, esperado = 3*.5
+            bc.thd_corrente_n[877]: valor = 3276.8, esperado = 3276.8*.5
+            bc.tensao_rs[847]: valor = 215.95999999999998, esperado = 221*.5
+            bc.tensao_st[848]: valor = 217.99, esperado = 221*.5
+            bc.tensao_tr[849]: valor = 215.41, esperado = 221*.5
+            bc.ativa_r[852]: valor = 50.3, esperado = 400*.5
+            bc.ativa_s[853]: valor = 84.0, esperado = 400*.5
+            bc.ativa_t[854]: valor = 103.2, esperado = 400*.5
+            bc.ativa_total[855]: valor = 237.5, esperado = 1200*.5
+            bc.reativa_s[857]: valor = 65392.2, esperado = 210*.5
+            bc.reativa_t[858]: valor = 143.9, esperado = 210*.5
+            bc.reativa_total[859]: valor = 82.8, esperado = 630*.5
+            bc.aparente_r[860]: valor = 96.5, esperado = 450*.5
+            bc.aparente_s[861]: valor = 166.6, esperado = 450*.5
+            bc.aparente_t[862]: valor = 177.1, esperado = 450*.5
+            bc.aparente_total[863]: valor = 251.6, esperado = 1350*.5
+            bc.fp_t[870]: valor = 0.5833999999999999, esperado = 0.65*.5
+            bc.fp_total[871]: valor = 0.9404999999999999, esperado = 0.65*.5
+            bc.energia_ativa[1210]: valor = 1127.3, esperado = 850*.5
+            bc.energia_reativa[1212]: valor = 5918.8, esperado = 850*.5
+            bc.energia_aparente[1214]: valor = 6674.0, esperado = 850*.5
+            bc.pit01[710]: valor = 0.6000000238418579, esperado = 0*.5
+            bc.fit01[712]: valor = 1.600000023841858, esperado = 0*.5
+        ligado em 60hz, 0:
+            bc.encoder[727]: valor = 3497.0, esperado = 3100*1
+            bc.torque[1334]: valor = 2.847624897956848, esperado = 2.2*1
+            bc.demanda_anterior[1204]: valor = 26.1, esperado = 0*1
+            bc.demanda_atual[1205]: valor = 26.1, esperado = 0*1
+            bc.demanda_media[1206]: valor = 108.25999999999999, esperado = 0*1
+            bc.demanda_pico[1207]: valor = 142.64, esperado = 0*1
+            bc.thd_tensao_rn[800]: valor = 2.64, esperado = 2.0*1
+            bc.thd_tensao_sn[801]: valor = 3.04, esperado = 2.0*1
+            bc.thd_tensao_tn[802]: valor = 2.48, esperado = 2.0*1
+            bc.thd_tensao_rs[804]: valor = 1.9600000000000002, esperado = 1.4*1
+            bc.thd_tensao_st[805]: valor = 1.89, esperado = 1.4*1
+            bc.thd_corrente_r[874]: valor = 98.89, esperado = 3*1
+            bc.thd_corrente_s[875]: valor = 96.92999999999999, esperado = 3*1
+            bc.thd_corrente_t[876]: valor = 96.15, esperado = 3*1
+            bc.corrente_r[840]: valor = 5.04, esperado = 3.4*1
+            bc.corrente_s[841]: valor = 5.6, esperado = 3.4*1
+            bc.corrente_t[842]: valor = 5.7, esperado = 3.4*1
+            bc.corrente_media[845]: valor = 5.45, esperado = 3.4*1
+            bc.tensao_rs[847]: valor = 214.39000000000001, esperado = 221*1
+            bc.tensao_st[848]: valor = 216.20999999999998, esperado = 221*1
+            bc.tensao_tr[849]: valor = 213.6, esperado = 221*1
+            bc.ativa_r[852]: valor = 436.5, esperado = 400*1
+            bc.ativa_s[853]: valor = 489.4, esperado = 400*1
+            bc.ativa_t[854]: valor = 509.0, esperado = 400*1
+            bc.ativa_total[855]: valor = 1434.8, esperado = 1200*1
+            bc.reativa_r[856]: valor = 65095.3, esperado = 210*1
+            bc.reativa_s[857]: valor = 65040.7, esperado = 210*1
+            bc.reativa_t[858]: valor = 58588.9, esperado = 210*1
+            bc.reativa_total[859]: valor = 64206.1, esperado = 630*1
+            bc.aparente_r[860]: valor = 620.5, esperado = 450*1
+            bc.aparente_s[861]: valor = 696.5, esperado = 450*1
+            bc.aparente_t[862]: valor = 707.6, esperado = 450*1
+            bc.aparente_total[863]: valor = 1972.3, esperado = 1350*1
+            bc.energia_ativa[1210]: valor = 1138.4, esperado = 850*1
+            bc.energia_reativa[1212]: valor = 5919.2, esperado = 850*1
+            bc.energia_aparente[1214]: valor = 6688.9, esperado = 850*1
+            bc.pit01[710]: valor = 2.5, esperado = 0*1
+            bc.fit01[712]: valor = 3.5999999046325684, esperado = 0*1
+Relatorio de comando do motor VERDE (1): 
+        status_ats48 com valor contraditorio. valor = [2.0], esperado = [0]
+        habilita com valor contraditorio. valor = [1.0], esperado = [0]
+        status_ats48 com valor contraditorio. valor = [2.0], esperado = [1]
+        habilita com valor contraditorio. valor = [1.0], esperado = [0]
+        status_atv31 com valor contraditorio. valor = [0.0], esperado = [1]
+        habilita com valor contraditorio. valor = [1.0], esperado = [0]
+        status_atv31 com valor contraditorio. valor = [0.0], esperado = [1]
+        habilita com valor contraditorio. valor = [1.0], esperado = [0]
+        status_atv31 com valor contraditorio. valor = [0.0], esperado = [1]

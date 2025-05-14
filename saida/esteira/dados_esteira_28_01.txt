@@ -1,0 +1,1592 @@
+Motor AZUL (2):
+    Partida Soft:
+        Motor Desligado:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 44.2,  min: 43.9,  media: 44.010000000000005,   std: 0.11357816691600708,   valores: [43.9, 43.9, 43.9, 43.9, 44.0, 44.0, 44.0, 44.1, 44.2, 44.2]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 33.0,  min: 32.9,  media: 32.92,   std: 0.04000000000000057,   valores: [32.9, 33.0, 32.9, 32.9, 32.9, 32.9, 32.9, 32.9, 32.9, 33.0]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 38.6,  min: 38.4,  media: 38.44,   std: 0.06633249580710894,   valores: [38.4, 38.4, 38.4, 38.4, 38.4, 38.4, 38.4, 38.5, 38.5, 38.6]
+          es.temp_carc (Temperatura Carcaça):
+              max: 30.4,  min: 30.3,  media: 30.369999999999997,   std: 0.04582575694955742,   valores: [30.4, 30.4, 30.3, 30.3, 30.4, 30.4, 30.4, 30.3, 30.4, 30.4]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 7.0,  min: 7.0,  media: 7.0,   std: 0.0,   valores: [7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 7.0,  min: 7.0,  media: 7.0,   std: 0.0,   valores: [7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 13.0,  min: 6.0,  media: 9.2,   std: 2.481934729198171,   valores: [13.0, 13.0, 11.0, 10.0, 10.0, 8.0, 8.0, 7.0, 6.0, 6.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 59.99,  min: 59.97,  media: 59.977,   std: 0.006403124237433017,   valores: [59.97, 59.97, 59.97, 59.97, 59.98, 59.98, 59.98, 59.98, 59.99, 59.98]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.3,  min: 2.1,  media: 2.21,   std: 0.05385164807134494,   valores: [2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.1, 2.2, 2.3, 2.3]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.4,  min: 2.2,  media: 2.29,   std: 0.0699999999999999,   valores: [2.3, 2.3, 2.3, 2.3, 2.4, 2.4, 2.3, 2.2, 2.2, 2.2]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.4,  min: 2.3,  media: 2.35,   std: 0.050000000000000044,   valores: [2.3, 2.3, 2.3, 2.4, 2.4, 2.4, 2.4, 2.4, 2.3, 2.3]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.2,  min: 1.2,  media: 1.2,   std: 2.220446049250313e-16,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.0,  min: 0.9,  media: 0.95,   std: 0.04999999999999999,   valores: [1.0, 0.9, 0.9, 1.0, 1.0, 1.0, 1.0, 0.9, 0.9, 0.9]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.2,  min: 1.2,  media: 1.2,   std: 2.220446049250313e-16,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 105.7,  min: 82.1,  media: 93.07000000000001,   std: 7.3386715419072965,   valores: [94.8, 105.7, 105.7, 82.1, 87.0, 88.5, 88.5, 91.2, 91.0, 96.2]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 125.7,  min: 82.1,  media: 97.34,   std: 12.009429628421161,   valores: [89.6, 94.5, 94.5, 94.4, 87.7, 107.0, 107.0, 125.7, 82.1, 90.9]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 119.1,  min: 86.5,  media: 100.74,   std: 7.580527686117898,   valores: [100.4, 99.2, 99.2, 100.5, 105.3, 99.4, 99.4, 86.5, 98.4, 119.1]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 0.02,  min: 0.02,  media: 0.02,   std: 3.469446951953614e-18,   valores: [0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02]
+          es.corrente_s (Corrente na fase S):
+              max: 0.02,  min: 0.02,  media: 0.02,   std: 3.469446951953614e-18,   valores: [0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02]
+          es.corrente_t (Corrente na fase T):
+              max: 0.02,  min: 0.02,  media: 0.02,   std: 3.469446951953614e-18,   valores: [0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 0.02,  min: 0.02,  media: 0.02,   std: 3.469446951953614e-18,   valores: [0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 221.2,  min: 221.0,  media: 221.11999999999998,   std: 0.05999999999999659,   valores: [221.2, 221.1, 221.2, 221.2, 221.1, 221.1, 221.1, 221.1, 221.0, 221.1]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 218.9,  min: 218.8,  media: 218.85999999999999,   std: 0.04898979485566078,   valores: [218.8, 218.8, 218.9, 218.9, 218.9, 218.9, 218.9, 218.9, 218.8, 218.8]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 219.1,  min: 219.0,  media: 219.07,   std: 0.04582575694955579,   valores: [219.1, 219.0, 219.1, 219.1, 219.1, 219.1, 219.1, 219.1, 219.0, 219.0]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 65533.0,  min: 65533.0,  media: 65533.0,   std: 0.0,   valores: [65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 65533.0,  min: 65533.0,  media: 65533.0,   std: 0.0,   valores: [65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 65533.0,  min: 65533.0,  media: 65533.0,   std: 0.0,   valores: [65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 65528.0,  min: 65528.0,  media: 65528.0,   std: 0.0,   valores: [65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 3.0,  min: 3.0,  media: 3.0,   std: 0.0,   valores: [3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 3.0,  min: 3.0,  media: 3.0,   std: 0.0,   valores: [3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 3.0,  min: 3.0,  media: 3.0,   std: 0.0,   valores: [3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 8.0,  min: 8.0,  media: 8.0,   std: 0.0,   valores: [8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 32.794,  min: 0.002,  media: 16.4005,   std: 16.386502337289677,   valores: [32.789, 0.028, 0.002, 0.002, 0.02, 32.779, 32.794, 32.794, 32.779, 0.018]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 32.803,  min: 0.016,  media: 26.2329,   std: 13.108454649194924,   valores: [32.785, 32.773, 32.801, 32.801, 32.786, 32.803, 0.016, 0.016, 32.778, 32.77]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 32.846,  min: 32.823,  media: 32.838300000000004,   std: 0.007014983962917452,   valores: [32.823, 32.84, 32.84, 32.84, 32.846, 32.841, 32.845, 32.845, 32.831, 32.832]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 32.808,  min: 0.036,  media: 26.2497,   std: 13.106850690001774,   valores: [32.8, 32.8, 0.036, 0.036, 32.807, 32.808, 32.808, 32.808, 32.797, 32.797]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 109.0,  min: 109.0,  media: 109.0,   std: 0.0,   valores: [109.0, 109.0, 109.0, 109.0, 109.0, 109.0, 109.0, 109.0, 109.0, 109.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 849.0,  min: 849.0,  media: 849.0,   std: 0.0,   valores: [849.0, 849.0, 849.0, 849.0, 849.0, 849.0, 849.0, 849.0, 849.0, 849.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2025.0,  min: 2025.0,  media: 2025.0,   std: 0.0,   valores: [2025.0, 2025.0, 2025.0, 2025.0, 2025.0, 2025.0, 2025.0, 2025.0, 2025.0, 2025.0]
+        Motor Ligado:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 1671.0,  min: 484.0,  media: 1528.7,   std: 348.56736795058714,   valores: [484.0, 1611.0, 1644.0, 1628.0, 1646.0, 1655.0, 1647.0, 1646.0, 1655.0, 1671.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.16,  min: 0.0,  media: 0.09,   std: 0.06356099432828281,   valores: [0.0, 0.0, 0.01, 0.06, 0.1, 0.12, 0.14, 0.15, 0.16, 0.16]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 44.6,  min: 44.4,  media: 44.43,   std: 0.0640312423743294,   valores: [44.4, 44.4, 44.4, 44.4, 44.4, 44.4, 44.4, 44.4, 44.5, 44.6]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 33.8,  min: 33.2,  media: 33.489999999999995,   std: 0.18138357147217077,   valores: [33.2, 33.3, 33.3, 33.4, 33.5, 33.5, 33.6, 33.6, 33.7, 33.8]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 39.2,  min: 38.8,  media: 38.94,   std: 0.12806248474865878,   valores: [38.8, 38.8, 38.8, 38.9, 38.9, 38.9, 39.0, 39.0, 39.1, 39.2]
+          es.temp_carc (Temperatura Carcaça):
+              max: 30.5,  min: 30.3,  media: 30.4,   std: 0.07745966692414807,   valores: [30.3, 30.3, 30.3, 30.4, 30.4, 30.4, 30.4, 30.5, 30.5, 30.5]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 9.0,  min: 7.0,  media: 8.8,   std: 0.6,   valores: [7.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 9.0,  min: 7.0,  media: 8.8,   std: 0.6,   valores: [7.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 264.0,  min: 63.0,  media: 191.4,   std: 61.08223964459719,   valores: [63.0, 136.0, 136.0, 176.0, 206.0, 206.0, 220.0, 243.0, 264.0, 264.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 564.0,  min: 302.0,  media: 439.5,   std: 74.03141225182726,   valores: [302.0, 564.0, 564.0, 471.0, 427.0, 427.0, 419.0, 405.0, 408.0, 408.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 59.98,  min: 59.97,  media: 59.974000000000004,   std: 0.004898979485565382,   valores: [59.97, 59.98, 59.97, 59.97, 59.97, 59.97, 59.97, 59.98, 59.98, 59.98]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.3,  min: 2.1,  media: 2.18,   std: 0.059999999999999956,   valores: [2.2, 2.2, 2.1, 2.1, 2.1, 2.2, 2.2, 2.3, 2.2, 2.2]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.3,  min: 2.2,  media: 2.22,   std: 0.039999999999999855,   valores: [2.3, 2.3, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.4,  min: 2.3,  media: 2.34,   std: 0.048989794855663606,   valores: [2.3, 2.4, 2.4, 2.4, 2.3, 2.3, 2.3, 2.4, 2.3, 2.3]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.2,  min: 1.1,  media: 1.16,   std: 0.048989794855663495,   valores: [1.2, 1.2, 1.2, 1.2, 1.1, 1.1, 1.1, 1.1, 1.2, 1.2]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.0,  min: 0.8,  media: 0.9099999999999999,   std: 0.06999999999999999,   valores: [0.9, 0.8, 0.9, 0.9, 0.8, 0.9, 0.9, 1.0, 1.0, 1.0]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.3,  min: 1.1,  media: 1.21,   std: 0.05385164807134505,   valores: [1.2, 1.1, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.3, 1.3]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 23.8,  min: 2.6,  media: 11.59,   std: 6.390532059226368,   valores: [23.8, 18.6, 15.0, 15.0, 13.0, 9.1, 9.1, 5.5, 4.2, 2.6]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 23.7,  min: 3.0,  media: 11.69,   std: 6.281791145843675,   valores: [23.7, 18.4, 15.1, 15.1, 13.0, 9.5, 9.5, 5.2, 4.4, 3.0]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 24.4,  min: 3.3,  media: 12.07,   std: 6.371036022500578,   valores: [24.4, 18.6, 15.5, 15.5, 13.6, 9.8, 9.8, 5.8, 4.4, 3.3]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 64.2,  media: 2635.7400000000002,   std: 1282.12415639048,   valores: [64.2, 78.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 3.85,  min: 1.86,  media: 2.301,   std: 0.7776303749211447,   valores: [3.85, 3.85, 2.08, 1.86, 1.86, 1.86, 1.86, 1.86, 1.94, 1.99]
+          es.corrente_s (Corrente na fase S):
+              max: 3.82,  min: 1.86,  media: 2.295,   std: 0.7658100286624613,   valores: [3.82, 3.82, 2.09, 1.86, 1.86, 1.86, 1.86, 1.86, 1.94, 1.98]
+          es.corrente_t (Corrente na fase T):
+              max: 3.78,  min: 1.76,  media: 2.212,   std: 0.7872839386142715,   valores: [3.78, 3.78, 2.01, 1.78, 1.78, 1.77, 1.76, 1.76, 1.83, 1.87]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.01,  min: 0.0,  media: 0.002,   std: 0.004,   valores: [0.01, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 3.81,  min: 1.83,  media: 2.268,   std: 0.7742454391212129,   valores: [3.81, 3.81, 2.06, 1.83, 1.83, 1.83, 1.83, 1.83, 1.9, 1.95]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 220.7,  min: 220.4,  media: 220.58,   std: 0.09797958971132155,   valores: [220.4, 220.4, 220.6, 220.6, 220.6, 220.6, 220.6, 220.6, 220.7, 220.7]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 218.4,  min: 217.9,  media: 218.13000000000002,   std: 0.148660687473185,   valores: [217.9, 217.9, 218.1, 218.1, 218.1, 218.1, 218.2, 218.2, 218.3, 218.4]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 218.1,  min: 217.9,  media: 218.0,   std: 0.06324555320336399,   valores: [217.9, 217.9, 218.0, 218.0, 218.0, 218.0, 218.0, 218.0, 218.1, 218.1]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 239.0,  min: 128.0,  media: 146.4,   std: 31.56010139400696,   valores: [136.0, 239.0, 153.0, 138.0, 138.0, 136.0, 128.0, 128.0, 134.0, 134.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 234.0,  min: 130.0,  media: 150.0,   std: 28.851343122981294,   valores: [130.0, 234.0, 157.0, 143.0, 143.0, 142.0, 134.0, 134.0, 141.0, 142.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 235.0,  min: 126.0,  media: 154.5,   std: 40.844216236818646,   valores: [235.0, 235.0, 152.0, 137.0, 137.0, 134.0, 126.0, 126.0, 132.0, 131.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 708.0,  min: 389.0,  media: 471.9,   std: 119.6389986584642,   valores: [708.0, 708.0, 463.0, 418.0, 418.0, 412.0, 389.0, 389.0, 406.0, 408.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 483.0,  min: 190.0,  media: 256.6,   std: 113.46735213267294,   valores: [483.0, 483.0, 213.0, 190.0, 190.0, 195.0, 197.0, 197.0, 205.0, 213.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 485.0,  min: 188.0,  media: 254.9,   std: 115.32341479508834,   valores: [485.0, 485.0, 214.0, 188.0, 188.0, 192.0, 194.0, 194.0, 201.0, 208.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 472.0,  min: 178.0,  media: 243.4,   std: 114.53401241552659,   valores: [472.0, 472.0, 202.0, 178.0, 178.0, 181.0, 183.0, 183.0, 189.0, 196.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 1440.0,  min: 555.0,  media: 755.0,   std: 343.2812258192982,   valores: [1440.0, 1440.0, 629.0, 555.0, 555.0, 568.0, 575.0, 575.0, 596.0, 617.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 539.0,  min: 235.0,  media: 301.5,   std: 119.0531393958177,   valores: [539.0, 539.0, 262.0, 235.0, 235.0, 238.0, 235.0, 235.0, 245.0, 252.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 538.0,  min: 236.0,  media: 302.2,   std: 118.23265200442728,   valores: [538.0, 538.0, 265.0, 236.0, 236.0, 239.0, 236.0, 236.0, 246.0, 252.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 527.0,  min: 223.0,  media: 289.3,   std: 119.16966895984902,   valores: [527.0, 527.0, 253.0, 224.0, 224.0, 225.0, 223.0, 223.0, 231.0, 236.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 1605.0,  min: 694.0,  media: 893.1,   std: 356.90655639816987,   valores: [1605.0, 1605.0, 781.0, 695.0, 695.0, 702.0, 694.0, 694.0, 721.0, 739.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 0.588,  min: 0.444,  media: 0.5386,   std: 0.051000392155355026,   valores: [0.444, 0.444, 0.583, 0.588, 0.588, 0.572, 0.544, 0.544, 0.546, 0.533]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 0.606,  min: 0.434,  media: 0.5544,   std: 0.061885701094840956,   valores: [0.434, 0.434, 0.593, 0.606, 0.606, 0.594, 0.569, 0.569, 0.574, 0.565]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 0.61,  min: 0.446,  media: 0.5572,   std: 0.058453058089376286,   valores: [0.446, 0.446, 0.602, 0.61, 0.61, 0.595, 0.568, 0.568, 0.571, 0.556]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 0.601,  min: 0.441,  media: 0.5498999999999999,   std: 0.05707792918458061,   valores: [0.441, 0.441, 0.593, 0.601, 0.601, 0.587, 0.56, 0.56, 0.564, 0.551]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 110.0,  min: 109.0,  media: 109.6,   std: 0.4898979485566356,   valores: [109.0, 109.0, 109.0, 109.0, 110.0, 110.0, 110.0, 110.0, 110.0, 110.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 853.0,  min: 851.0,  media: 851.8,   std: 0.7483314773547883,   valores: [851.0, 851.0, 851.0, 851.0, 852.0, 852.0, 852.0, 852.0, 853.0, 853.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2028.0,  min: 2026.0,  media: 2027.5,   std: 0.6708203932499369,   valores: [2026.0, 2027.0, 2027.0, 2027.0, 2028.0, 2028.0, 2028.0, 2028.0, 2028.0, 2028.0]
+    Partida Inversora:
+        Motor Desligado:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 4.0,  min: 0.0,  media: 3.6,   std: 1.2,   valores: [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 0.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 46.7,  min: 46.2,  media: 46.480000000000004,   std: 0.16613247725836267,   valores: [46.2, 46.3, 46.3, 46.4, 46.5, 46.5, 46.6, 46.6, 46.7, 46.7]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 36.2,  min: 35.8,  media: 36.0,   std: 0.13416407864998928,   valores: [35.8, 35.8, 35.9, 35.9, 36.0, 36.1, 36.1, 36.1, 36.1, 36.2]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 41.4,  min: 41.0,  media: 41.21,   std: 0.14456832294800848,   valores: [41.0, 41.0, 41.1, 41.1, 41.2, 41.3, 41.3, 41.3, 41.4, 41.4]
+          es.temp_carc (Temperatura Carcaça):
+              max: 31.1,  min: 30.9,  media: 30.98,   std: 0.06000000000000085,   valores: [30.9, 30.9, 31.0, 30.9, 31.0, 31.0, 31.0, 31.0, 31.0, 31.1]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 20.0,  min: 20.0,  media: 20.0,   std: 0.0,   valores: [20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 20.0,  min: 20.0,  media: 20.0,   std: 0.0,   valores: [20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 126.0,  min: 61.0,  media: 93.1,   std: 20.959246169650285,   valores: [126.0, 126.0, 110.0, 96.0, 96.0, 84.0, 84.0, 74.0, 74.0, 61.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 5.0,  min: 4.0,  media: 4.2,   std: 0.39999999999999997,   valores: [5.0, 5.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 59.97,  min: 59.97,  media: 59.970000000000006,   std: 7.105427357601002e-15,   valores: [59.97, 59.97, 59.97, 59.97, 59.97, 59.97, 59.97, 59.97, 59.97, 59.97]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.2,  min: 2.1,  media: 2.18,   std: 0.040000000000000036,   valores: [2.2, 2.2, 2.2, 2.1, 2.1, 2.2, 2.2, 2.2, 2.2, 2.2]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.3,  min: 2.2,  media: 2.25,   std: 0.04999999999999982,   valores: [2.2, 2.3, 2.3, 2.3, 2.3, 2.2, 2.2, 2.2, 2.2, 2.3]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.4,  min: 2.3,  media: 2.3899999999999997,   std: 0.03000000000000003,   valores: [2.3, 2.4, 2.4, 2.4, 2.4, 2.4, 2.4, 2.4, 2.4, 2.4]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.3,  min: 1.2,  media: 1.21,   std: 0.03000000000000003,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.3]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.0,  min: 0.9,  media: 0.9099999999999999,   std: 0.029999999999999995,   valores: [0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 1.0]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.3,  min: 1.2,  media: 1.22,   std: 0.040000000000000036,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.3, 1.3, 1.2, 1.2, 1.2]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 358.4,  min: 280.8,  media: 305.06,   std: 31.65606418997787,   valores: [341.7, 288.1, 288.1, 358.4, 358.4, 280.8, 280.8, 285.3, 284.5, 284.5]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 252.0,  min: 177.6,  media: 206.79000000000002,   std: 28.424371584962085,   valores: [185.5, 177.6, 177.6, 182.0, 182.0, 215.6, 215.6, 228.0, 252.0, 252.0]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 219.9,  min: 130.3,  media: 166.72,   std: 29.235416877479274,   valores: [174.3, 150.2, 150.2, 166.4, 166.4, 219.9, 219.9, 130.3, 144.8, 144.8]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 0.06,  min: 0.06,  media: 0.06,   std: 1.3877787807814457e-17,   valores: [0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06]
+          es.corrente_s (Corrente na fase S):
+              max: 0.06,  min: 0.06,  media: 0.06,   std: 1.3877787807814457e-17,   valores: [0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06]
+          es.corrente_t (Corrente na fase T):
+              max: 0.03,  min: 0.03,  media: 0.03,   std: 6.938893903907228e-18,   valores: [0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 0.05,  min: 0.05,  media: 0.05,   std: 0.0,   valores: [0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 221.2,  min: 221.0,  media: 221.10999999999999,   std: 0.053851648071341976,   valores: [221.0, 221.1, 221.1, 221.1, 221.2, 221.2, 221.1, 221.1, 221.1, 221.1]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 219.2,  min: 219.1,  media: 219.10999999999999,   std: 0.02999999999999829,   valores: [219.1, 219.1, 219.1, 219.2, 219.1, 219.1, 219.1, 219.1, 219.1, 219.1]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 219.2,  min: 219.0,  media: 219.10999999999999,   std: 0.05385164807134198,   valores: [219.0, 219.2, 219.2, 219.1, 219.1, 219.1, 219.1, 219.1, 219.1, 219.1]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 2.0,  min: 2.0,  media: 2.0,   std: 0.0,   valores: [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 2.0,  min: 2.0,  media: 2.0,   std: 0.0,   valores: [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 4.0,  min: 4.0,  media: 4.0,   std: 0.0,   valores: [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 65529.0,  min: 65528.0,  media: 65528.7,   std: 0.45825756949558405,   valores: [65529.0, 65529.0, 65529.0, 65528.0, 65529.0, 65529.0, 65529.0, 65529.0, 65528.0, 65528.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 65529.0,  min: 65528.0,  media: 65528.7,   std: 0.45825756949558405,   valores: [65529.0, 65529.0, 65529.0, 65528.0, 65529.0, 65529.0, 65529.0, 65529.0, 65528.0, 65528.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 65532.0,  min: 65532.0,  media: 65532.0,   std: 0.0,   valores: [65532.0, 65532.0, 65532.0, 65532.0, 65532.0, 65532.0, 65532.0, 65532.0, 65532.0, 65532.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 65518.0,  min: 65517.0,  media: 65517.3,   std: 0.45825756949558394,   valores: [65518.0, 65518.0, 65518.0, 65517.0, 65517.0, 65517.0, 65517.0, 65517.0, 65517.0, 65517.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 8.0,  min: 7.0,  media: 7.8,   std: 0.39999999999999997,   valores: [8.0, 7.0, 7.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 8.0,  min: 7.0,  media: 7.7,   std: 0.45825756949558405,   valores: [7.0, 7.0, 7.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 4.0,  min: 4.0,  media: 4.0,   std: 0.0,   valores: [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 20.0,  min: 19.0,  media: 19.3,   std: 0.45825756949558394,   valores: [19.0, 19.0, 19.0, 20.0, 19.0, 19.0, 19.0, 19.0, 20.0, 20.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 0.285,  min: 0.258,  media: 0.2768,   std: 0.009378699270154668,   valores: [0.284, 0.285, 0.285, 0.258, 0.284, 0.284, 0.278, 0.278, 0.266, 0.266]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 0.233,  min: 0.22,  media: 0.2274,   std: 0.005407402333838315,   valores: [0.226, 0.22, 0.22, 0.22, 0.233, 0.233, 0.233, 0.233, 0.228, 0.228]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 32.872,  min: 0.061,  media: 16.4624,   std: 16.374812342130827,   valores: [0.106, 0.105, 0.105, 32.872, 0.061, 0.061, 32.835, 32.835, 32.822, 32.822]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 0.224,  min: 0.211,  media: 0.2183,   std: 0.00458366665454634,   valores: [0.224, 0.222, 0.222, 0.213, 0.221, 0.221, 0.219, 0.219, 0.211, 0.211]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 112.0,  min: 112.0,  media: 112.0,   std: 0.0,   valores: [112.0, 112.0, 112.0, 112.0, 112.0, 112.0, 112.0, 112.0, 112.0, 112.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 855.0,  min: 855.0,  media: 855.0,   std: 0.0,   valores: [855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2032.0,  min: 2032.0,  media: 2032.0,   std: 0.0,   valores: [2032.0, 2032.0, 2032.0, 2032.0, 2032.0, 2032.0, 2032.0, 2032.0, 2032.0, 2032.0]
+        Motor Ligado em 0Hz:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 4.0,  min: 0.0,  media: 2.4,   std: 1.9595917942265426,   valores: [0.0, 4.0, 0.0, 4.0, 4.0, 0.0, 4.0, 4.0, 0.0, 4.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 47.4,  min: 47.2,  media: 47.269999999999996,   std: 0.0640312423743263,   valores: [47.2, 47.2, 47.3, 47.3, 47.2, 47.2, 47.3, 47.3, 47.3, 47.4]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 36.8,  min: 36.4,  media: 36.61,   std: 0.15132745950421503,   valores: [36.4, 36.5, 36.5, 36.4, 36.6, 36.6, 36.7, 36.8, 36.8, 36.8]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 42.1,  min: 41.8,  media: 41.92,   std: 0.09797958971132852,   valores: [41.8, 41.8, 41.9, 41.8, 41.9, 41.9, 42.0, 42.0, 42.0, 42.1]
+          es.temp_carc (Temperatura Carcaça):
+              max: 31.3,  min: 31.2,  media: 31.25,   std: 0.05000000000000071,   valores: [31.2, 31.2, 31.2, 31.2, 31.2, 31.3, 31.3, 31.3, 31.3, 31.3]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 20.0,  min: 20.0,  media: 20.0,   std: 0.0,   valores: [20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 20.0,  min: 20.0,  media: 20.0,   std: 0.0,   valores: [20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 29.0,  min: 18.0,  media: 23.4,   std: 3.8262252939417984,   valores: [29.0, 29.0, 26.0, 26.0, 23.0, 23.0, 21.0, 21.0, 18.0, 18.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 4.0,  min: 4.0,  media: 4.0,   std: 0.0,   valores: [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 60.01,  min: 59.98,  media: 59.995000000000005,   std: 0.009219544457293366,   valores: [59.98, 59.98, 59.99, 59.99, 60.0, 60.0, 60.0, 60.0, 60.0, 60.01]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.2,  min: 2.1,  media: 2.1700000000000004,   std: 0.04582575694955844,   valores: [2.2, 2.2, 2.1, 2.1, 2.2, 2.2, 2.2, 2.2, 2.2, 2.1]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.4,  min: 2.2,  media: 2.3299999999999996,   std: 0.06403124237432845,   valores: [2.4, 2.4, 2.3, 2.3, 2.4, 2.4, 2.3, 2.3, 2.3, 2.2]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.4,  min: 2.3,  media: 2.36,   std: 0.04898979485566361,   valores: [2.4, 2.4, 2.4, 2.4, 2.4, 2.4, 2.3, 2.3, 2.3, 2.3]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.3,  min: 1.2,  media: 1.28,   std: 0.040000000000000036,   valores: [1.3, 1.3, 1.3, 1.3, 1.3, 1.3, 1.2, 1.3, 1.3, 1.2]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.1,  min: 0.9,  media: 0.9800000000000001,   std: 0.07483314773547885,   valores: [1.1, 1.1, 1.0, 1.0, 1.0, 1.0, 0.9, 0.9, 0.9, 0.9]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.3,  min: 1.2,  media: 1.24,   std: 0.048989794855663606,   valores: [1.3, 1.3, 1.3, 1.3, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 371.3,  min: 230.9,  media: 289.39,   std: 58.11103939872354,   valores: [305.6, 305.6, 242.3, 242.3, 230.9, 371.3, 371.3, 231.4, 231.4, 361.8]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 249.0,  min: 186.2,  media: 216.01999999999998,   std: 23.693028510513383,   valores: [188.0, 188.0, 249.0, 249.0, 204.4, 236.1, 236.1, 211.7, 211.7, 186.2]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 265.6,  min: 143.2,  media: 214.58,   std: 35.28412674277204,   valores: [223.4, 223.4, 183.6, 183.6, 216.4, 265.6, 265.6, 220.5, 220.5, 143.2]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 0.06,  min: 0.06,  media: 0.06,   std: 1.3877787807814457e-17,   valores: [0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06, 0.06]
+          es.corrente_s (Corrente na fase S):
+              max: 0.06,  min: 0.05,  media: 0.053000000000000005,   std: 0.004582575694955838,   valores: [0.06, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.06, 0.06, 0.05]
+          es.corrente_t (Corrente na fase T):
+              max: 0.04,  min: 0.03,  media: 0.032,   std: 0.004000000000000001,   valores: [0.03, 0.03, 0.03, 0.04, 0.04, 0.03, 0.03, 0.03, 0.03, 0.03]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 0.05,  min: 0.05,  media: 0.05,   std: 0.0,   valores: [0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 221.0,  min: 220.9,  media: 220.95999999999998,   std: 0.04898979485566078,   valores: [221.0, 221.0, 221.0, 220.9, 220.9, 221.0, 221.0, 220.9, 220.9, 221.0]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 219.4,  min: 219.2,  media: 219.3,   std: 0.06324555320337298,   valores: [219.3, 219.4, 219.4, 219.3, 219.3, 219.3, 219.3, 219.2, 219.2, 219.3]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 219.1,  min: 219.0,  media: 219.08,   std: 0.039999999999997725,   valores: [219.1, 219.1, 219.1, 219.1, 219.1, 219.1, 219.1, 219.0, 219.0, 219.1]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 2.0,  min: 2.0,  media: 2.0,   std: 0.0,   valores: [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 2.0,  min: 1.0,  media: 1.3,   std: 0.45825756949558405,   valores: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 2.0, 2.0, 2.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 1.0,  min: 0.0,  media: 0.8,   std: 0.4,   valores: [1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 4.0,  min: 4.0,  media: 4.0,   std: 0.0,   valores: [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 65529.0,  min: 65529.0,  media: 65529.0,   std: 0.0,   valores: [65529.0, 65529.0, 65529.0, 65529.0, 65529.0, 65529.0, 65529.0, 65529.0, 65529.0, 65529.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 65529.0,  min: 65529.0,  media: 65529.0,   std: 0.0,   valores: [65529.0, 65529.0, 65529.0, 65529.0, 65529.0, 65529.0, 65529.0, 65529.0, 65529.0, 65529.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 65532.0,  min: 65532.0,  media: 65532.0,   std: 0.0,   valores: [65532.0, 65532.0, 65532.0, 65532.0, 65532.0, 65532.0, 65532.0, 65532.0, 65532.0, 65532.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 65518.0,  min: 65517.0,  media: 65517.9,   std: 0.3,   valores: [65517.0, 65518.0, 65518.0, 65518.0, 65518.0, 65518.0, 65518.0, 65518.0, 65518.0, 65518.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 8.0,  min: 7.0,  media: 7.7,   std: 0.45825756949558405,   valores: [8.0, 8.0, 8.0, 8.0, 8.0, 7.0, 7.0, 8.0, 8.0, 7.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 7.0,  min: 7.0,  media: 7.0,   std: 0.0,   valores: [7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0, 7.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 4.0,  min: 4.0,  media: 4.0,   std: 0.0,   valores: [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 19.0,  min: 18.0,  media: 18.7,   std: 0.45825756949558405,   valores: [19.0, 19.0, 19.0, 19.0, 19.0, 18.0, 18.0, 19.0, 19.0, 18.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 0.292,  min: 0.267,  media: 0.27999999999999997,   std: 0.00842614977317634,   valores: [0.285, 0.272, 0.272, 0.285, 0.285, 0.292, 0.292, 0.275, 0.275, 0.267]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 0.243,  min: 0.195,  media: 0.2098,   std: 0.013385066305401698,   valores: [0.205, 0.203, 0.203, 0.195, 0.195, 0.209, 0.209, 0.218, 0.218, 0.243]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 0.168,  min: 0.122,  media: 0.1439,   std: 0.014693195704134621,   valores: [0.143, 0.145, 0.145, 0.168, 0.168, 0.122, 0.122, 0.14, 0.14, 0.146]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 0.23,  min: 0.218,  media: 0.2234,   std: 0.0032924155266308686,   valores: [0.224, 0.218, 0.218, 0.225, 0.225, 0.224, 0.224, 0.223, 0.223, 0.23]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 112.0,  min: 112.0,  media: 112.0,   std: 0.0,   valores: [112.0, 112.0, 112.0, 112.0, 112.0, 112.0, 112.0, 112.0, 112.0, 112.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 855.0,  min: 855.0,  media: 855.0,   std: 0.0,   valores: [855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2032.0,  min: 2032.0,  media: 2032.0,   std: 0.0,   valores: [2032.0, 2032.0, 2032.0, 2032.0, 2032.0, 2032.0, 2032.0, 2032.0, 2032.0, 2032.0]
+        Motor Ligado em 30Hz:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 829.0,  min: 261.0,  media: 682.7,   std: 198.11968604861053,   valores: [261.0, 411.0, 529.0, 692.0, 817.0, 824.0, 814.0, 823.0, 827.0, 829.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.08,  min: 0.0,  media: 0.029000000000000005,   std: 0.03269556544854363,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.02, 0.05, 0.07, 0.07, 0.08]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 47.6,  min: 47.4,  media: 47.47,   std: 0.0640312423743294,   valores: [47.5, 47.5, 47.4, 47.5, 47.5, 47.5, 47.6, 47.4, 47.4, 47.4]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 36.4,  min: 36.1,  media: 36.339999999999996,   std: 0.1019803902718545,   valores: [36.2, 36.4, 36.4, 36.4, 36.4, 36.4, 36.4, 36.4, 36.1, 36.3]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 42.0,  min: 41.7,  media: 41.87,   std: 0.07810249675906611,   valores: [41.8, 41.9, 41.9, 41.9, 41.9, 41.9, 42.0, 41.9, 41.7, 41.8]
+          es.temp_carc (Temperatura Carcaça):
+              max: 31.7,  min: 31.5,  media: 31.610000000000003,   std: 0.08306623862918039,   valores: [31.5, 31.5, 31.5, 31.6, 31.7, 31.7, 31.6, 31.7, 31.7, 31.6]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 20.0,  min: 20.0,  media: 20.0,   std: 0.0,   valores: [20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 20.0,  min: 20.0,  media: 20.0,   std: 0.0,   valores: [20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 95.0,  min: 9.0,  media: 53.4,   std: 30.272760032742305,   valores: [9.0, 19.0, 19.0, 35.0, 55.0, 55.0, 76.0, 76.0, 95.0, 95.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 221.0,  min: 30.0,  media: 151.5,   std: 67.04513405162227,   valores: [30.0, 74.0, 74.0, 125.0, 176.0, 176.0, 209.0, 209.0, 221.0, 221.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 60.02,  min: 60.0,  media: 60.009,   std: 0.008306623862919246,   valores: [60.02, 60.01, 60.02, 60.02, 60.01, 60.01, 60.0, 60.0, 60.0, 60.0]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.2,  min: 2.1,  media: 2.15,   std: 0.05000000000000005,   valores: [2.2, 2.2, 2.2, 2.1, 2.1, 2.1, 2.2, 2.2, 2.1, 2.1]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.4,  min: 2.2,  media: 2.3,   std: 0.0632455532033675,   valores: [2.3, 2.2, 2.2, 2.3, 2.4, 2.4, 2.3, 2.3, 2.3, 2.3]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.4,  min: 2.3,  media: 2.3299999999999996,   std: 0.04582575694955844,   valores: [2.4, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.4, 2.4]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.3,  min: 1.2,  media: 1.27,   std: 0.04582575694955844,   valores: [1.2, 1.2, 1.2, 1.3, 1.3, 1.3, 1.3, 1.3, 1.3, 1.3]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.0,  min: 0.9,  media: 0.95,   std: 0.049999999999999996,   valores: [0.9, 0.9, 0.9, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9, 0.9]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.2,  min: 1.1,  media: 1.16,   std: 0.048989794855663495,   valores: [1.2, 1.2, 1.2, 1.2, 1.1, 1.1, 1.2, 1.2, 1.1, 1.1]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 225.9,  min: 148.2,  media: 163.77,   std: 23.175118122676313,   valores: [225.9, 178.4, 168.6, 168.6, 148.2, 148.2, 150.5, 150.5, 149.4, 149.4]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 206.0,  min: 155.7,  media: 169.52,   std: 16.57261596731186,   valores: [206.0, 192.6, 174.6, 174.6, 160.3, 160.3, 157.7, 157.7, 155.7, 155.7]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 257.5,  min: 168.1,  media: 183.69,   std: 26.193680535579567,   valores: [257.5, 195.5, 184.3, 184.3, 168.1, 168.1, 168.3, 168.3, 169.9, 172.6]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 1.3,  min: 0.52,  media: 0.9970000000000001,   std: 0.3027887052054617,   valores: [0.52, 0.52, 0.78, 0.78, 1.04, 1.24, 1.24, 1.3, 1.3, 1.25]
+          es.corrente_s (Corrente na fase S):
+              max: 1.07,  min: 0.42,  media: 0.819,   std: 0.253513313259876,   valores: [0.42, 0.42, 0.63, 0.63, 0.89, 1.03, 1.03, 1.07, 1.07, 1.0]
+          es.corrente_t (Corrente na fase T):
+              max: 1.08,  min: 0.38,  media: 0.808,   std: 0.27158055895074673,   valores: [0.38, 0.38, 0.62, 0.62, 0.82, 1.03, 1.03, 1.08, 1.08, 1.04]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 1.15,  min: 0.44,  media: 0.875,   std: 0.2748181216732259,   valores: [0.44, 0.44, 0.68, 0.68, 0.92, 1.1, 1.1, 1.15, 1.15, 1.09]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 221.5,  min: 221.2,  media: 221.34,   std: 0.10198039027185771,   valores: [221.5, 221.5, 221.4, 221.4, 221.3, 221.3, 221.3, 221.2, 221.2, 221.3]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 219.9,  min: 219.6,  media: 219.70999999999998,   std: 0.12206555615734313,   valores: [219.9, 219.9, 219.8, 219.8, 219.7, 219.6, 219.6, 219.6, 219.6, 219.6]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 219.8,  min: 219.5,  media: 219.6,   std: 0.126491106406737,   valores: [219.8, 219.8, 219.7, 219.7, 219.5, 219.5, 219.5, 219.5, 219.5, 219.5]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 91.0,  min: 31.0,  media: 67.5,   std: 23.589192440607203,   valores: [31.0, 31.0, 50.0, 50.0, 69.0, 87.0, 87.0, 91.0, 91.0, 88.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 70.0,  min: 20.0,  media: 50.6,   std: 19.53560851368598,   valores: [20.0, 20.0, 36.0, 36.0, 55.0, 67.0, 67.0, 70.0, 70.0, 65.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 71.0,  min: 21.0,  media: 51.0,   std: 19.313207915827967,   valores: [21.0, 21.0, 37.0, 37.0, 52.0, 67.0, 67.0, 71.0, 71.0, 66.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 232.0,  min: 73.0,  media: 169.3,   std: 62.09516889420625,   valores: [73.0, 73.0, 123.0, 123.0, 176.0, 221.0, 221.0, 232.0, 232.0, 219.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 65477.0,  min: 65398.0,  media: 65428.4,   std: 30.679634939157932,   valores: [65477.0, 65477.0, 65450.0, 65450.0, 65424.0, 65404.0, 65404.0, 65398.0, 65398.0, 65402.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 65486.0,  min: 65419.0,  media: 65444.5,   std: 25.985572920372565,   valores: [65486.0, 65486.0, 65463.0, 65463.0, 65437.0, 65423.0, 65423.0, 65419.0, 65419.0, 65426.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 65493.0,  min: 69.0,  media: 13178.8,   std: 26157.105940069137,   valores: [65493.0, 65493.0, 69.0, 69.0, 91.0, 112.0, 112.0, 118.0, 118.0, 113.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 65447.0,  min: 65385.0,  media: 65408.9,   std: 20.92104203905723,   valores: [65385.0, 65385.0, 65447.0, 65447.0, 65416.0, 65403.0, 65403.0, 65399.0, 65399.0, 65405.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 165.0,  min: 66.0,  media: 126.9,   std: 38.490128604617574,   valores: [66.0, 66.0, 100.0, 100.0, 131.0, 158.0, 158.0, 165.0, 165.0, 160.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 136.0,  min: 54.0,  media: 104.5,   std: 31.966388598025897,   valores: [54.0, 54.0, 81.0, 81.0, 113.0, 131.0, 131.0, 136.0, 136.0, 128.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 137.0,  min: 48.0,  media: 102.6,   std: 34.4505442627544,   valores: [48.0, 48.0, 79.0, 79.0, 105.0, 131.0, 131.0, 137.0, 137.0, 131.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 269.0,  min: 152.0,  media: 216.0,   std: 48.28043081829324,   valores: [168.0, 168.0, 152.0, 152.0, 213.0, 257.0, 257.0, 269.0, 269.0, 255.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 0.552,  min: 0.473,  media: 0.5234,   std: 0.030689411854905296,   valores: [0.473, 0.473, 0.505, 0.505, 0.526, 0.549, 0.549, 0.552, 0.552, 0.55]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 0.511,  min: 0.38,  media: 0.4668,   std: 0.051230459689524555,   valores: [0.38, 0.38, 0.438, 0.438, 0.483, 0.51, 0.51, 0.511, 0.511, 0.507]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 0.512,  min: 0.436,  media: 0.4856,   std: 0.02884857015520874,   valores: [0.436, 0.436, 0.471, 0.471, 0.495, 0.512, 0.512, 0.51, 0.51, 0.503]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 0.859,  min: 0.433,  media: 0.76,   std: 0.16465296839109825,   valores: [0.433, 0.433, 0.809, 0.809, 0.825, 0.857, 0.857, 0.859, 0.859, 0.859]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 112.0,  min: 112.0,  media: 112.0,   std: 0.0,   valores: [112.0, 112.0, 112.0, 112.0, 112.0, 112.0, 112.0, 112.0, 112.0, 112.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 855.0,  min: 855.0,  media: 855.0,   std: 0.0,   valores: [855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2033.0,  min: 2032.0,  media: 2032.6,   std: 0.48989794855663565,   valores: [2032.0, 2032.0, 2032.0, 2032.0, 2033.0, 2033.0, 2033.0, 2033.0, 2033.0, 2033.0]
+        Motor Ligado em 60Hz:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 1662.0,  min: 758.0,  media: 1315.1,   std: 324.46307956376177,   valores: [758.0, 887.0, 1025.0, 1169.0, 1291.0, 1445.0, 1593.0, 1662.0, 1659.0, 1662.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.14,  min: 0.01,  media: 0.083,   std: 0.04838388161361178,   valores: [0.01, 0.01, 0.04, 0.06, 0.08, 0.1, 0.12, 0.13, 0.14, 0.14]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 48.0,  min: 47.6,  media: 47.82,   std: 0.12489995996796643,   valores: [47.7, 47.6, 47.7, 47.7, 47.9, 47.9, 48.0, 47.9, 47.9, 47.9]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 37.2,  min: 36.6,  media: 36.86,   std: 0.21540659228538012,   valores: [36.6, 36.6, 36.6, 36.7, 36.8, 37.0, 37.0, 37.1, 37.0, 37.2]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 42.5,  min: 42.1,  media: 42.31,   std: 0.16401219466856637,   valores: [42.1, 42.1, 42.1, 42.2, 42.3, 42.4, 42.5, 42.5, 42.4, 42.5]
+          es.temp_carc (Temperatura Carcaça):
+              max: 32.0,  min: 31.7,  media: 31.830000000000002,   std: 0.07810249675906625,   valores: [31.9, 31.7, 31.8, 31.8, 31.8, 31.8, 31.8, 31.9, 31.8, 32.0]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 28.0,  min: 24.0,  media: 24.8,   std: 1.5999999999999999,   valores: [24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 28.0, 28.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 28.0,  min: 24.0,  media: 24.8,   std: 1.5999999999999999,   valores: [24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 24.0, 28.0, 28.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 192.0,  min: 78.0,  media: 133.1,   std: 39.79308985238518,   valores: [78.0, 92.0, 92.0, 113.0, 113.0, 135.0, 162.0, 162.0, 192.0, 192.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 380.0,  min: 127.0,  media: 265.2,   std: 84.66971123134884,   valores: [127.0, 177.0, 177.0, 235.0, 235.0, 279.0, 331.0, 331.0, 380.0, 380.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 60.06,  min: 60.02,  media: 60.033,   std: 0.01345362404707246,   valores: [60.06, 60.05, 60.04, 60.04, 60.03, 60.03, 60.02, 60.02, 60.02, 60.02]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.2,  min: 2.1,  media: 2.1900000000000004,   std: 0.03000000000000003,   valores: [2.1, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.4,  min: 2.3,  media: 2.36,   std: 0.048989794855663606,   valores: [2.3, 2.4, 2.4, 2.3, 2.3, 2.3, 2.4, 2.4, 2.4, 2.4]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.4,  min: 2.3,  media: 2.32,   std: 0.040000000000000036,   valores: [2.3, 2.4, 2.4, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.5,  min: 1.3,  media: 1.3800000000000001,   std: 0.07483314773547879,   valores: [1.3, 1.3, 1.3, 1.3, 1.4, 1.4, 1.4, 1.4, 1.5, 1.5]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.1,  min: 1.0,  media: 1.05,   std: 0.05000000000000005,   valores: [1.0, 1.1, 1.1, 1.1, 1.0, 1.0, 1.0, 1.0, 1.1, 1.1]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.2,  min: 1.2,  media: 1.2,   std: 2.220446049250313e-16,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 156.3,  min: 131.3,  media: 138.44,   std: 6.709873322202141,   valores: [156.3, 139.5, 140.5, 140.5, 136.6, 136.6, 135.9, 135.9, 131.3, 131.3]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 180.9,  min: 133.8,  media: 146.67000000000002,   std: 14.002574763235508,   valores: [180.9, 155.8, 154.1, 154.1, 138.8, 138.8, 138.3, 138.3, 133.8, 133.8]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 193.9,  min: 144.5,  media: 157.65,   std: 14.655732666775823,   valores: [193.9, 169.4, 163.0, 163.0, 152.3, 152.3, 146.8, 146.8, 144.5, 144.5]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 2.02,  min: 1.12,  media: 1.5719999999999998,   std: 0.30475563981655857,   valores: [1.12, 1.12, 1.38, 1.38, 1.52, 1.69, 1.69, 1.9, 1.9, 2.02]
+          es.corrente_s (Corrente na fase S):
+              max: 1.71,  min: 0.77,  media: 1.254,   std: 0.34015290679340077,   valores: [0.77, 0.77, 0.99, 0.99, 1.19, 1.44, 1.44, 1.62, 1.62, 1.71]
+          es.corrente_t (Corrente na fase T):
+              max: 1.78,  min: 0.87,  media: 1.309,   std: 0.3138932939710563,   valores: [0.87, 0.87, 1.08, 1.08, 1.23, 1.44, 1.44, 1.65, 1.65, 1.78]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 1.83,  min: 0.92,  media: 1.378,   std: 0.31820747948469097,   valores: [0.92, 0.92, 1.15, 1.15, 1.31, 1.53, 1.53, 1.72, 1.72, 1.83]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 221.5,  min: 221.3,  media: 221.45,   std: 0.06708203932498988,   valores: [221.5, 221.5, 221.5, 221.5, 221.4, 221.4, 221.4, 221.5, 221.5, 221.3]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 219.9,  min: 219.7,  media: 219.83,   std: 0.06403124237433061,   valores: [219.9, 219.9, 219.9, 219.9, 219.8, 219.8, 219.8, 219.8, 219.8, 219.7]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 219.6,  min: 219.4,  media: 219.53000000000003,   std: 0.06403124237432485,   valores: [219.6, 219.6, 219.5, 219.5, 219.5, 219.5, 219.5, 219.6, 219.6, 219.4]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 154.0,  min: 78.0,  media: 116.2,   std: 27.6289703029266,   valores: [78.0, 78.0, 99.0, 99.0, 112.0, 112.0, 126.0, 152.0, 152.0, 154.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 127.0,  min: 45.0,  media: 88.1,   std: 31.417988477940465,   valores: [45.0, 45.0, 63.0, 63.0, 80.0, 103.0, 103.0, 126.0, 126.0, 127.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 128.0,  min: 52.0,  media: 90.4,   std: 28.404929149709208,   valores: [52.0, 52.0, 69.0, 69.0, 82.0, 100.0, 100.0, 126.0, 126.0, 128.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 409.0,  min: 175.0,  media: 296.3,   std: 87.53519292261826,   valores: [175.0, 175.0, 231.0, 231.0, 274.0, 330.0, 330.0, 404.0, 404.0, 409.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 65417.0,  min: 65332.0,  media: 65371.9,   std: 31.210414928353647,   valores: [65417.0, 65417.0, 65392.0, 65392.0, 65379.0, 65362.0, 65362.0, 65333.0, 65333.0, 65332.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 65448.0,  min: 65359.0,  media: 65399.8,   std: 34.102199342564404,   valores: [65448.0, 65448.0, 65426.0, 65426.0, 65407.0, 65383.0, 65383.0, 65359.0, 65359.0, 65359.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 186.0,  min: 98.0,  media: 142.5,   std: 32.47845439672276,   valores: [98.0, 98.0, 119.0, 119.0, 133.0, 153.0, 153.0, 183.0, 183.0, 186.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 65427.0,  min: 65339.0,  media: 65378.1,   std: 32.9892406702549,   valores: [65427.0, 65427.0, 65401.0, 65401.0, 65383.0, 65362.0, 65362.0, 65339.0, 65339.0, 65340.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 256.0,  min: 142.0,  media: 201.9,   std: 41.46673365482263,   valores: [142.0, 142.0, 175.0, 175.0, 193.0, 215.0, 215.0, 253.0, 253.0, 256.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 218.0,  min: 99.0,  media: 162.2,   std: 45.58903376909846,   valores: [99.0, 99.0, 126.0, 126.0, 152.0, 184.0, 184.0, 217.0, 217.0, 218.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 225.0,  min: 111.0,  media: 168.9,   std: 42.385020939006274,   valores: [111.0, 111.0, 138.0, 138.0, 156.0, 183.0, 183.0, 222.0, 222.0, 225.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 453.0,  min: 206.0,  media: 335.7,   std: 92.61214823121209,   valores: [206.0, 206.0, 267.0, 267.0, 314.0, 373.0, 373.0, 449.0, 449.0, 453.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 0.601,  min: 0.549,  media: 0.5791999999999999,   std: 0.019019989484749967,   valores: [0.549, 0.549, 0.567, 0.567, 0.585, 0.587, 0.587, 0.6, 0.6, 0.601]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 0.582,  min: 0.452,  media: 0.5303,   std: 0.04889386464578147,   valores: [0.452, 0.452, 0.497, 0.497, 0.547, 0.558, 0.558, 0.58, 0.58, 0.582]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 0.568,  min: 0.472,  media: 0.5285,   std: 0.03678382796827975,   valores: [0.472, 0.472, 0.5, 0.5, 0.541, 0.549, 0.549, 0.567, 0.567, 0.568]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 0.902,  min: 0.848,  media: 0.8775999999999999,   std: 0.019381434415439967,   valores: [0.848, 0.848, 0.864, 0.864, 0.884, 0.884, 0.884, 0.899, 0.899, 0.902]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 114.0,  min: 113.0,  media: 113.4,   std: 0.4898979485566356,   valores: [113.0, 113.0, 113.0, 113.0, 113.0, 113.0, 114.0, 114.0, 114.0, 114.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 855.0,  min: 855.0,  media: 855.0,   std: 0.0,   valores: [855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0, 855.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2035.0,  min: 2034.0,  media: 2034.4,   std: 0.48989794855663565,   valores: [2034.0, 2034.0, 2034.0, 2034.0, 2034.0, 2034.0, 2035.0, 2035.0, 2035.0, 2035.0]
+    Partida Direta:
+        Motor Desligado:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 49.5,  min: 49.2,  media: 49.37,   std: 0.08999999999999994,   valores: [49.2, 49.3, 49.3, 49.4, 49.4, 49.3, 49.4, 49.4, 49.5, 49.5]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 39.1,  min: 38.9,  media: 38.980000000000004,   std: 0.06000000000000085,   valores: [38.9, 38.9, 38.9, 39.0, 39.0, 39.0, 39.0, 39.0, 39.0, 39.1]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 44.3,  min: 44.0,  media: 44.14,   std: 0.07999999999999971,   valores: [44.0, 44.1, 44.1, 44.1, 44.2, 44.1, 44.1, 44.2, 44.2, 44.3]
+          es.temp_carc (Temperatura Carcaça):
+              max: 32.5,  min: 32.4,  media: 32.41,   std: 0.030000000000000426,   valores: [32.4, 32.4, 32.4, 32.4, 32.4, 32.4, 32.4, 32.4, 32.5, 32.4]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 34.0,  min: 34.0,  media: 34.0,   std: 0.0,   valores: [34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 34.0,  min: 34.0,  media: 34.0,   std: 0.0,   valores: [34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 91.0,  min: 46.0,  media: 66.9,   std: 15.175308893067054,   valores: [91.0, 85.0, 85.0, 74.0, 64.0, 64.0, 56.0, 52.0, 52.0, 46.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 60.04,  min: 60.03,  media: 60.032000000000004,   std: 0.003999999999999204,   valores: [60.04, 60.04, 60.03, 60.03, 60.03, 60.03, 60.03, 60.03, 60.03, 60.03]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.1,  min: 2.0,  media: 2.0900000000000003,   std: 0.03000000000000003,   valores: [2.1, 2.1, 2.1, 2.1, 2.1, 2.1, 2.1, 2.0, 2.1, 2.1]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.3,  min: 2.2,  media: 2.27,   std: 0.04582575694955823,   valores: [2.3, 2.3, 2.3, 2.3, 2.2, 2.3, 2.3, 2.3, 2.2, 2.2]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.4,  min: 2.3,  media: 2.3899999999999997,   std: 0.03000000000000003,   valores: [2.4, 2.4, 2.4, 2.4, 2.3, 2.4, 2.4, 2.4, 2.4, 2.4]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.3,  min: 1.2,  media: 1.22,   std: 0.040000000000000036,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.3, 1.3, 1.2, 1.2, 1.2]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.0,  min: 0.9,  media: 0.97,   std: 0.04582575694955839,   valores: [1.0, 1.0, 0.9, 0.9, 0.9, 1.0, 1.0, 1.0, 1.0, 1.0]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.2,  min: 1.2,  media: 1.2,   std: 2.220446049250313e-16,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_s (Corrente na fase S):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_t (Corrente na fase T):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 221.8,  min: 221.6,  media: 221.73000000000002,   std: 0.09000000000000816,   valores: [221.8, 221.8, 221.8, 221.8, 221.8, 221.8, 221.6, 221.6, 221.7, 221.6]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 220.4,  min: 219.8,  media: 220.1,   std: 0.1999999999999986,   valores: [220.3, 220.3, 220.4, 220.2, 220.2, 220.1, 219.9, 219.9, 219.9, 219.8]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 219.8,  min: 219.6,  media: 219.71999999999997,   std: 0.08717797887082156,   valores: [219.8, 219.8, 219.8, 219.8, 219.8, 219.7, 219.6, 219.6, 219.7, 219.6]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 32.768,  min: 32.768,  media: 32.768,   std: 7.105427357601002e-15,   valores: [32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 32.768,  min: 32.768,  media: 32.768,   std: 7.105427357601002e-15,   valores: [32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 32.768,  min: 32.768,  media: 32.768,   std: 7.105427357601002e-15,   valores: [32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 32.768,  min: 32.768,  media: 32.768,   std: 7.105427357601002e-15,   valores: [32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 115.0,  min: 115.0,  media: 115.0,   std: 0.0,   valores: [115.0, 115.0, 115.0, 115.0, 115.0, 115.0, 115.0, 115.0, 115.0, 115.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 856.0,  min: 856.0,  media: 856.0,   std: 0.0,   valores: [856.0, 856.0, 856.0, 856.0, 856.0, 856.0, 856.0, 856.0, 856.0, 856.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2036.0,  min: 2036.0,  media: 2036.0,   std: 0.0,   valores: [2036.0, 2036.0, 2036.0, 2036.0, 2036.0, 2036.0, 2036.0, 2036.0, 2036.0, 2036.0]
+        Motor Ligado:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 1681.0,  min: 1652.0,  media: 1662.4,   std: 9.759098319004682,   valores: [1652.0, 1674.0, 1666.0, 1671.0, 1662.0, 1656.0, 1681.0, 1652.0, 1658.0, 1652.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.12,  min: 0.03,  media: 0.091,   std: 0.026248809496813373,   valores: [0.03, 0.06, 0.08, 0.09, 0.1, 0.1, 0.11, 0.11, 0.11, 0.12]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 50.0,  min: 49.7,  media: 49.89,   std: 0.0830662386291803,   valores: [49.7, 49.8, 49.9, 49.9, 49.9, 49.9, 50.0, 49.9, 49.9, 50.0]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 39.7,  min: 39.2,  media: 39.37,   std: 0.14866068747318636,   valores: [39.3, 39.3, 39.2, 39.3, 39.3, 39.3, 39.3, 39.4, 39.6, 39.7]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 44.8,  min: 44.5,  media: 44.61,   std: 0.0830662386291803,   valores: [44.5, 44.6, 44.5, 44.6, 44.6, 44.6, 44.6, 44.6, 44.7, 44.8]
+          es.temp_carc (Temperatura Carcaça):
+              max: 32.8,  min: 32.6,  media: 32.730000000000004,   std: 0.08999999999999796,   valores: [32.6, 32.6, 32.6, 32.7, 32.8, 32.8, 32.8, 32.8, 32.8, 32.8]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 34.0,  min: 34.0,  media: 34.0,   std: 0.0,   valores: [34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 34.0,  min: 34.0,  media: 34.0,   std: 0.0,   valores: [34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0, 34.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 256.0,  min: 129.0,  media: 198.2,   std: 44.828116177238584,   valores: [129.0, 129.0, 177.0, 177.0, 177.0, 227.0, 227.0, 227.0, 256.0, 256.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 388.0,  min: 383.0,  media: 384.9,   std: 2.0712315177207983,   valores: [384.0, 384.0, 388.0, 388.0, 388.0, 383.0, 383.0, 383.0, 384.0, 384.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 60.05,  min: 60.03,  media: 60.04299999999999,   std: 0.0078102496759051,   valores: [60.03, 60.03, 60.04, 60.04, 60.04, 60.05, 60.05, 60.05, 60.05, 60.05]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.1,  min: 2.0,  media: 2.07,   std: 0.04582575694955844,   valores: [2.1, 2.1, 2.1, 2.1, 2.1, 2.0, 2.0, 2.0, 2.1, 2.1]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.3,  min: 2.2,  media: 2.22,   std: 0.039999999999999855,   valores: [2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.3, 2.3]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.4,  min: 2.4,  media: 2.4,   std: 4.440892098500626e-16,   valores: [2.4, 2.4, 2.4, 2.4, 2.4, 2.4, 2.4, 2.4, 2.4, 2.4]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.2,  min: 1.2,  media: 1.2,   std: 2.220446049250313e-16,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 0.9,  min: 0.9,  media: 0.9,   std: 0.0,   valores: [0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.2,  min: 1.2,  media: 1.2,   std: 2.220446049250313e-16,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 2.8,  min: 2.6,  media: 2.6900000000000004,   std: 0.06999999999999992,   valores: [2.7, 2.7, 2.6, 2.6, 2.6, 2.7, 2.7, 2.7, 2.8, 2.8]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 3.0,  min: 2.8,  media: 2.93,   std: 0.07810249675906661,   valores: [3.0, 3.0, 3.0, 3.0, 3.0, 2.9, 2.9, 2.9, 2.8, 2.8]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 3.5,  min: 2.9,  media: 3.2,   std: 0.20493901531919195,   valores: [3.5, 3.5, 3.3, 3.3, 3.3, 3.1, 3.1, 3.1, 2.9, 2.9]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 175.8,  media: 2656.6,   std: 1240.4,   valores: [175.8, 175.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 2.02,  min: 2.0,  media: 2.002,   std: 0.006000000000000005,   valores: [2.02, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+          es.corrente_s (Corrente na fase S):
+              max: 2.01,  min: 1.98,  media: 1.986,   std: 0.009165151389911629,   valores: [2.01, 1.99, 1.99, 1.99, 1.98, 1.98, 1.98, 1.98, 1.98, 1.98]
+          es.corrente_t (Corrente na fase T):
+              max: 1.92,  min: 1.89,  media: 1.8960000000000001,   std: 0.009165151389911688,   valores: [1.92, 1.9, 1.9, 1.9, 1.89, 1.89, 1.89, 1.89, 1.89, 1.89]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 1.98,  min: 1.96,  media: 1.9620000000000002,   std: 0.006000000000000005,   valores: [1.98, 1.96, 1.96, 1.96, 1.96, 1.96, 1.96, 1.96, 1.96, 1.96]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 221.4,  min: 221.1,  media: 221.28000000000003,   std: 0.14696938456699626,   valores: [221.1, 221.1, 221.1, 221.1, 221.4, 221.4, 221.4, 221.4, 221.4, 221.4]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 219.5,  min: 219.1,  media: 219.31,   std: 0.17578395831247304,   valores: [219.1, 219.1, 219.1, 219.1, 219.4, 219.4, 219.4, 219.5, 219.5, 219.5]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 219.2,  min: 218.9,  media: 219.10999999999999,   std: 0.11357816691599901,   valores: [218.9, 219.0, 219.0, 219.0, 219.2, 219.2, 219.2, 219.2, 219.2, 219.2]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 134.0,  min: 127.0,  media: 128.6,   std: 1.9595917942265422,   valores: [134.0, 129.0, 129.0, 129.0, 128.0, 128.0, 128.0, 127.0, 127.0, 127.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 141.0,  min: 134.0,  media: 135.3,   std: 2.0999999999999996,   valores: [141.0, 136.0, 136.0, 136.0, 134.0, 134.0, 134.0, 134.0, 134.0, 134.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 131.0,  min: 125.0,  media: 126.2,   std: 1.8330302779823362,   valores: [131.0, 127.0, 127.0, 127.0, 125.0, 125.0, 125.0, 125.0, 125.0, 125.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 407.0,  min: 386.0,  media: 390.2,   std: 6.128621378417826,   valores: [407.0, 392.0, 392.0, 392.0, 387.0, 387.0, 387.0, 386.0, 386.0, 386.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 219.0,  min: 218.0,  media: 218.6,   std: 0.4898979485566356,   valores: [218.0, 218.0, 218.0, 218.0, 219.0, 219.0, 219.0, 219.0, 219.0, 219.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 215.0,  min: 214.0,  media: 214.3,   std: 0.45825756949558394,   valores: [214.0, 214.0, 214.0, 214.0, 214.0, 214.0, 214.0, 215.0, 215.0, 215.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 205.0,  min: 204.0,  media: 204.6,   std: 0.4898979485566356,   valores: [204.0, 204.0, 204.0, 204.0, 205.0, 205.0, 205.0, 205.0, 205.0, 205.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 639.0,  min: 636.0,  media: 637.5,   std: 1.284523257866513,   valores: [636.0, 636.0, 636.0, 636.0, 639.0, 639.0, 639.0, 638.0, 638.0, 638.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 256.0,  min: 253.0,  media: 253.9,   std: 0.8306623862918076,   valores: [256.0, 254.0, 254.0, 254.0, 254.0, 254.0, 254.0, 253.0, 253.0, 253.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 256.0,  min: 253.0,  media: 253.3,   std: 0.9,   valores: [256.0, 253.0, 253.0, 253.0, 253.0, 253.0, 253.0, 253.0, 253.0, 253.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 243.0,  min: 240.0,  media: 240.3,   std: 0.9,   valores: [243.0, 240.0, 240.0, 240.0, 240.0, 240.0, 240.0, 240.0, 240.0, 240.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 755.0,  min: 746.0,  media: 747.5,   std: 2.539685019840059,   valores: [755.0, 747.0, 747.0, 747.0, 747.0, 747.0, 747.0, 746.0, 746.0, 746.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 0.524,  min: 0.502,  media: 0.5069,   std: 0.00662495283002076,   valores: [0.524, 0.51, 0.51, 0.51, 0.503, 0.503, 0.503, 0.502, 0.502, 0.502]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 0.55,  min: 0.529,  media: 0.5335,   std: 0.006232976816898974,   valores: [0.55, 0.536, 0.536, 0.536, 0.53, 0.53, 0.53, 0.529, 0.529, 0.529]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 0.542,  min: 0.52,  media: 0.5246000000000001,   std: 0.006499230723708773,   valores: [0.542, 0.527, 0.527, 0.527, 0.521, 0.521, 0.521, 0.52, 0.52, 0.52]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 0.539,  min: 0.517,  media: 0.5216000000000001,   std: 0.006499230723708773,   valores: [0.539, 0.524, 0.524, 0.524, 0.518, 0.518, 0.518, 0.517, 0.517, 0.517]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 117.0,  min: 116.0,  media: 116.2,   std: 0.4,   valores: [116.0, 116.0, 116.0, 116.0, 116.0, 116.0, 116.0, 116.0, 117.0, 117.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 858.0,  min: 856.0,  media: 857.0,   std: 0.6324555320336759,   valores: [856.0, 856.0, 857.0, 857.0, 857.0, 857.0, 857.0, 857.0, 858.0, 858.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2036.0,  min: 2036.0,  media: 2036.0,   std: 0.0,   valores: [2036.0, 2036.0, 2036.0, 2036.0, 2036.0, 2036.0, 2036.0, 2036.0, 2036.0, 2036.0]
+Motor VERDE (1):
+    Partida Soft:
+        Motor Desligado:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 36.1,  min: 35.1,  media: 35.58,   std: 0.3249615361854384,   valores: [35.1, 35.2, 35.3, 35.4, 35.5, 35.6, 35.7, 35.9, 36.0, 36.1]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 48.0,  min: 47.6,  media: 47.660000000000004,   std: 0.1280624847486561,   valores: [48.0, 47.8, 47.6, 47.6, 47.6, 47.6, 47.6, 47.6, 47.6, 47.6]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 26.9,  min: 26.7,  media: 26.8,   std: 0.044721359549995635,   valores: [26.8, 26.8, 26.8, 26.7, 26.8, 26.8, 26.8, 26.8, 26.8, 26.9]
+          es.temp_carc (Temperatura Carcaça):
+              max: 26.8,  min: 26.6,  media: 26.669999999999998,   std: 0.06403124237432785,   valores: [26.7, 26.7, 26.8, 26.7, 26.7, 26.7, 26.6, 26.6, 26.6, 26.6]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 42.0,  min: 42.0,  media: 42.0,   std: 0.0,   valores: [42.0, 42.0, 42.0, 42.0, 42.0, 42.0, 42.0, 42.0, 42.0, 42.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 42.0,  min: 42.0,  media: 42.0,   std: 0.0,   valores: [42.0, 42.0, 42.0, 42.0, 42.0, 42.0, 42.0, 42.0, 42.0, 42.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 3.0,  min: 1.0,  media: 2.2,   std: 0.6,   valores: [3.0, 3.0, 3.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 1.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 60.03,  min: 60.02,  media: 60.027,   std: 0.004582575694954928,   valores: [60.02, 60.02, 60.03, 60.03, 60.03, 60.03, 60.03, 60.03, 60.03, 60.02]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.2,  min: 2.0,  media: 2.1,   std: 0.044721359549995836,   valores: [2.1, 2.1, 2.1, 2.1, 2.1, 2.0, 2.1, 2.1, 2.2, 2.1]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.4,  min: 2.3,  media: 2.32,   std: 0.040000000000000036,   valores: [2.4, 2.4, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.4,  min: 2.3,  media: 2.34,   std: 0.04898979485566361,   valores: [2.3, 2.3, 2.4, 2.3, 2.3, 2.4, 2.3, 2.3, 2.4, 2.4]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.2,  min: 1.2,  media: 1.2,   std: 2.220446049250313e-16,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.0,  min: 0.9,  media: 0.9800000000000001,   std: 0.039999999999999994,   valores: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9, 0.9, 1.0, 1.0]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.2,  min: 1.1,  media: 1.19,   std: 0.02999999999999996,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.1]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 116.9,  min: 80.3,  media: 100.02000000000001,   std: 15.162440436816233,   valores: [112.0, 112.0, 95.6, 85.2, 116.0, 116.0, 116.9, 80.3, 80.3, 85.9]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 112.2,  min: 85.0,  media: 98.4,   std: 11.331990116479982,   valores: [87.4, 87.4, 111.5, 112.2, 85.0, 85.0, 91.6, 107.8, 107.8, 108.3]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 112.5,  min: 89.1,  media: 100.65,   std: 8.13108233877877,   valores: [108.6, 108.6, 102.5, 112.5, 89.1, 89.1, 101.9, 102.2, 102.2, 89.8]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 0.02,  min: 0.02,  media: 0.02,   std: 3.469446951953614e-18,   valores: [0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02]
+          es.corrente_s (Corrente na fase S):
+              max: 0.02,  min: 0.02,  media: 0.02,   std: 3.469446951953614e-18,   valores: [0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02]
+          es.corrente_t (Corrente na fase T):
+              max: 0.02,  min: 0.02,  media: 0.02,   std: 3.469446951953614e-18,   valores: [0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 0.02,  min: 0.02,  media: 0.02,   std: 3.469446951953614e-18,   valores: [0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 221.9,  min: 221.6,  media: 221.8,   std: 0.10954451150103738,   valores: [221.9, 221.9, 221.9, 221.9, 221.8, 221.8, 221.8, 221.8, 221.6, 221.6]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 219.9,  min: 219.6,  media: 219.76,   std: 0.09165151389912338,   valores: [219.9, 219.8, 219.8, 219.8, 219.8, 219.8, 219.8, 219.7, 219.6, 219.6]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 220.0,  min: 219.7,  media: 219.83,   std: 0.09000000000000309,   valores: [220.0, 219.9, 219.9, 219.9, 219.8, 219.8, 219.8, 219.8, 219.7, 219.7]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 65533.0,  min: 65533.0,  media: 65533.0,   std: 0.0,   valores: [65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 65533.0,  min: 65533.0,  media: 65533.0,   std: 0.0,   valores: [65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 65533.0,  min: 65533.0,  media: 65533.0,   std: 0.0,   valores: [65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 65528.0,  min: 65528.0,  media: 65528.0,   std: 0.0,   valores: [65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 3.0,  min: 3.0,  media: 3.0,   std: 0.0,   valores: [3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 3.0,  min: 3.0,  media: 3.0,   std: 0.0,   valores: [3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 3.0,  min: 3.0,  media: 3.0,   std: 0.0,   valores: [3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 8.0,  min: 8.0,  media: 8.0,   std: 0.0,   valores: [8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 32.787,  min: 0.018,  media: 29.5029,   std: 9.828301648301196,   valores: [32.778, 32.787, 32.787, 32.775, 32.782, 32.781, 32.781, 0.018, 32.77, 32.77]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 32.797,  min: 0.016,  media: 19.6789,   std: 16.05183438395749,   valores: [32.771, 0.023, 0.023, 32.797, 32.791, 32.781, 32.781, 32.79, 0.016, 0.016]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 32.84,  min: 0.063,  media: 23.0006,   std: 15.013130600910658,   valores: [32.84, 32.82, 32.82, 0.063, 32.824, 0.07, 0.07, 32.825, 32.837, 32.837]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 32.802,  min: 32.795,  media: 32.7993,   std: 0.0021470910553589117,   valores: [32.795, 32.8, 32.8, 32.802, 32.799, 32.801, 32.801, 32.801, 32.797, 32.797]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 117.0,  min: 117.0,  media: 117.0,   std: 0.0,   valores: [117.0, 117.0, 117.0, 117.0, 117.0, 117.0, 117.0, 117.0, 117.0, 117.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 859.0,  min: 859.0,  media: 859.0,   std: 0.0,   valores: [859.0, 859.0, 859.0, 859.0, 859.0, 859.0, 859.0, 859.0, 859.0, 859.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2040.0,  min: 2040.0,  media: 2040.0,   std: 0.0,   valores: [2040.0, 2040.0, 2040.0, 2040.0, 2040.0, 2040.0, 2040.0, 2040.0, 2040.0, 2040.0]
+        Motor Ligado:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 1686.0,  min: 1643.0,  media: 1670.6,   std: 12.427389106324787,   valores: [1643.0, 1669.0, 1656.0, 1680.0, 1678.0, 1683.0, 1686.0, 1671.0, 1674.0, 1666.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.12,  min: 0.0,  media: 0.074,   std: 0.043405068828421406,   valores: [0.0, 0.0, 0.04, 0.07, 0.08, 0.1, 0.11, 0.11, 0.12, 0.11]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 38.9,  min: 37.2,  media: 38.0,   std: 0.5422176684690382,   valores: [37.2, 37.4, 37.5, 37.7, 37.9, 38.0, 38.2, 38.5, 38.7, 38.9]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 47.9,  min: 47.2,  media: 47.6,   std: 0.21908902300206534,   valores: [47.5, 47.6, 47.6, 47.8, 47.9, 47.8, 47.8, 47.5, 47.3, 47.2]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 28.0,  min: 27.3,  media: 27.669999999999998,   std: 0.24515301344262497,   valores: [27.3, 27.3, 27.4, 27.6, 27.7, 27.8, 27.8, 27.9, 27.9, 28.0]
+          es.temp_carc (Temperatura Carcaça):
+              max: 26.7,  min: 26.6,  media: 26.610000000000003,   std: 0.02999999999999936,   valores: [26.6, 26.6, 26.6, 26.6, 26.6, 26.6, 26.6, 26.6, 26.6, 26.7]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 43.0,  min: 43.0,  media: 43.0,   std: 0.0,   valores: [43.0, 43.0, 43.0, 43.0, 43.0, 43.0, 43.0, 43.0, 43.0, 43.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 43.0,  min: 43.0,  media: 43.0,   std: 0.0,   valores: [43.0, 43.0, 43.0, 43.0, 43.0, 43.0, 43.0, 43.0, 43.0, 43.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 252.0,  min: 106.0,  media: 176.1,   std: 59.01262576771178,   valores: [106.0, 106.0, 106.0, 106.0, 202.0, 202.0, 213.0, 234.0, 234.0, 252.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 480.0,  min: 371.0,  media: 415.5,   std: 52.66925099144662,   valores: [480.0, 480.0, 480.0, 480.0, 372.0, 372.0, 371.0, 373.0, 373.0, 374.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 60.03,  min: 60.02,  media: 60.024,   std: 0.004898979485565382,   valores: [60.03, 60.03, 60.03, 60.03, 60.02, 60.02, 60.02, 60.02, 60.02, 60.02]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.2,  min: 2.1,  media: 2.1100000000000003,   std: 0.03000000000000003,   valores: [2.1, 2.1, 2.1, 2.1, 2.1, 2.1, 2.2, 2.1, 2.1, 2.1]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.3,  min: 2.2,  media: 2.2600000000000002,   std: 0.04898979485566339,   valores: [2.2, 2.2, 2.2, 2.2, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.3,  min: 2.2,  media: 2.2600000000000002,   std: 0.04898979485566339,   valores: [2.2, 2.2, 2.2, 2.2, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.2,  min: 1.1,  media: 1.15,   std: 0.04999999999999993,   valores: [1.1, 1.1, 1.1, 1.1, 1.2, 1.2, 1.2, 1.1, 1.2, 1.2]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.0,  min: 0.8,  media: 0.89,   std: 0.08306623862918074,   valores: [0.8, 0.8, 0.8, 0.8, 0.9, 0.9, 0.9, 1.0, 1.0, 1.0]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.2,  min: 1.1,  media: 1.15,   std: 0.04999999999999993,   valores: [1.1, 1.1, 1.1, 1.1, 1.2, 1.2, 1.2, 1.1, 1.2, 1.2]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 21.9,  min: 2.6,  media: 12.84,   std: 7.895720359789852,   valores: [21.9, 21.9, 21.9, 21.9, 12.1, 9.1, 9.1, 5.3, 2.6, 2.6]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 23.1,  min: 3.1,  media: 13.41,   std: 8.301258940666772,   valores: [23.1, 23.1, 23.1, 23.1, 11.8, 9.0, 9.0, 5.7, 3.1, 3.1]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 22.9,  min: 2.8,  media: 13.36,   std: 8.26912329089366,   valores: [22.9, 22.9, 22.9, 22.9, 12.0, 9.6, 9.6, 5.2, 2.8, 2.8]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 83.6,  media: 1999.52,   std: 1564.3421293310491,   valores: [83.6, 83.6, 83.6, 83.6, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 3.91,  min: 1.84,  media: 2.4859999999999998,   std: 0.9325470497513786,   valores: [3.91, 3.91, 3.91, 1.84, 1.84, 1.86, 1.88, 1.88, 1.91, 1.92]
+          es.corrente_s (Corrente na fase S):
+              max: 3.91,  min: 1.84,  media: 2.484,   std: 0.9337794172072974,   valores: [3.91, 3.91, 3.91, 1.84, 1.84, 1.86, 1.88, 1.88, 1.9, 1.91]
+          es.corrente_t (Corrente na fase T):
+              max: 3.85,  min: 1.75,  media: 2.398,   std: 0.950734452936255,   valores: [3.85, 3.85, 3.85, 1.75, 1.75, 1.76, 1.78, 1.78, 1.8, 1.81]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 3.89,  min: 1.81,  media: 2.455,   std: 0.9396621733367795,   valores: [3.89, 3.89, 3.89, 1.81, 1.81, 1.83, 1.84, 1.84, 1.87, 1.88]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 221.2,  min: 220.8,  media: 220.95,   std: 0.1360147050873467,   valores: [220.8, 220.8, 220.8, 220.9, 220.9, 221.0, 221.1, 221.1, 221.2, 220.9]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 218.9,  min: 218.3,  media: 218.6,   std: 0.21447610589526925,   valores: [218.3, 218.3, 218.3, 218.6, 218.6, 218.7, 218.8, 218.8, 218.9, 218.7]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 218.7,  min: 218.3,  media: 218.46999999999997,   std: 0.1552417469625914,   valores: [218.3, 218.3, 218.3, 218.4, 218.4, 218.6, 218.7, 218.7, 218.6, 218.4]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 151.0,  min: 118.0,  media: 130.8,   std: 13.325164164091937,   valores: [151.0, 151.0, 151.0, 124.0, 124.0, 122.0, 123.0, 123.0, 121.0, 118.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 146.0,  min: 126.0,  media: 134.2,   std: 7.807688518377254,   valores: [146.0, 146.0, 146.0, 130.0, 130.0, 129.0, 130.0, 130.0, 129.0, 126.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 149.0,  min: 116.0,  media: 129.0,   std: 13.228756555322953,   valores: [149.0, 149.0, 149.0, 123.0, 123.0, 120.0, 121.0, 121.0, 119.0, 116.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 446.0,  min: 360.0,  media: 394.0,   std: 34.351128074635334,   valores: [446.0, 446.0, 446.0, 377.0, 377.0, 371.0, 374.0, 374.0, 369.0, 360.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 471.0,  min: 197.0,  media: 284.5,   std: 122.18449165094562,   valores: [471.0, 471.0, 471.0, 197.0, 197.0, 202.0, 207.0, 207.0, 209.0, 213.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 474.0,  min: 195.0,  media: 282.8,   std: 125.22603563157304,   valores: [474.0, 474.0, 474.0, 195.0, 195.0, 198.0, 203.0, 203.0, 205.0, 207.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 463.0,  min: 184.0,  media: 271.9,   std: 125.16105624354566,   valores: [463.0, 463.0, 463.0, 184.0, 184.0, 188.0, 192.0, 192.0, 193.0, 197.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 1408.0,  min: 576.0,  media: 839.2,   std: 372.56779248883015,   valores: [1408.0, 1408.0, 1408.0, 576.0, 576.0, 588.0, 602.0, 602.0, 607.0, 617.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 495.0,  min: 233.0,  media: 315.4,   std: 117.62329701211405,   valores: [495.0, 495.0, 495.0, 233.0, 233.0, 236.0, 241.0, 241.0, 242.0, 243.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 496.0,  min: 234.0,  media: 315.9,   std: 117.94189247252224,   valores: [496.0, 496.0, 496.0, 234.0, 234.0, 236.0, 241.0, 241.0, 242.0, 243.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 487.0,  min: 221.0,  media: 303.5,   std: 120.152611290808,   valores: [487.0, 487.0, 487.0, 221.0, 221.0, 223.0, 227.0, 227.0, 227.0, 228.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 1477.0,  min: 689.0,  media: 934.6,   std: 355.1816999790389,   valores: [1477.0, 1477.0, 1477.0, 689.0, 689.0, 695.0, 709.0, 709.0, 710.0, 714.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 0.533,  min: 0.305,  media: 0.4505,   std: 0.09614390256277307,   valores: [0.305, 0.305, 0.305, 0.533, 0.533, 0.517, 0.51, 0.51, 0.501, 0.486]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 0.557,  min: 0.294,  media: 0.46749999999999997,   std: 0.11402828596449217,   valores: [0.294, 0.294, 0.294, 0.557, 0.557, 0.545, 0.54, 0.54, 0.534, 0.52]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 0.554,  min: 0.307,  media: 0.46630000000000005,   std: 0.10507906546976901,   valores: [0.307, 0.307, 0.307, 0.554, 0.554, 0.539, 0.532, 0.532, 0.524, 0.507]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 0.548,  min: 0.302,  media: 0.46130000000000004,   std: 0.10497909315668527,   valores: [0.302, 0.302, 0.302, 0.548, 0.548, 0.533, 0.527, 0.527, 0.52, 0.504]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 119.0,  min: 118.0,  media: 118.5,   std: 0.5,   valores: [118.0, 118.0, 118.0, 118.0, 118.0, 119.0, 119.0, 119.0, 119.0, 119.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 862.0,  min: 860.0,  media: 860.9,   std: 0.8306623862918074,   valores: [860.0, 860.0, 860.0, 860.0, 861.0, 861.0, 861.0, 862.0, 862.0, 862.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2044.0,  min: 2042.0,  media: 2042.9,   std: 0.8306623862918076,   valores: [2042.0, 2042.0, 2042.0, 2042.0, 2043.0, 2043.0, 2043.0, 2044.0, 2044.0, 2044.0]
+    Partida Inversora:
+        Motor Desligado:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 6.0,  min: 4.0,  media: 4.4,   std: 0.7999999999999999,   valores: [4.0, 4.0, 6.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 6.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 43.3,  min: 42.5,  media: 42.87,   std: 0.2794637722496425,   valores: [42.5, 42.5, 42.5, 42.8, 42.9, 42.9, 43.0, 43.1, 43.2, 43.3]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 50.0,  min: 47.8,  media: 48.95,   std: 0.6391400472509923,   valores: [47.8, 48.2, 48.4, 48.9, 48.9, 49.0, 49.2, 49.5, 49.6, 50.0]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 30.0,  min: 29.9,  media: 29.99,   std: 0.030000000000000426,   valores: [29.9, 30.0, 30.0, 30.0, 30.0, 30.0, 30.0, 30.0, 30.0, 30.0]
+          es.temp_carc (Temperatura Carcaça):
+              max: 26.9,  min: 26.8,  media: 26.860000000000003,   std: 0.048989794855662516,   valores: [26.8, 26.8, 26.9, 26.9, 26.9, 26.8, 26.9, 26.8, 26.9, 26.9]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 54.0,  min: 54.0,  media: 54.0,   std: 0.0,   valores: [54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 54.0,  min: 54.0,  media: 54.0,   std: 0.0,   valores: [54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 114.0,  min: 59.0,  media: 83.1,   std: 19.856736892047493,   valores: [114.0, 114.0, 100.0, 87.0, 87.0, 77.0, 67.0, 67.0, 59.0, 59.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 5.0,  min: 4.0,  media: 4.2,   std: 0.39999999999999997,   valores: [5.0, 5.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 60.03,  min: 60.03,  media: 60.029999999999994,   std: 7.105427357601002e-15,   valores: [60.03, 60.03, 60.03, 60.03, 60.03, 60.03, 60.03, 60.03, 60.03, 60.03]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.2,  min: 2.1,  media: 2.16,   std: 0.04898979485566361,   valores: [2.1, 2.1, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.1, 2.1]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.3,  min: 2.2,  media: 2.27,   std: 0.04582575694955824,   valores: [2.3, 2.3, 2.2, 2.3, 2.3, 2.3, 2.2, 2.2, 2.3, 2.3]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.3,  min: 2.3,  media: 2.3,   std: 0.0,   valores: [2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.3,  min: 1.2,  media: 1.25,   std: 0.05000000000000005,   valores: [1.3, 1.3, 1.3, 1.3, 1.3, 1.2, 1.2, 1.2, 1.2, 1.2]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.0,  min: 0.9,  media: 0.9199999999999999,   std: 0.039999999999999994,   valores: [0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 1.0, 1.0]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.2,  min: 1.2,  media: 1.2,   std: 2.220446049250313e-16,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 425.1,  min: 298.7,  media: 351.82,   std: 41.160728856520514,   valores: [335.0, 360.8, 360.8, 335.5, 315.5, 315.5, 425.1, 425.1, 298.7, 346.2]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 251.5,  min: 199.5,  media: 223.76,   std: 17.193615093981837,   valores: [199.5, 213.0, 213.0, 210.9, 251.5, 251.5, 225.4, 225.4, 238.3, 209.1]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 230.2,  min: 88.5,  media: 157.41,   std: 40.17403265792469,   valores: [230.2, 175.9, 175.9, 201.0, 164.4, 164.4, 130.1, 130.1, 88.5, 113.6]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 0.07,  min: 0.07,  media: 0.07,   std: 1.3877787807814457e-17,   valores: [0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07]
+          es.corrente_s (Corrente na fase S):
+              max: 0.07,  min: 0.07,  media: 0.07,   std: 1.3877787807814457e-17,   valores: [0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07]
+          es.corrente_t (Corrente na fase T):
+              max: 0.03,  min: 0.02,  media: 0.024,   std: 0.004898979485566356,   valores: [0.03, 0.03, 0.03, 0.03, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 0.06,  min: 0.05,  media: 0.054000000000000006,   std: 0.004898979485566354,   valores: [0.05, 0.05, 0.05, 0.05, 0.06, 0.06, 0.05, 0.06, 0.06, 0.05]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 221.8,  min: 221.5,  media: 221.57,   std: 0.09000000000000215,   valores: [221.8, 221.6, 221.5, 221.5, 221.6, 221.6, 221.5, 221.5, 221.5, 221.6]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 219.7,  min: 219.4,  media: 219.5,   std: 0.08944271909998651,   valores: [219.7, 219.6, 219.5, 219.5, 219.5, 219.5, 219.4, 219.4, 219.4, 219.5]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 219.8,  min: 219.4,  media: 219.55,   std: 0.13601470508735192,   valores: [219.8, 219.7, 219.6, 219.6, 219.6, 219.6, 219.4, 219.4, 219.4, 219.4]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 2.0,  min: 2.0,  media: 2.0,   std: 0.0,   valores: [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 2.0,  min: 2.0,  media: 2.0,   std: 0.0,   valores: [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 4.0,  min: 4.0,  media: 4.0,   std: 0.0,   valores: [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 65528.0,  min: 65527.0,  media: 65527.5,   std: 0.5,   valores: [65528.0, 65528.0, 65528.0, 65528.0, 65527.0, 65527.0, 65528.0, 65527.0, 65527.0, 65527.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 65527.0,  min: 65527.0,  media: 65527.0,   std: 0.0,   valores: [65527.0, 65527.0, 65527.0, 65527.0, 65527.0, 65527.0, 65527.0, 65527.0, 65527.0, 65527.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 65533.0,  min: 0.0,  media: 45873.1,   std: 30030.993301754104,   valores: [0.0, 65533.0, 0.0, 0.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 65519.0,  min: 65515.0,  media: 65516.4,   std: 1.7435595774162695,   valores: [65519.0, 65516.0, 65519.0, 65519.0, 65515.0, 65515.0, 65516.0, 65515.0, 65515.0, 65515.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 9.0,  min: 9.0,  media: 9.0,   std: 0.0,   valores: [9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 9.0,  min: 9.0,  media: 9.0,   std: 0.0,   valores: [9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0, 9.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 3.0,  min: 0.0,  media: 2.1,   std: 1.3747727084867518,   valores: [0.0, 3.0, 0.0, 0.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 22.0,  min: 17.0,  media: 19.9,   std: 1.9209372712298545,   valores: [17.0, 21.0, 17.0, 17.0, 21.0, 21.0, 21.0, 21.0, 21.0, 22.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 0.268,  min: 0.246,  media: 0.25529999999999997,   std: 0.006116371473349217,   valores: [0.268, 0.251, 0.258, 0.258, 0.246, 0.246, 0.256, 0.257, 0.257, 0.256]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 0.235,  min: 0.221,  media: 0.2304,   std: 0.00460868744872116,   valores: [0.235, 0.228, 0.235, 0.235, 0.226, 0.226, 0.232, 0.233, 0.233, 0.221]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 32.842,  min: 0.083,  media: 20.0051,   std: 15.706794628121933,   valores: [1.0, 32.797, 1.0, 1.0, 32.842, 32.842, 0.083, 32.838, 32.838, 32.811]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 0.251,  min: 0.191,  media: 0.2118,   std: 0.023714130808444145,   valores: [0.251, 0.199, 0.246, 0.246, 0.191, 0.191, 0.196, 0.2, 0.2, 0.198]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 120.0,  min: 120.0,  media: 120.0,   std: 0.0,   valores: [120.0, 120.0, 120.0, 120.0, 120.0, 120.0, 120.0, 120.0, 120.0, 120.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 865.0,  min: 865.0,  media: 865.0,   std: 0.0,   valores: [865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2047.0,  min: 2047.0,  media: 2047.0,   std: 0.0,   valores: [2047.0, 2047.0, 2047.0, 2047.0, 2047.0, 2047.0, 2047.0, 2047.0, 2047.0, 2047.0]
+        Motor Ligado em 0Hz:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 6.0,  min: 4.0,  media: 4.4,   std: 0.7999999999999999,   valores: [4.0, 6.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 6.0, 4.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 44.0,  min: 43.8,  media: 43.92,   std: 0.07483314773547989,   valores: [43.8, 43.8, 43.9, 43.9, 43.9, 43.9, 44.0, 44.0, 44.0, 44.0]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 52.9,  min: 51.3,  media: 52.08,   std: 0.5688585061331151,   valores: [51.3, 51.5, 51.7, 51.6, 51.9, 52.0, 52.2, 52.9, 52.8, 52.9]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 30.3,  min: 30.1,  media: 30.169999999999998,   std: 0.06403124237432785,   valores: [30.2, 30.2, 30.2, 30.3, 30.2, 30.1, 30.1, 30.2, 30.1, 30.1]
+          es.temp_carc (Temperatura Carcaça):
+              max: 27.0,  min: 26.9,  media: 26.98,   std: 0.04000000000000057,   valores: [27.0, 27.0, 27.0, 27.0, 27.0, 26.9, 26.9, 27.0, 27.0, 27.0]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 54.0,  min: 54.0,  media: 54.0,   std: 0.0,   valores: [54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 54.0,  min: 54.0,  media: 54.0,   std: 0.0,   valores: [54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 27.0,  min: 15.0,  media: 20.6,   std: 4.386342439892262,   valores: [27.0, 27.0, 24.0, 24.0, 21.0, 18.0, 18.0, 16.0, 16.0, 15.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 4.0,  min: 4.0,  media: 4.0,   std: 0.0,   valores: [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 60.04,  min: 60.03,  media: 60.031000000000006,   std: 0.0029999999999994033,   valores: [60.03, 60.03, 60.03, 60.03, 60.03, 60.03, 60.03, 60.03, 60.03, 60.04]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.2,  min: 2.1,  media: 2.18,   std: 0.040000000000000036,   valores: [2.2, 2.2, 2.1, 2.1, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.4,  min: 2.2,  media: 2.3099999999999996,   std: 0.06999999999999992,   valores: [2.3, 2.3, 2.4, 2.4, 2.4, 2.3, 2.3, 2.2, 2.2, 2.3]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.4,  min: 2.3,  media: 2.38,   std: 0.040000000000000036,   valores: [2.4, 2.4, 2.4, 2.4, 2.4, 2.4, 2.4, 2.3, 2.3, 2.4]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.3,  min: 1.2,  media: 1.29,   std: 0.03000000000000003,   valores: [1.3, 1.3, 1.3, 1.3, 1.3, 1.3, 1.3, 1.3, 1.3, 1.2]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.1,  min: 0.9,  media: 1.0,   std: 0.0447213595499958,   valores: [1.0, 1.0, 1.0, 1.0, 1.1, 1.0, 1.0, 1.0, 1.0, 0.9]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.2,  min: 1.2,  media: 1.2,   std: 2.220446049250313e-16,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2, 1.2]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 381.8,  min: 286.3,  media: 334.48,   std: 36.12909630754691,   valores: [381.8, 381.8, 298.3, 286.3, 286.3, 316.0, 316.0, 362.9, 362.9, 352.5]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 250.5,  min: 216.7,  media: 235.85999999999999,   std: 10.018203431753621,   valores: [235.3, 235.3, 216.7, 239.4, 239.4, 226.5, 226.5, 250.5, 250.5, 238.5]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 3276.8,  min: 121.7,  media: 768.46,   std: 1254.252680443618,   valores: [127.5, 127.5, 126.5, 3276.8, 3276.8, 151.7, 151.7, 121.7, 162.2, 162.2]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 0.07,  min: 0.07,  media: 0.07,   std: 1.3877787807814457e-17,   valores: [0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07]
+          es.corrente_s (Corrente na fase S):
+              max: 0.07,  min: 0.07,  media: 0.07,   std: 1.3877787807814457e-17,   valores: [0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07]
+          es.corrente_t (Corrente na fase T):
+              max: 0.03,  min: 0.0,  media: 0.022,   std: 0.0116619037896906,   valores: [0.03, 0.03, 0.03, 0.0, 0.0, 0.03, 0.02, 0.02, 0.03, 0.03]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 0.05,  min: 0.04,  media: 0.048,   std: 0.004000000000000001,   valores: [0.05, 0.05, 0.05, 0.04, 0.04, 0.05, 0.05, 0.05, 0.05, 0.05]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 222.0,  min: 221.8,  media: 221.85999999999999,   std: 0.06633249580710422,   valores: [221.8, 221.8, 221.8, 221.9, 221.9, 222.0, 221.9, 221.9, 221.8, 221.8]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 219.8,  min: 219.5,  media: 219.67,   std: 0.10049875621121422,   valores: [219.5, 219.6, 219.6, 219.8, 219.8, 219.8, 219.6, 219.6, 219.7, 219.7]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 219.7,  min: 219.5,  media: 219.66,   std: 0.06633249580710424,   valores: [219.5, 219.6, 219.6, 219.7, 219.7, 219.7, 219.7, 219.7, 219.7, 219.7]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 2.0,  min: 2.0,  media: 2.0,   std: 0.0,   valores: [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 2.0,  min: 2.0,  media: 2.0,   std: 0.0,   valores: [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 4.0,  min: 4.0,  media: 4.0,   std: 0.0,   valores: [4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 65528.0,  min: 65528.0,  media: 65528.0,   std: 0.0,   valores: [65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0, 65528.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 65528.0,  min: 65527.0,  media: 65527.3,   std: 0.45825756949558394,   valores: [65527.0, 65527.0, 65527.0, 65528.0, 65528.0, 65528.0, 65527.0, 65527.0, 65527.0, 65527.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 65533.0,  min: 0.0,  media: 52426.4,   std: 26213.2,   valores: [65533.0, 65533.0, 65533.0, 0.0, 0.0, 65533.0, 65533.0, 65533.0, 65533.0, 65533.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 65520.0,  min: 65516.0,  media: 65516.8,   std: 1.6,   valores: [65516.0, 65516.0, 65516.0, 65520.0, 65520.0, 65516.0, 65516.0, 65516.0, 65516.0, 65516.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 9.0,  min: 8.0,  media: 8.3,   std: 0.45825756949558394,   valores: [9.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 8.0, 9.0, 9.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 9.0,  min: 8.0,  media: 8.8,   std: 0.4,   valores: [9.0, 9.0, 9.0, 8.0, 8.0, 9.0, 9.0, 9.0, 9.0, 9.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 3.0,  min: 0.0,  media: 2.4,   std: 1.2,   valores: [3.0, 3.0, 3.0, 0.0, 0.0, 3.0, 3.0, 3.0, 3.0, 3.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 21.0,  min: 17.0,  media: 19.5,   std: 1.284523257866513,   valores: [21.0, 20.0, 20.0, 17.0, 17.0, 20.0, 20.0, 20.0, 20.0, 20.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 0.268,  min: 0.256,  media: 0.2616,   std: 0.004630334761116094,   valores: [0.258, 0.256, 0.256, 0.268, 0.268, 0.258, 0.266, 0.266, 0.26, 0.26]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 0.226,  min: 0.217,  media: 0.22210000000000002,   std: 0.0027730849247724117,   valores: [0.223, 0.222, 0.222, 0.217, 0.217, 0.226, 0.224, 0.224, 0.223, 0.223]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 32.817,  min: 0.03,  media: 29.5211,   std: 9.83038178760113,   valores: [32.801, 32.793, 32.793, 32.768, 32.768, 0.03, 32.817, 32.817, 32.812, 32.812]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 0.242,  min: 0.198,  media: 0.2076,   std: 0.017211623979160123,   valores: [0.199, 0.199, 0.199, 0.242, 0.242, 0.199, 0.2, 0.2, 0.198, 0.198]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 120.0,  min: 120.0,  media: 120.0,   std: 0.0,   valores: [120.0, 120.0, 120.0, 120.0, 120.0, 120.0, 120.0, 120.0, 120.0, 120.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 865.0,  min: 865.0,  media: 865.0,   std: 0.0,   valores: [865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2047.0,  min: 2047.0,  media: 2047.0,   std: 0.0,   valores: [2047.0, 2047.0, 2047.0, 2047.0, 2047.0, 2047.0, 2047.0, 2047.0, 2047.0, 2047.0]
+        Motor Ligado em 30Hz:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 845.0,  min: 292.0,  media: 698.9,   std: 193.44376443814363,   valores: [292.0, 428.0, 554.0, 695.0, 821.0, 838.0, 838.0, 845.0, 835.0, 843.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.07,  min: 0.0,  media: 0.025,   std: 0.029748949561287038,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.04, 0.06, 0.07, 0.07]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 45.0,  min: 44.4,  media: 44.69,   std: 0.24677925358506153,   valores: [44.4, 44.4, 44.4, 44.5, 44.6, 44.8, 44.8, 45.0, 45.0, 45.0]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 56.8,  min: 54.3,  media: 55.4,   std: 0.9121403400793101,   valores: [54.4, 54.5, 54.3, 54.7, 55.0, 55.4, 55.9, 56.4, 56.6, 56.8]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 30.4,  min: 29.8,  media: 29.96,   std: 0.16852299546352706,   valores: [29.9, 29.8, 30.1, 29.9, 29.8, 30.0, 29.9, 29.9, 29.9, 30.4]
+          es.temp_carc (Temperatura Carcaça):
+              max: 27.2,  min: 27.0,  media: 27.1,   std: 0.044721359549995635,   valores: [27.1, 27.1, 27.2, 27.1, 27.1, 27.1, 27.1, 27.1, 27.0, 27.1]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 54.0,  min: 54.0,  media: 54.0,   std: 0.0,   valores: [54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 54.0,  min: 54.0,  media: 54.0,   std: 0.0,   valores: [54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0, 54.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 92.0,  min: 10.0,  media: 48.9,   std: 30.88187170493395,   valores: [10.0, 17.0, 17.0, 28.0, 28.0, 55.0, 75.0, 75.0, 92.0, 92.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 205.0,  min: 28.0,  media: 130.6,   std: 68.56996427007965,   valores: [28.0, 55.0, 55.0, 94.0, 94.0, 168.0, 201.0, 201.0, 205.0, 205.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 60.03,  min: 60.0,  media: 60.011,   std: 0.008306623862918817,   valores: [60.03, 60.02, 60.01, 60.01, 60.01, 60.01, 60.01, 60.01, 60.0, 60.0]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.2,  min: 2.2,  media: 2.2,   std: 0.0,   valores: [2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.4,  min: 2.3,  media: 2.37,   std: 0.04582575694955844,   valores: [2.3, 2.4, 2.4, 2.3, 2.4, 2.4, 2.4, 2.4, 2.4, 2.3]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.4,  min: 2.2,  media: 2.27,   std: 0.06403124237432835,   valores: [2.4, 2.3, 2.3, 2.3, 2.2, 2.2, 2.2, 2.2, 2.3, 2.3]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.4,  min: 1.2,  media: 1.28,   std: 0.07483314773547882,   valores: [1.2, 1.2, 1.2, 1.2, 1.3, 1.3, 1.4, 1.4, 1.3, 1.3]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.0,  min: 1.0,  media: 1.0,   std: 0.0,   valores: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.2,  min: 1.1,  media: 1.1800000000000002,   std: 0.03999999999999995,   valores: [1.2, 1.2, 1.2, 1.1, 1.2, 1.2, 1.2, 1.2, 1.2, 1.1]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 223.2,  min: 150.8,  media: 165.1,   std: 21.103743743705756,   valores: [223.2, 179.2, 164.1, 164.1, 157.6, 157.6, 150.8, 150.8, 152.8, 150.8]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 223.6,  min: 167.1,  media: 181.45999999999998,   std: 16.167819890139796,   valores: [223.6, 194.5, 184.4, 184.4, 173.7, 173.7, 170.9, 170.9, 171.4, 167.1]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 282.1,  min: 180.4,  media: 205.98000000000002,   std: 29.97091256535243,   valores: [282.1, 236.2, 208.0, 208.0, 195.1, 195.1, 180.4, 180.4, 190.4, 184.1]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 1.36,  min: 0.58,  media: 1.0470000000000002,   std: 0.3009667755749794,   valores: [0.58, 0.58, 0.83, 0.83, 1.13, 1.13, 1.36, 1.35, 1.35, 1.33]
+          es.corrente_s (Corrente na fase S):
+              max: 1.01,  min: 0.45,  media: 0.774,   std: 0.21114923632350652,   valores: [0.45, 0.45, 0.62, 0.62, 0.83, 0.83, 1.01, 1.0, 1.0, 0.93]
+          es.corrente_t (Corrente na fase T):
+              max: 1.0,  min: 0.38,  media: 0.742,   std: 0.2356183354495146,   valores: [0.38, 0.38, 0.57, 0.57, 0.8, 0.8, 0.98, 0.97, 0.97, 1.0]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 1.11,  min: 0.47,  media: 0.8710000000000001,   std: 0.25920841035738024,   valores: [0.47, 0.47, 0.67, 0.67, 0.92, 1.11, 1.11, 1.1, 1.1, 1.09]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 221.6,  min: 221.3,  media: 221.45,   std: 0.09219544457292363,   valores: [221.6, 221.6, 221.5, 221.5, 221.4, 221.4, 221.3, 221.4, 221.4, 221.4]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 219.6,  min: 219.3,  media: 219.46999999999997,   std: 0.10049875621120319,   valores: [219.5, 219.5, 219.6, 219.6, 219.4, 219.4, 219.3, 219.4, 219.4, 219.6]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 219.5,  min: 219.1,  media: 219.36999999999998,   std: 0.12688577540449403,   valores: [219.5, 219.5, 219.5, 219.5, 219.3, 219.3, 219.1, 219.3, 219.3, 219.4]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 95.0,  min: 36.0,  media: 71.0,   std: 22.842942017174583,   valores: [36.0, 36.0, 54.0, 54.0, 77.0, 77.0, 95.0, 94.0, 94.0, 93.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 59.0,  min: 19.0,  media: 41.7,   std: 15.199013125857876,   valores: [19.0, 19.0, 30.0, 30.0, 45.0, 45.0, 57.0, 59.0, 59.0, 54.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 58.0,  min: 18.0,  media: 40.9,   std: 15.358710883404246,   valores: [18.0, 18.0, 29.0, 29.0, 44.0, 44.0, 57.0, 56.0, 56.0, 58.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 209.0,  min: 73.0,  media: 153.6,   std: 53.33516663515733,   valores: [73.0, 73.0, 113.0, 113.0, 166.0, 166.0, 209.0, 209.0, 209.0, 205.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 65472.0,  min: 65393.0,  media: 65424.1,   std: 30.47113388110131,   valores: [65472.0, 65472.0, 65445.0, 65445.0, 65416.0, 65416.0, 65393.0, 65393.0, 65393.0, 65396.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 65482.0,  min: 65421.0,  media: 65446.9,   std: 22.695594286116414,   valores: [65482.0, 65482.0, 65463.0, 65463.0, 65441.0, 65441.0, 65421.0, 65423.0, 65423.0, 65430.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 113.0,  min: 44.0,  media: 86.2,   std: 27.002962800403957,   valores: [44.0, 44.0, 66.0, 66.0, 91.0, 110.0, 110.0, 109.0, 109.0, 113.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 65461.0,  min: 65387.0,  media: 65416.5,   std: 28.75847701113534,   valores: [65461.0, 65461.0, 65438.0, 65438.0, 65411.0, 65387.0, 65387.0, 65390.0, 65390.0, 65402.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 172.0,  min: 74.0,  media: 135.7,   std: 39.499493667640856,   valores: [74.0, 74.0, 106.0, 106.0, 143.0, 172.0, 172.0, 171.0, 171.0, 168.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 129.0,  min: 58.0,  media: 101.0,   std: 28.15315257657657,   valores: [58.0, 58.0, 79.0, 79.0, 105.0, 129.0, 129.0, 127.0, 127.0, 119.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 127.0,  min: 48.0,  media: 96.2,   std: 31.259558538149573,   valores: [48.0, 48.0, 72.0, 72.0, 101.0, 124.0, 124.0, 123.0, 123.0, 127.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 257.0,  min: 105.0,  media: 198.7,   std: 61.37597249738696,   valores: [105.0, 105.0, 150.0, 150.0, 208.0, 257.0, 257.0, 255.0, 255.0, 245.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 0.554,  min: 0.487,  media: 0.5299,   std: 0.026307603463637683,   valores: [0.487, 0.487, 0.512, 0.512, 0.54, 0.554, 0.554, 0.551, 0.551, 0.551]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 0.46,  min: 0.334,  media: 0.4119,   std: 0.04847978960350385,   valores: [0.334, 0.334, 0.379, 0.379, 0.423, 0.446, 0.446, 0.46, 0.46, 0.458]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 0.465,  min: 0.381,  media: 0.4297000000000001,   std: 0.03298499658935863,   valores: [0.381, 0.381, 0.401, 0.401, 0.436, 0.458, 0.458, 0.458, 0.458, 0.465]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 0.838,  min: 0.7,  media: 0.7815,   std: 0.04846493577835423,   valores: [0.7, 0.7, 0.754, 0.754, 0.799, 0.816, 0.816, 0.819, 0.819, 0.838]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 121.0,  min: 120.0,  media: 120.8,   std: 0.4,   valores: [120.0, 120.0, 121.0, 121.0, 121.0, 121.0, 121.0, 121.0, 121.0, 121.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 865.0,  min: 865.0,  media: 865.0,   std: 0.0,   valores: [865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2048.0,  min: 2048.0,  media: 2048.0,   std: 0.0,   valores: [2048.0, 2048.0, 2048.0, 2048.0, 2048.0, 2048.0, 2048.0, 2048.0, 2048.0, 2048.0]
+        Motor Ligado em 60Hz:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 1700.0,  min: 764.0,  media: 1320.2,   std: 327.2637468464847,   valores: [764.0, 895.0, 1030.0, 1174.0, 1289.0, 1433.0, 1548.0, 1683.0, 1700.0, 1686.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.12,  min: 0.01,  media: 0.067,   std: 0.04148493702538308,   valores: [0.01, 0.01, 0.02, 0.05, 0.06, 0.08, 0.09, 0.11, 0.12, 0.12]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 47.2,  min: 46.3,  media: 46.71,   std: 0.27730849247724193,   valores: [46.3, 46.4, 46.5, 46.6, 46.6, 46.7, 46.8, 46.9, 47.1, 47.2]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 59.9,  min: 59.0,  media: 59.5,   std: 0.2529822128134706,   valores: [59.2, 59.0, 59.3, 59.5, 59.6, 59.6, 59.5, 59.7, 59.9, 59.7]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 31.5,  min: 30.9,  media: 31.15,   std: 0.2202271554554524,   valores: [31.0, 31.0, 30.9, 31.0, 31.0, 31.4, 31.0, 31.2, 31.5, 31.5]
+          es.temp_carc (Temperatura Carcaça):
+              max: 27.4,  min: 27.1,  media: 27.22,   std: 0.087177978870813,   valores: [27.1, 27.1, 27.4, 27.3, 27.3, 27.2, 27.2, 27.2, 27.2, 27.2]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 60.0,  min: 58.0,  media: 59.0,   std: 1.0,   valores: [58.0, 58.0, 58.0, 58.0, 58.0, 60.0, 60.0, 60.0, 60.0, 60.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 60.0,  min: 58.0,  media: 59.0,   std: 1.0,   valores: [58.0, 58.0, 58.0, 58.0, 58.0, 60.0, 60.0, 60.0, 60.0, 60.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 183.0,  min: 72.0,  media: 122.4,   std: 38.87724270058256,   valores: [72.0, 84.0, 84.0, 100.0, 100.0, 131.0, 131.0, 156.0, 183.0, 183.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 356.0,  min: 102.0,  media: 234.1,   std: 84.8262341495837,   valores: [102.0, 149.0, 149.0, 196.0, 196.0, 264.0, 264.0, 309.0, 356.0, 356.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 60.02,  min: 60.0,  media: 60.011,   std: 0.007000000000001348,   valores: [60.02, 60.01, 60.01, 60.01, 60.02, 60.02, 60.0, 60.0, 60.01, 60.01]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.2,  min: 2.1,  media: 2.16,   std: 0.04898979485566361,   valores: [2.2, 2.2, 2.2, 2.2, 2.1, 2.1, 2.2, 2.2, 2.1, 2.1]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.5,  min: 2.3,  media: 2.42,   std: 0.0748331477354789,   valores: [2.4, 2.3, 2.3, 2.4, 2.5, 2.5, 2.5, 2.5, 2.4, 2.4]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.3,  min: 2.0,  media: 2.2299999999999995,   std: 0.1187434208703791,   valores: [2.2, 2.3, 2.3, 2.3, 2.0, 2.0, 2.3, 2.3, 2.3, 2.3]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.4,  min: 1.3,  media: 1.35,   std: 0.04999999999999993,   valores: [1.3, 1.3, 1.3, 1.4, 1.4, 1.4, 1.4, 1.4, 1.3, 1.3]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.6,  min: 0.9,  media: 1.1300000000000001,   std: 0.2491987158875423,   valores: [0.9, 0.9, 0.9, 1.0, 1.6, 1.6, 1.1, 1.1, 1.1, 1.1]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.4,  min: 1.1,  media: 1.22,   std: 0.09797958971132707,   valores: [1.2, 1.2, 1.2, 1.2, 1.4, 1.4, 1.1, 1.1, 1.2, 1.2]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 164.7,  min: 138.7,  media: 147.7,   std: 9.10230739977507,   valores: [164.7, 158.4, 158.4, 149.5, 144.5, 144.5, 138.7, 138.7, 139.8, 139.8]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 178.6,  min: 143.3,  media: 153.79000000000002,   std: 11.249573325242158,   valores: [178.6, 163.7, 163.7, 158.5, 143.3, 143.3, 148.3, 148.3, 145.1, 145.1]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 192.5,  min: 155.5,  media: 168.06,   std: 12.094064659989215,   valores: [192.5, 180.9, 180.9, 171.3, 159.4, 159.4, 162.6, 162.6, 155.5, 155.5]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 2.09,  min: 1.06,  media: 1.554,   std: 0.35772056133244556,   valores: [1.06, 1.06, 1.27, 1.27, 1.57, 1.57, 1.83, 1.83, 1.99, 2.09]
+          es.corrente_s (Corrente na fase S):
+              max: 1.68,  min: 0.89,  media: 1.2870000000000001,   std: 0.28509822868618456,   valores: [0.89, 0.89, 1.08, 1.08, 1.26, 1.26, 1.55, 1.55, 1.63, 1.68]
+          es.corrente_t (Corrente na fase T):
+              max: 1.61,  min: 0.78,  media: 1.175,   std: 0.27148664792214,   valores: [0.78, 0.78, 0.98, 0.98, 1.33, 1.33, 1.23, 1.23, 1.5, 1.61]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 1.79,  min: 0.91,  media: 1.338,   std: 0.2986904752415115,   valores: [0.91, 0.91, 1.11, 1.11, 1.39, 1.39, 1.53, 1.53, 1.71, 1.79]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 222.1,  min: 220.5,  media: 221.45,   std: 0.5499999999999979,   valores: [221.4, 221.4, 221.4, 221.4, 220.5, 220.5, 222.1, 222.1, 222.0, 221.7]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 220.5,  min: 217.0,  media: 219.4,   std: 1.254591567004975,   valores: [219.6, 219.6, 219.6, 219.6, 217.0, 217.0, 220.5, 220.5, 220.4, 220.2]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 219.6,  min: 218.6,  media: 219.25,   std: 0.344238289561172,   valores: [219.3, 219.3, 219.3, 219.3, 218.6, 218.6, 219.6, 219.6, 219.5, 219.4]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 153.0,  min: 72.0,  media: 110.0,   std: 29.15132930073687,   valores: [72.0, 72.0, 88.0, 88.0, 104.0, 104.0, 136.0, 136.0, 147.0, 153.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 114.0,  min: 55.0,  media: 83.7,   std: 20.871272122225804,   valores: [55.0, 55.0, 69.0, 69.0, 81.0, 81.0, 101.0, 101.0, 111.0, 114.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 108.0,  min: 47.0,  media: 74.9,   std: 19.495897004241687,   valores: [47.0, 47.0, 62.0, 62.0, 79.0, 79.0, 82.0, 82.0, 101.0, 108.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 375.0,  min: 173.0,  media: 268.2,   std: 69.29184656220383,   valores: [173.0, 173.0, 218.0, 218.0, 264.0, 264.0, 319.0, 319.0, 359.0, 375.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 65422.0,  min: 135.0,  media: 26248.0,   std: 31945.85632910785,   valores: [65422.0, 65422.0, 135.0, 135.0, 170.0, 170.0, 188.0, 188.0, 65330.0, 65320.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 65436.0,  min: 65353.0,  media: 65394.5,   std: 30.483602149352365,   valores: [65436.0, 65436.0, 65417.0, 65417.0, 65399.0, 65399.0, 65365.0, 65365.0, 65358.0, 65353.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 65389.0,  min: 86.0,  media: 13176.4,   std: 26106.31416037124,   valores: [86.0, 86.0, 107.0, 107.0, 65389.0, 65389.0, 133.0, 133.0, 161.0, 173.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 65423.0,  min: 123.0,  media: 39283.1,   std: 31963.089113694878,   valores: [65408.0, 65408.0, 123.0, 123.0, 65423.0, 65423.0, 150.0, 150.0, 65313.0, 65310.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 265.0,  min: 135.0,  media: 197.4,   std: 45.283992756823025,   valores: [135.0, 135.0, 161.0, 161.0, 200.0, 200.0, 232.0, 232.0, 253.0, 265.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 216.0,  min: 114.0,  media: 164.2,   std: 36.93182909090748,   valores: [114.0, 114.0, 137.0, 137.0, 159.0, 159.0, 198.0, 198.0, 210.0, 216.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 204.0,  min: 98.0,  media: 148.4,   std: 34.49695638748439,   valores: [98.0, 98.0, 124.0, 124.0, 167.0, 167.0, 156.0, 156.0, 190.0, 204.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 438.0,  min: 216.0,  media: 307.3,   std: 76.3545021593357,   valores: [216.0, 216.0, 251.0, 251.0, 287.0, 287.0, 352.0, 352.0, 423.0, 438.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 0.585,  min: 0.521,  media: 0.5528000000000001,   std: 0.02533692956930651,   valores: [0.532, 0.532, 0.547, 0.547, 0.521, 0.521, 0.585, 0.585, 0.582, 0.576]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 0.529,  min: 0.478,  media: 0.5051,   std: 0.016416150584104682,   valores: [0.478, 0.478, 0.5, 0.5, 0.51, 0.51, 0.509, 0.509, 0.528, 0.529]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 0.533,  min: 0.476,  media: 0.503,   std: 0.022552161758909076,   valores: [0.481, 0.481, 0.501, 0.501, 0.476, 0.476, 0.525, 0.525, 0.533, 0.531]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 0.92,  min: 0.805,  media: 0.8708,   std: 0.040447002361114474,   valores: [0.805, 0.805, 0.872, 0.872, 0.92, 0.92, 0.904, 0.904, 0.85, 0.856]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 122.0,  min: 122.0,  media: 122.0,   std: 0.0,   valores: [122.0, 122.0, 122.0, 122.0, 122.0, 122.0, 122.0, 122.0, 122.0, 122.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 865.0,  min: 865.0,  media: 865.0,   std: 0.0,   valores: [865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2050.0,  min: 2049.0,  media: 2049.7,   std: 0.45825756949558405,   valores: [2049.0, 2049.0, 2049.0, 2050.0, 2050.0, 2050.0, 2050.0, 2050.0, 2050.0, 2050.0]
+    Partida Direta:
+        Motor Desligado:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 49.2,  min: 49.0,  media: 49.06,   std: 0.06633249580710894,   valores: [49.0, 49.0, 49.0, 49.0, 49.0, 49.1, 49.1, 49.1, 49.1, 49.2]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 61.1,  min: 60.4,  media: 60.779999999999994,   std: 0.26000000000000034,   valores: [60.5, 60.8, 61.1, 61.0, 61.0, 61.0, 61.0, 60.5, 60.4, 60.5]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 32.8,  min: 32.6,  media: 32.730000000000004,   std: 0.06403124237432628,   valores: [32.7, 32.8, 32.7, 32.7, 32.8, 32.7, 32.8, 32.6, 32.8, 32.7]
+          es.temp_carc (Temperatura Carcaça):
+              max: 27.6,  min: 27.5,  media: 27.53,   std: 0.04582575694955905,   valores: [27.5, 27.5, 27.5, 27.5, 27.5, 27.5, 27.6, 27.5, 27.6, 27.6]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 67.0,  min: 67.0,  media: 67.0,   std: 0.0,   valores: [67.0, 67.0, 67.0, 67.0, 67.0, 67.0, 67.0, 67.0, 67.0, 67.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 67.0,  min: 67.0,  media: 67.0,   std: 0.0,   valores: [67.0, 67.0, 67.0, 67.0, 67.0, 67.0, 67.0, 67.0, 67.0, 67.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 88.0,  min: 44.0,  media: 65.8,   std: 14.702380759591284,   valores: [88.0, 88.0, 76.0, 71.0, 71.0, 62.0, 54.0, 54.0, 50.0, 44.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 60.02,  min: 60.01,  media: 60.013999999999996,   std: 0.004898979485568862,   valores: [60.02, 60.02, 60.02, 60.02, 60.01, 60.01, 60.01, 60.01, 60.01, 60.01]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.2,  min: 2.1,  media: 2.12,   std: 0.040000000000000036,   valores: [2.1, 2.1, 2.1, 2.2, 2.2, 2.1, 2.1, 2.1, 2.1, 2.1]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.3,  min: 2.2,  media: 2.28,   std: 0.039999999999999855,   valores: [2.3, 2.3, 2.3, 2.2, 2.2, 2.3, 2.3, 2.3, 2.3, 2.3]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.5,  min: 2.4,  media: 2.48,   std: 0.040000000000000036,   valores: [2.4, 2.4, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.3,  min: 1.2,  media: 1.24,   std: 0.048989794855663606,   valores: [1.2, 1.2, 1.2, 1.3, 1.3, 1.2, 1.2, 1.2, 1.3, 1.3]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.0,  min: 1.0,  media: 1.0,   std: 0.0,   valores: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.3,  min: 1.2,  media: 1.23,   std: 0.04582575694955844,   valores: [1.2, 1.2, 1.2, 1.3, 1.3, 1.2, 1.2, 1.2, 1.2, 1.3]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_s (Corrente na fase S):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_t (Corrente na fase T):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 222.4,  min: 222.2,  media: 222.25,   std: 0.08062257748299326,   valores: [222.2, 222.2, 222.2, 222.2, 222.2, 222.2, 222.2, 222.3, 222.4, 222.4]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 220.8,  min: 220.6,  media: 220.70999999999998,   std: 0.07000000000000697,   valores: [220.7, 220.7, 220.7, 220.7, 220.6, 220.6, 220.7, 220.8, 220.8, 220.8]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 220.3,  min: 220.1,  media: 220.21999999999997,   std: 0.06000000000000796,   valores: [220.1, 220.2, 220.2, 220.2, 220.2, 220.2, 220.2, 220.3, 220.3, 220.3]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 32.768,  min: 32.768,  media: 32.768,   std: 7.105427357601002e-15,   valores: [32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 32.768,  min: 32.768,  media: 32.768,   std: 7.105427357601002e-15,   valores: [32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 32.768,  min: 32.768,  media: 32.768,   std: 7.105427357601002e-15,   valores: [32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 32.768,  min: 32.768,  media: 32.768,   std: 7.105427357601002e-15,   valores: [32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768, 32.768]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 124.0,  min: 124.0,  media: 124.0,   std: 0.0,   valores: [124.0, 124.0, 124.0, 124.0, 124.0, 124.0, 124.0, 124.0, 124.0, 124.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 865.0,  min: 865.0,  media: 865.0,   std: 0.0,   valores: [865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0, 865.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2052.0,  min: 2052.0,  media: 2052.0,   std: 0.0,   valores: [2052.0, 2052.0, 2052.0, 2052.0, 2052.0, 2052.0, 2052.0, 2052.0, 2052.0, 2052.0]
+        Motor Ligado:
+          es.encoder (Medida da Rotação do Motor (RPM)):
+              max: 1688.0,  min: 1664.0,  media: 1673.0,   std: 8.330666239863412,   valores: [1675.0, 1688.0, 1674.0, 1664.0, 1665.0, 1671.0, 1688.0, 1672.0, 1665.0, 1668.0]
+          es.torque (Medida do Torque do motor):
+              max: 0.09,  min: 0.02,  media: 0.069,   std: 0.023,   valores: [0.02, 0.04, 0.05, 0.07, 0.08, 0.08, 0.08, 0.09, 0.09, 0.09]
+          es.temp_r (Temperatura Enrolamento R Motor):
+              max: 50.0,  min: 49.4,  media: 49.730000000000004,   std: 0.1899999999999995,   valores: [49.4, 49.6, 49.6, 49.6, 49.6, 49.8, 49.8, 49.9, 50.0, 50.0]
+          es.temp_s (Temperatura Enrolamento S Motor):
+              max: 63.8,  min: 61.6,  media: 62.85,   std: 0.8249242389456135,   valores: [63.8, 63.6, 63.6, 63.6, 63.6, 62.6, 62.1, 61.9, 61.6, 62.1]
+          es.temp_t (Temperatura Enrolamento T Motor):
+              max: 33.0,  min: 32.8,  media: 32.89,   std: 0.07000000000000099,   valores: [32.8, 32.9, 32.8, 32.8, 32.9, 32.9, 32.9, 32.9, 33.0, 33.0]
+          es.temp_carc (Temperatura Carcaça):
+              max: 27.8,  min: 27.6,  media: 27.73,   std: 0.06403124237432868,   valores: [27.6, 27.7, 27.7, 27.7, 27.7, 27.7, 27.8, 27.8, 27.8, 27.8]
+          es.demanda_anterior (Medida de Demanda Anterior):
+              max: 70.0,  min: 67.0,  media: 68.5,   std: 1.5,   valores: [67.0, 67.0, 67.0, 67.0, 67.0, 70.0, 70.0, 70.0, 70.0, 70.0]
+          es.demanda_atual (Medida de Demanda Atual):
+              max: 70.0,  min: 67.0,  media: 68.5,   std: 1.5,   valores: [67.0, 67.0, 67.0, 67.0, 67.0, 70.0, 70.0, 70.0, 70.0, 70.0]
+          es.demanda_media (Medida de Demanda Média):
+              max: 238.0,  min: 120.0,  media: 184.4,   std: 41.58413158886452,   valores: [120.0, 120.0, 165.0, 165.0, 165.0, 211.0, 211.0, 211.0, 238.0, 238.0]
+          es.demanda_pico (Medida de Demanda de Pico):
+              max: 357.0,  min: 354.0,  media: 355.9,   std: 1.044030650891055,   valores: [356.0, 356.0, 356.0, 356.0, 356.0, 357.0, 357.0, 357.0, 354.0, 354.0]
+          es.demanda_prevista (Medida de Demanda Prevista):
+              max: 255.0,  min: 255.0,  media: 255.0,   std: 0.0,   valores: [255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0, 255.0]
+          es.frequencia (Medida Frequência da Rede):
+              max: 60.0,  min: 59.97,  media: 59.984,   std: 0.01113552872566102,   valores: [60.0, 60.0, 59.99, 59.99, 59.99, 59.97, 59.97, 59.97, 59.98, 59.98]
+          es.thd_tensao_rn (Medida THD Tensão entre fase R e Neutro):
+              max: 2.2,  min: 2.1,  media: 2.15,   std: 0.050000000000000044,   valores: [2.1, 2.1, 2.1, 2.1, 2.1, 2.2, 2.2, 2.2, 2.2, 2.2]
+          es.thd_tensao_sn (Medida THD Tensão entre fase S e Neutro):
+              max: 2.4,  min: 2.3,  media: 2.3299999999999996,   std: 0.04582575694955844,   valores: [2.3, 2.3, 2.4, 2.4, 2.4, 2.3, 2.3, 2.3, 2.3, 2.3]
+          es.thd_tensao_tn (Medida THD Tensão entre fase T e Neutro):
+              max: 2.5,  min: 2.4,  media: 2.48,   std: 0.040000000000000036,   valores: [2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.4, 2.4]
+          es.thd_tensao_rs (Medida THD Tensão entre fase R e Fase S):
+              max: 1.3,  min: 1.2,  media: 1.25,   std: 0.05000000000000005,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.3, 1.3, 1.3, 1.3, 1.3]
+          es.thd_tensao_st (Medida THD Tensão entre fase S e Fase T):
+              max: 1.0,  min: 0.9,  media: 0.9800000000000001,   std: 0.039999999999999994,   valores: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9, 0.9]
+          es.thd_tensao_tr (Medida THD Tensão entre fase T e Fase R):
+              max: 1.3,  min: 1.2,  media: 1.23,   std: 0.04582575694955844,   valores: [1.2, 1.2, 1.2, 1.2, 1.2, 1.3, 1.3, 1.3, 1.2, 1.2]
+          es.thd_corrente_r (Medida do THD de Corrente da fase R):
+              max: 2.9,  min: 2.7,  media: 2.83,   std: 0.07810249675906647,   valores: [2.7, 2.7, 2.8, 2.8, 2.8, 2.9, 2.9, 2.9, 2.9, 2.9]
+          es.thd_corrente_s (Medida do THD de Corrente da fase S):
+              max: 2.8,  min: 2.3,  media: 2.6100000000000003,   std: 0.17000000000000007,   valores: [2.3, 2.3, 2.7, 2.7, 2.7, 2.6, 2.6, 2.6, 2.8, 2.8]
+          es.thd_corrente_t (Medida do THD de Corrente da fase T):
+              max: 2.7,  min: 2.5,  media: 2.63,   std: 0.07810249675906661,   valores: [2.5, 2.5, 2.7, 2.7, 2.7, 2.6, 2.6, 2.6, 2.7, 2.7]
+          es.thd_corrente_n (Medida do THD de Corrente do Neutro):
+              max: 3276.8,  min: 3276.8,  media: 3276.8,   std: 0.0,   valores: [3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8, 3276.8]
+          es.corrente_r (Corrente na fase R):
+              max: 1.96,  min: 1.92,  media: 1.939,   std: 0.013747727084867533,   valores: [1.96, 1.95, 1.95, 1.95, 1.94, 1.94, 1.94, 1.92, 1.92, 1.92]
+          es.corrente_s (Corrente na fase S):
+              max: 1.98,  min: 1.95,  media: 1.9649999999999999,   std: 0.010246950765959608,   valores: [1.98, 1.97, 1.97, 1.97, 1.97, 1.97, 1.97, 1.95, 1.95, 1.95]
+          es.corrente_t (Corrente na fase T):
+              max: 1.86,  min: 1.81,  media: 1.8330000000000002,   std: 0.017916472867168933,   valores: [1.86, 1.85, 1.85, 1.85, 1.83, 1.83, 1.83, 1.81, 1.81, 1.81]
+          es.corrente_n (Corrente no Neutro):
+              max: 0.0,  min: 0.0,  media: 0.0,   std: 0.0,   valores: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+          es.corrente_media (Corrente Média):
+              max: 1.93,  min: 1.89,  media: 1.909,   std: 0.013747727084867533,   valores: [1.93, 1.92, 1.92, 1.92, 1.91, 1.91, 1.91, 1.89, 1.89, 1.89]
+          es.tensao_rs (ddp entre Fase R e S):
+              max: 221.9,  min: 221.7,  media: 221.82000000000002,   std: 0.06000000000000227,   valores: [221.7, 221.8, 221.8, 221.8, 221.9, 221.9, 221.9, 221.8, 221.8, 221.8]
+          es.tensao_st (ddp entre Fase S e T):
+              max: 220.2,  min: 220.1,  media: 220.12999999999997,   std: 0.045825756949555804,   valores: [220.1, 220.1, 220.1, 220.1, 220.1, 220.1, 220.1, 220.2, 220.2, 220.2]
+          es.tensao_tr (ddp entre Fase T e R):
+              max: 219.3,  min: 219.1,  media: 219.20999999999998,   std: 0.08306623862918835,   valores: [219.3, 219.3, 219.3, 219.3, 219.1, 219.1, 219.1, 219.2, 219.2, 219.2]
+          es.ativa_r (Medida Potência Ativa Fase R):
+              max: 122.0,  min: 112.0,  media: 114.2,   std: 2.85657137141714,   valores: [122.0, 112.0, 112.0, 112.0, 115.0, 115.0, 115.0, 113.0, 113.0, 113.0]
+          es.ativa_s (Medida Potência Ativa Fase S):
+              max: 133.0,  min: 123.0,  media: 126.4,   std: 2.939387691339814,   valores: [133.0, 123.0, 123.0, 123.0, 128.0, 128.0, 128.0, 126.0, 126.0, 126.0]
+          es.ativa_t (Medida Potência Ativa Fase T):
+              max: 123.0,  min: 113.0,  media: 116.1,   std: 2.808914381037628,   valores: [123.0, 113.0, 113.0, 113.0, 117.0, 117.0, 117.0, 116.0, 116.0, 116.0]
+          es.ativa_total (Medida Potência Ativa Total):
+              max: 378.0,  min: 348.0,  media: 356.7,   std: 8.49764673306675,   valores: [378.0, 348.0, 348.0, 348.0, 360.0, 360.0, 360.0, 355.0, 355.0, 355.0]
+          es.reativa_r (Medida Potência Reativa Fase R):
+              max: 218.0,  min: 217.0,  media: 217.3,   std: 0.45825756949558405,   valores: [217.0, 217.0, 217.0, 217.0, 218.0, 218.0, 218.0, 217.0, 217.0, 217.0]
+          es.reativa_s (Medida Potência Reativa Fase S):
+              max: 217.0,  min: 215.0,  media: 216.2,   std: 0.9797958971132712,   valores: [215.0, 215.0, 215.0, 215.0, 217.0, 217.0, 217.0, 217.0, 217.0, 217.0]
+          es.reativa_t (Medida Potência Reativa Fase T):
+              max: 202.0,  min: 200.0,  media: 200.5,   std: 0.6708203932499369,   valores: [202.0, 201.0, 201.0, 201.0, 200.0, 200.0, 200.0, 200.0, 200.0, 200.0]
+          es.reativa_total (Medida Potência Reativa Total):
+              max: 635.0,  min: 634.0,  media: 634.1,   std: 0.30000000000000004,   valores: [635.0, 634.0, 634.0, 634.0, 634.0, 634.0, 634.0, 634.0, 634.0, 634.0]
+          es.aparente_r (Medida Potência Aparente Fase R):
+              max: 249.0,  min: 244.0,  media: 245.4,   std: 1.42828568570857,   valores: [249.0, 244.0, 244.0, 244.0, 246.0, 246.0, 246.0, 245.0, 245.0, 245.0]
+          es.aparente_s (Medida Potência Aparente Fase S):
+              max: 253.0,  min: 248.0,  media: 250.3,   std: 1.7916472867168916,   valores: [253.0, 248.0, 248.0, 248.0, 252.0, 252.0, 252.0, 250.0, 250.0, 250.0]
+          es.aparente_t (Medida Potência Aparente Fase T):
+              max: 236.0,  min: 231.0,  media: 231.5,   std: 1.5,   valores: [236.0, 231.0, 231.0, 231.0, 231.0, 231.0, 231.0, 231.0, 231.0, 231.0]
+          es.aparente_total (Medida Potência Aparente Total):
+              max: 739.0,  min: 723.0,  media: 727.3,   std: 4.539823785126467,   valores: [739.0, 723.0, 723.0, 723.0, 729.0, 729.0, 729.0, 726.0, 726.0, 726.0]
+          es.fp_r (Medida do Fator de Potência Fase R):
+              max: 0.489,  min: 0.458,  media: 0.4647,   std: 0.00867236991830952,   valores: [0.489, 0.458, 0.458, 0.458, 0.466, 0.466, 0.466, 0.462, 0.462, 0.462]
+          es.fp_s (Medida do Fator de Potência Fase S):
+              max: 0.525,  min: 0.497,  media: 0.5055,   std: 0.008224962005991281,   valores: [0.525, 0.497, 0.497, 0.497, 0.51, 0.51, 0.51, 0.503, 0.503, 0.503]
+          es.fp_t (Medida do Fator de Potência Fase T):
+              max: 0.52,  min: 0.49,  media: 0.5008,   std: 0.008953211714239764,   valores: [0.52, 0.49, 0.49, 0.49, 0.506, 0.506, 0.506, 0.5, 0.5, 0.5]
+          es.fp_total (Medida do Fator de Potência Total):
+              max: 0.512,  min: 0.482,  media: 0.4904,   std: 0.008569714114251427,   valores: [0.512, 0.482, 0.482, 0.482, 0.494, 0.494, 0.494, 0.488, 0.488, 0.488]
+          es.energia_ativa (Medida da Energia Ativa):
+              max: 125.0,  min: 124.0,  media: 124.5,   std: 0.5,   valores: [124.0, 124.0, 124.0, 124.0, 124.0, 125.0, 125.0, 125.0, 125.0, 125.0]
+          es.energia_reativa (Medida da Energia Reativa):
+              max: 867.0,  min: 866.0,  media: 866.5,   std: 0.5,   valores: [866.0, 866.0, 866.0, 866.0, 866.0, 867.0, 867.0, 867.0, 867.0, 867.0]
+          es.energia_aparente (Medida da Energia Aparente):
+              max: 2052.0,  min: 2052.0,  media: 2052.0,   std: 0.0,   valores: [2052.0, 2052.0, 2052.0, 2052.0, 2052.0, 2052.0, 2052.0, 2052.0, 2052.0, 2052.0]
