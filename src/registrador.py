@@ -20,7 +20,7 @@ class Registrador():
     tipo_registrador:TipoRegistrador
     tipo_leitura:TipoDeLeitura
     _comunicadorModbus:ComunicadorModbus
-    valor_de_leitura = None
+    valor_de_leitura:float = None
     bit_de_leitura:int = -1
     divisor:int
     nome:str
@@ -83,37 +83,21 @@ class Registrador():
             print("Erro de criação de registrador: ", e.args)
             return
         pass
-
-    def leitura(self):
+    def _set_valor_de_leitura(self, valor:float ) -> None:
         try:
-            if self.tipo_leitura == TipoDeLeitura.normal:
-                self.valor_de_leitura = self._comunicadorModbus.leitura(self.endereco,self.tipo_registrador.value,1)[0]
-                pass
-            elif self.tipo_leitura == TipoDeLeitura.float_32bit:
-                self.valor_de_leitura = self._comunicadorModbus.leitura_fp(self.endereco,self.tipo_registrador.value,1)[0]
-                pass
-            elif self.tipo_leitura == TipoDeLeitura.bit_4x:
-                if self.bit_de_leitura < 8:
-                    bit = self.bit_de_leitura+8
-                else:
-                    bit = self.bit_de_leitura+8
-                self.valor_de_leitura = self._comunicadorModbus.leitura_4x_embits(self.endereco)[0][bit]
-                pass
-
-            self.valor_de_leitura = self.valor_de_leitura/self.divisor
+            self.valor_de_leitura = valor/self.divisor
         except Exception as e:
             print(f"excecao na leitura do endereco {self.endereco}: ",e)
-            self.valor_de_leitura = None
+            self.valor_de_leitura = None    
+        pass
+
+    def leitura(self):
+        self._comunicadorModbus.leitura([self])
         return
 
     def escrita(self,valor) -> bool:
         
         valor = valor*self.divisor
-
-        """if self.escrita_restrita == True:
-            if valor not in self.valores_de_escrita:
-                print("valor errado: ", self.nome,":",valor)
-                return False"""
         
         if self.tipo_leitura == TipoDeLeitura.normal:
             self._comunicadorModbus.escrita(self.endereco,self.tipo_registrador.value,[(int)(valor)])
@@ -125,7 +109,7 @@ class Registrador():
             if (int)(valor)!=1 and (int)(valor)!=0:
                 print("erro de escrita. Valor(",(int)(valor),") deve ser 1 ou 0")
                 return False
-            leitura = self._comunicadorModbus.leitura_4x_embits(self.endereco)[0]
+            leitura = self._comunicadorModbus.get_leitura_4x_embits(self.endereco)[0]
             if self.bit_de_leitura < 8:
                 bit = self.bit_de_leitura+8
             else:
@@ -140,101 +124,3 @@ class Registrador():
         
         return True
     
-class ListaRegistrador():
-    lista_registradores_comando:list
-    lista_registradores_flutuantes:list
-    _reg_tipo_motor:Registrador
-    def get_tipo_motor(self) -> Registrador:return(self._reg_tipo_motor)
-    _reg_habilita:Registrador
-    def get_habilita(self) -> Registrador:return(self._reg_habilita)
-    _reg_sel_driver:Registrador
-    def get_sel_driver(self) -> Registrador:return(self._reg_sel_driver)
-    _reg_ats48:Registrador
-    def get_ats48(self) -> Registrador:return(self._reg_ats48)
-    _reg_ats48_acc:Registrador
-    def get_ats48_acc(self) -> Registrador:return(self._reg_ats48_acc)
-    _reg_ats48_dcc:Registrador
-    def get_ats48_dcc(self) -> Registrador:return(self._reg_ats48_dcc)
-    _reg_atv31:Registrador
-    def get_atv31(self) -> Registrador:return(self._reg_atv31)
-    _reg_atv31_velocidade:Registrador
-    def get_atv31_velocidade(self) -> Registrador:return(self._reg_atv31_velocidade)
-    _reg_atv31_acc:Registrador
-    def get_atv31_acc(self) -> Registrador:return(self._reg_atv31_acc)
-    _reg_atv31_dcc:Registrador
-    def get_atv31_dcc(self) -> Registrador:return(self._reg_atv31_dcc)
-    _reg_tesys:Registrador
-    def get_tesys(self) -> Registrador:return(self._reg_tesys)
-    _reg_indica_driver:Registrador
-    def get_indica_driver(self) -> Registrador:return(self._reg_indica_driver)
-    _reg_status_ats48:Registrador
-    def get_status_ats48(self) -> Registrador:return(self._reg_status_ats48)
-    _reg_status_atv31:Registrador
-    def get_status_atv31(self) -> Registrador:return(self._reg_status_atv31)
-    _reg_status_tesys:Registrador
-    def get_status_tesys(self) -> Registrador:return(self._reg_status_tesys)
-
-
-    def __init__(self, lista_regs:list, com:ComunicadorModbus = None) -> None:
-        self.lista_registradores_comando = []
-        self.lista_registradores_flutuantes = []
-
-        for m in lista_regs:
-            reg = Registrador(com,m)
-            self.add_reg(reg)
-            pass
-        pass
-    
-    def add_reg(self, reg:Registrador):
-        func = reg.funcao
-        if func == FuncaoRegistrador.mt_tipo_motor:
-            self._reg_tipo_motor = reg
-            pass
-        elif func == FuncaoRegistrador.mt_habilita:
-            self._reg_habilita = reg
-            pass
-        elif func == FuncaoRegistrador.mot_sel_driver:
-            self._reg_sel_driver = reg
-            pass
-        elif func == FuncaoRegistrador.mot_ats48:
-            self._reg_ats48 = reg
-            pass
-        elif func == FuncaoRegistrador.mot_ats48_acc:
-            self._reg_ats48_acc = reg
-            pass
-        elif func == FuncaoRegistrador.mot_ats48_dcc:
-            self._reg_ats48_dcc = reg
-            pass
-        elif func == FuncaoRegistrador.mot_atv31:
-            self._reg_atv31 = reg
-            pass
-        elif func == FuncaoRegistrador.mot_atv31_velocidade:
-            self._reg_atv31_velocidade = reg
-            pass
-        elif func == FuncaoRegistrador.mot_atv31_acc:
-            self._reg_atv31_acc = reg
-            pass
-        elif func == FuncaoRegistrador.mot_atv31_dcc:
-            self._reg_atv31_dcc = reg
-            pass
-        elif func == FuncaoRegistrador.mot_tesys:
-            self._reg_tesys = reg
-            pass
-        elif func == FuncaoRegistrador.mot_indica_driver:
-            self._reg_indica_driver = reg
-            pass
-        elif func == FuncaoRegistrador.mot_status_ats48:
-            self._reg_status_ats48 = reg
-            pass
-        elif func == FuncaoRegistrador.mot_status_atv31:
-            self._reg_status_atv31 = reg
-            pass
-        elif func == FuncaoRegistrador.mot_status_tesys:
-            self._reg_status_tesys = reg
-            pass
-        elif func == FuncaoRegistrador.float:
-            self.lista_registradores_flutuantes.append(reg)
-            pass
-        else:
-            self.lista_registradores_comando.append(reg)
-        pass

@@ -16,7 +16,6 @@ def variacao(lista:list) -> float:
     return valor/(len(lista)-1)
 
 class CheckupBancada():
-    _lock = Lock()
     #_isLocal = False
     _comunicadorModbus:ComunicadorModbus
 
@@ -112,19 +111,18 @@ class CheckupBancada():
         pass
     
     def leitura_controle_motor(self):
-        with self._lock:
-            for reg in self._dict_controle_motor.values():
-                reg.leitura()
+        lista = list()
+        for reg in self._dict_controle_motor.values():
+            lista.append(reg)
+        self._comunicadorModbus.leitura(lista)
         pass
     def leitura_registrador_motor(self):
-        with self._lock:
-            for reg in self._list_registrador_motor:
-                reg.leitura()
+        self._comunicadorModbus.leitura(self._list_registrador_motor)
         pass
     def leitura_registrador_linear(self):
-        with self._lock:
-            for reg in self._list_registrador_linear:
-                reg.leitura()
+        # MUDA
+        # for reg in self._list_registrador_linear:
+        #     reg.leitura()
         pass
 
     def desliga_motor(self):
@@ -149,20 +147,17 @@ class CheckupBancada():
             return
         
         if dir == 1:
-            with self._lock:
-                self._dict_controle_motor.get(FuncaoRegistrador.mot_tesys).escrita(0)
+            self._dict_controle_motor.get(FuncaoRegistrador.mot_tesys).escrita(0)
             while self._dict_controle_motor.get(FuncaoRegistrador.mot_status_tesys).valor_de_leitura == 1:
                 sleep(0.5)
                 self.leitura_controle_motor()
         elif soft == 1:
-            with self._lock:
-                self._dict_controle_motor.get(FuncaoRegistrador.mot_ats48).escrita(0)
+            self._dict_controle_motor.get(FuncaoRegistrador.mot_ats48).escrita(0)
             while self._dict_controle_motor.get(FuncaoRegistrador.mot_status_ats48).valor_de_leitura == 1:
                 sleep(0.5)
                 self.leitura_controle_motor()
         elif inv == 1:
-            with self._lock:
-                self._dict_controle_motor.get(FuncaoRegistrador.mot_atv31).escrita(0)
+            self._dict_controle_motor.get(FuncaoRegistrador.mot_atv31).escrita(0)
             while self._dict_controle_motor.get(FuncaoRegistrador.mot_status_atv31).valor_de_leitura == 1:
                 sleep(0.5)
                 self.leitura_controle_motor()
@@ -175,25 +170,25 @@ class CheckupBancada():
 
             #comando para resetar
             if dir == 2:
-                with self._lock:
+                # MUDA
                     self._dict_controle_motor.get(FuncaoRegistrador.mot_tesys).escrita(2)
                 while self._dict_controle_motor.get(FuncaoRegistrador.mot_status_tesys).valor_de_leitura != 0:
                     sleep(0.5)
-                    with self._lock:
+                    # MUDA
                         self._dict_controle_motor.get(FuncaoRegistrador.mot_status_tesys).leitura()
             elif soft == 2:
-                with self._lock:
+                # MUDA
                     self._dict_controle_motor.get(FuncaoRegistrador.mot_ats48).escrita(2)
                 while self._dict_controle_motor.get(FuncaoRegistrador.mot_status_ats48).valor_de_leitura != 0:
                     sleep(0.5)
-                    with self._lock:
+                    # MUDA
                         self._dict_controle_motor.get(FuncaoRegistrador.mot_status_ats48).leitura()
             elif inv == 2:
-                with self._lock:
+                # MUDA
                     self._dict_controle_motor.get(FuncaoRegistrador.mot_atv31).escrita(2)
                 while self._dict_controle_motor.get(FuncaoRegistrador.mot_status_atv31).valor_de_leitura != 0:
                     sleep(0.5)
-                    with self._lock:
+                    # MUDA
                         self._dict_controle_motor.get(FuncaoRegistrador.mot_status_atv31).leitura()
                 
         """
@@ -227,8 +222,7 @@ class CheckupBancada():
         if driver == 1:
             limite = 0
 
-            with self._lock:
-                self._dict_controle_motor.get(FuncaoRegistrador.mot_ats48).escrita(1)
+            self._dict_controle_motor.get(FuncaoRegistrador.mot_ats48).escrita(1)
             while self._dict_controle_motor.get(FuncaoRegistrador.mot_status_ats48).valor_de_leitura == 0:
                 if limite >= 40:
                     input("nao foi possível ligar o motor na partida selecionada. Pressione para prosseguir.")
@@ -240,8 +234,7 @@ class CheckupBancada():
         elif driver == 2:
             limite = 0
 
-            with self._lock:
-                self._dict_controle_motor.get(FuncaoRegistrador.mot_atv31).escrita(1)
+            self._dict_controle_motor.get(FuncaoRegistrador.mot_atv31).escrita(1)
             while self._dict_controle_motor.get(FuncaoRegistrador.mot_status_atv31).valor_de_leitura == 0:
                 if limite >= 40:
                     input("nao foi possível ligar o motor na partida selecionada. Pressione para prosseguir.")
@@ -253,8 +246,7 @@ class CheckupBancada():
         elif driver == 3:
             limite = 0
 
-            with self._lock:
-                self._dict_controle_motor.get(FuncaoRegistrador.mot_tesys).escrita(1)
+            self._dict_controle_motor.get(FuncaoRegistrador.mot_tesys).escrita(1)
             while self._dict_controle_motor.get(FuncaoRegistrador.mot_status_tesys).valor_de_leitura == 0:
                 if limite >= 40:
                     input("nao foi possível ligar o motor na partida selecionada. Pressione para prosseguir.")
@@ -292,8 +284,7 @@ class CheckupBancada():
                 print("trocando partida com motor ligado")
             self.desliga_motor()
         
-        with self._lock:
-            self._dict_controle_motor.get(FuncaoRegistrador.mot_sel_driver).escrita(partida)
+        self._dict_controle_motor.get(FuncaoRegistrador.mot_sel_driver).escrita(partida)
         while self._dict_controle_motor.get(FuncaoRegistrador.mot_indica_driver).valor_de_leitura != partida:
             sleep(0.5)
             self.leitura_controle_motor()
@@ -478,8 +469,7 @@ class CheckupBancada():
 
     def comeca_checkup(self): 
 
-        with self._lock:
-            self._dict_controle_motor.get(FuncaoRegistrador.mt_tipo_motor).leitura()        
+        self._dict_controle_motor.get(FuncaoRegistrador.mt_tipo_motor).leitura()        
         if self._dict_controle_motor.get(FuncaoRegistrador.mt_tipo_motor).valor_de_leitura == None:
             print(f"\n--------------------------\nComunicador não esta recebendo informação do servidor. Operação cancelada.\nIP : {self._comunicadorModbus.Ip} , PORTA: {self._comunicadorModbus.Porta}")
             sys.exit()
@@ -493,8 +483,7 @@ class CheckupBancada():
         while self._dict_controle_motor.get(FuncaoRegistrador.mt_tipo_motor).valor_de_leitura == 0:
             print(f"Favor ligar o motor do(a) {self.nome_bancada} antes de comecar.")
             sleep(5)
-            with self._lock:
-                self._dict_controle_motor.get(FuncaoRegistrador.mt_tipo_motor).leitura()
+            self._dict_controle_motor.get(FuncaoRegistrador.mt_tipo_motor).leitura()
             pass
 
         while not leitura_verde or not leitura_azul:

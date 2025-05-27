@@ -3,6 +3,7 @@ from pyModbusTCP.client import ModbusClient
 from pymodbus.payload import BinaryPayloadBuilder, BinaryPayloadDecoder
 from threading import Lock 
 from pymodbus.constants import Endian
+from src.registrador import Registrador, TipoDeLeitura
 
 class ComunicadorModbus():
     Ip:str
@@ -16,7 +17,7 @@ class ComunicadorModbus():
         """
         self.Ip = Ip
         self.Porta = Porta
-        #self.lock = Lock()
+        self.lock = Lock()
         pass
 
     def connect(self) -> bool:
@@ -35,14 +36,14 @@ class ComunicadorModbus():
             print("Erro ao fechar conecção: ", e.args)
             return(False) 
             
-    def leitura(self, endereco:int, tipo:int, tamanho:int = 1) -> list:
+    def __leitura(self, endereco:int, tipo:int, tamanho:int = [1]) -> list:
         """
         endereco: int, porta do registrador
         tipo: int, (coil = 0, discrete_input = 1, holding_register = 2, input_register = 3)
         tamanho: int, numero de endereço a ser lido
         """
         retorno:list
-        #with self.lock:
+        # with self.lock:
         if tipo == 0:
             retorno = self._cliente.read_coils(endereco,tamanho)
         
@@ -66,16 +67,16 @@ class ComunicadorModbus():
         valor: lista, lista de valores a serem escritos
         """
         try:
-            #with self.lock:
-            if tipo == 0:
-                self._cliente.write_multiple_coils(endereco,valor)
-            if tipo == 2:
-                self._cliente.write_multiple_registers(endereco,valor)
+            with self.lock:
+                if tipo == 0:
+                    self._cliente.write_multiple_coils(endereco,valor)
+                if tipo == 2:
+                    self._cliente.write_multiple_registers(endereco,valor)
         except Exception as e:
             print("Erro de escrita: ",e.args())
         return False
 
-    def leitura_fp(self, endereco:int, tipo:int = 2, tamanho:int = 1) ->list:
+    def __leitura_fp(self, endereco:int, tipo:int = 2, tamanho:int = 1) ->list:
         """
         leitura tamanho*2 enderecos seguidos e transforma em lista de 32bit_float
 
@@ -108,7 +109,7 @@ class ComunicadorModbus():
 
         return True
 
-    def leitura_4x_embits(self, endereco:int, tamanho:int = 1) -> list:
+    def __leitura_4x_embits(self, endereco:int, tamanho:int = 1) -> list:
         
         """
         leitura de holding em formato de bits
@@ -139,69 +140,38 @@ class ComunicadorModbus():
             bpb.add_bits(val)
         self.escrita(endereco,2,bpb.to_registers())
         return True
+    
+    def leitura_manual(self, endereco:int, tipo:int, tamanho:int = [1]) -> list:
+        return self.__leitura(endereco,tipo,tamanho)
+    
+    def get_leitura_4x_embits(self, endereco:int, tamanho:int = 1) -> list:
+        retorno = None
+        with self.lock:
+            retorno = self.__leitura_4x_embits(endereco,tamanho)
+        return retorno
+    
+    def leitura_de_registrador(self, registradores:list) -> None:
         
+        with self.lock:
+            for registrador in registradores:
+                if registrador.tipo_leitura == TipoDeLeitura.normal:
+                    registrador.set_valor_de_leitura(self.__leitura(registrador.endereco,registrador.tipo_registrador.value,1)[0])
+                    pass
+                elif registrador.tipo_leitura == TipoDeLeitura.float_32bit:
+                    registrador.set_valor_de_leitura(self.__leitura_fp(registrador.endereco,registrador.tipo_registrador.value,1)[0])
+                    pass
+                elif registrador.tipo_leitura == TipoDeLeitura.bit_4x:
+                    bit = 0
+                    if self.bit_de_leitura < 8:
+                        bit = registrador.bit_de_leitura+8
+                    else:
+                        bit = registrador.bit_de_leitura+8
+                    registrador.set_valor_de_leitura(self.__leitura_4x_embits(registrador.endereco)[0][bit])
+                    pass
+            pass
+
+        pass
+
 if __name__ == "__main__":
     
-    # bpb = BinaryPayloadBuilder()
-    # bpb.add_32bit_float(256.56)
-    # print(bpb.to_registers())
-
-    # bpd = BinaryPayloadDecoder.fromRegisters(bpb.to_registers() )
-    # print(bpd.decode_32bit_float())
-    #byteorder= Endian.BIG, wordorder= Endian.LITTLE
-
-    bpd = BinaryPayloadDecoder.fromRegisters([2])
-    listaBits = list()
-    for i in range(0,1):
-        listaBits.append(bpd.decode_bits()+bpd.decode_bits())
-    print(listaBits)
-    
-    bpb = BinaryPayloadBuilder()
-    for val in listaBits:
-        bpb.add_bits(val)
-    print(bpb.to_registers())
-    
-    # bpd = BinaryPayloadDecoder.fromRegisters(bpb.to_registers())
-    # listaBits = list()
-    # for i in range(0,1):
-    #     listaBits.append(bpd.decode_bits()+bpd.decode_bits())
-    # print(listaBits)
-
-    # com = ComunicadorModbus("localhost",502)
-    # com.connect()
-    # com.escrita_fp(2000,[502.25,9560.666,15.15])
-    # com.escrita_4x_embits(3000,[
-    #                             [0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0],
-    #                             [0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0],
-    #                             [1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0]
-    #                             ])
-    # print(com.leitura_fp(2000,2,3))
-    # newlst = com.leitura_4x_embits(3000,1)
-    # print(newlst)
-    # newlst[0][2]= 1
-    # com.escrita_4x_embits(3000,newlst)
-    # print(com.leitura_4x_embits(3000,1))
-    
-    # bpb = BinaryPayloadBuilder()
-    # bpb.add_32bit_float(502.25)
-    # bpb.add_32bit_float(9560.666)
-    # bpb.add_32bit_float(15.15)
-    # print(bpb.to_registers())
-
-    # bpd = BinaryPayloadDecoder.fromRegisters(bpb.to_registers())
-    # print(bpd.decode_32bit_float())
-    # print(bpd.decode_32bit_float())
-    # print(bpd.decode_32bit_float())
-    # list1 = bpd.decode_bits()
-    # list2 = bpd.decode_bits()
-    # print(list1+list2)
-    # bpb = BinaryPayloadBuilder()
-    # bpb.add_bits(list1+list2)
-    # print(bpb.to_registers())
     pass
-"""
-
-"""
-
-"""
-"""
