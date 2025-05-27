@@ -9,10 +9,10 @@ import sys
 from threading import Lock 
 
 def variacao(lista:list) -> float:
-    
     valor = 0
     for i in range(len(lista)-1):
         valor += lista[i+1]-lista[i]
+
     return valor/(len(lista)-1)
 
 class CheckupBancada():
